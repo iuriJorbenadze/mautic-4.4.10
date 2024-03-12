@@ -229,7 +229,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
         $builder = new ClassMetadataBuilder($metadata);
 
         $builder->setTable('customleads')
-            ->setCustomRepositoryClass('Mautic\LeadBundle\Entity\LeadRepository')
+            ->setCustomRepositoryClass('Mautic\LeadBundle\Entity\CustomLeadRepository')
             ->addLifecycleEvent('checkDateIdentified', 'preUpdate')
             ->addLifecycleEvent('checkDateIdentified', 'prePersist')
             ->addLifecycleEvent('checkAttributionDate', 'preUpdate')
