@@ -553,7 +553,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
      *
      * @param int $id
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setId($id)
     {
@@ -577,7 +577,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
      *
      * @param User $owner
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setOwner(User $owner = null)
     {
@@ -608,7 +608,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * Add ipAddress.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function addIpAddress(IpAddress $ipAddress)
     {
@@ -756,7 +756,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
      * @param int    $points
      * @param string $operator
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function adjustPoints($points, $operator = self::POINTS_ADD)
     {
@@ -817,7 +817,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
      *
      * @param int $points
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setPoints($points)
     {
@@ -901,7 +901,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * Add pointsChangeLog.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function addPointsChangeLog(PointsChangeLog $pointsChangeLog)
     {
@@ -932,7 +932,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * Add StagesChangeLog.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function stageChangeLog(StagesChangeLog $stageChangeLog)
     {
@@ -994,7 +994,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * Add Company ChangeLog.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function addCompanyChangeLog(CompanyChangeLog $companyChangeLog)
     {
@@ -1319,7 +1319,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * Add tag.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function addTag(Tag $tag)
     {
@@ -1423,7 +1423,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
      *
      * @param FrequencyRule[] $frequencyRules
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setFrequencyRules($frequencyRules)
     {
@@ -1517,7 +1517,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $primaryCompany
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setPrimaryCompany($primaryCompany)
     {
@@ -1537,7 +1537,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $title
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setTitle($title)
     {
@@ -1558,7 +1558,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $firstname
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setFirstname($firstname)
     {
@@ -1579,7 +1579,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $lastname
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setLastname($lastname)
     {
@@ -1600,7 +1600,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $position
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setPosition($position)
     {
@@ -1621,7 +1621,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $phone
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setPhone($phone)
     {
@@ -1642,7 +1642,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $mobile
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setMobile($mobile)
     {
@@ -1671,7 +1671,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $address1
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setAddress1($address1)
     {
@@ -1692,7 +1692,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $address2
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setAddress2($address2)
     {
@@ -1713,7 +1713,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $city
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setCity($city)
     {
@@ -1734,7 +1734,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $state
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setState($state)
     {
@@ -1755,7 +1755,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $zipcode
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setZipcode($zipcode)
     {
@@ -1776,7 +1776,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param string $timezone
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setTimezone($timezone)
     {
@@ -1797,7 +1797,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $country
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setCountry($country)
     {
@@ -1818,7 +1818,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $company
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setCompany($company)
     {
@@ -1839,7 +1839,7 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
     /**
      * @param mixed $email
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function setEmail($email)
     {
