@@ -14,6 +14,10 @@ use Mautic\NotificationBundle\Entity\PushID;
 use Mautic\StageBundle\Entity\Stage;
 use Mautic\UserBundle\Entity\User;
 
+
+/**
+ * @ORM\Entity(repositoryClass="Mautic\LeadBundle\Entity\CustomLeadRepository")
+ */
 class CustomLead extends FormEntity implements CustomFieldEntityInterface, IdentifierFieldEntityInterface
 {
     use CustomFieldEntityTrait;
