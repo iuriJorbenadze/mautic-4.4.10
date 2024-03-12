@@ -99,6 +99,10 @@ class FormModel extends AbstractCommonModel
         $this->setTimestamps($entity, $isNew, $unlock);
 
         $event = $this->dispatchEvent('pre_save', $entity, $isNew);
+
+
+        #TODO MAke sure that when LeadModel calls parent saveEntity, that getRepository will return CustomLeadRepository and save into it.
+
         $this->getRepository()->saveEntity($entity);
         $this->dispatchEvent('post_save', $entity, $isNew, $event);
     }

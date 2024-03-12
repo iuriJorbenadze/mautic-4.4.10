@@ -32,6 +32,10 @@ use Mautic\LeadBundle\Entity\LeadEventLog;
 use Mautic\LeadBundle\Entity\LeadField;
 use Mautic\LeadBundle\Entity\LeadList;
 use Mautic\LeadBundle\Entity\LeadRepository;
+
+//TODO add
+//TODO use Mautic\LeadBundle\Entity\CustomLeadRepository;
+
 use Mautic\LeadBundle\Entity\OperatorListTrait;
 use Mautic\LeadBundle\Entity\PointsChangeLog;
 use Mautic\LeadBundle\Entity\StagesChangeLog;
@@ -257,6 +261,9 @@ class LeadModel extends FormModel
 
         return $repo;
     }
+
+
+    ///TODO might need to add getCustomRepository which will return CustomLeadRepository
 
     /**
      * Get the tags repository.
@@ -530,7 +537,29 @@ class LeadModel extends FormModel
 
         $this->ipAddressModel->saveIpAddressesReferencesForContact($entity);
 
+
+        /// important
+        ///
+        /// TODO     ignore all other, create a copy constructor which
+        /// TODO      will copy all things from Lead entity, all values
+        /// TODO       and then we will comment saveEntity for Lead and we will call save Entity for CustomLead
+        ///
+        ///
+        /// TODO also need to create customleadrepository  and make sure its saveentity is called
+        ///
+        /// TODO    if we implement getCustomREpository we might skip parent part
+        /// TODO     and straight away call saveENtity from CustomLeadRepository.
+        ///
+        /// For example but make sure we use customleadrepository
+        //$this->getRepository()->saveEntity($entity);
+//        $this->getRepository()->saveE
+
+        ///
+        ///
+        /// TODO   transform Lead into CustomLead using copy constructor before saving
         parent::saveEntity($entity, $unlock);
+
+
 
         if (!empty($company)) {
             // Save after the lead in for new leads created through the API and maybe other places
@@ -1542,6 +1571,9 @@ class LeadModel extends FormModel
                 $importId,
                 $this->userHelper->getUser()->getName()
             ));
+
+            /// Important
+            ///
             $this->saveEntity($lead);
 
             if (null !== $list) {

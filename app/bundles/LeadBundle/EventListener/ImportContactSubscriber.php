@@ -96,6 +96,22 @@ final class ImportContactSubscriber implements EventSubscriberInterface
 
     public function onImportProcess(ImportProcessEvent $event): void
     {
+//        if ($event->importIsForObject('lead')) {
+//            $merged = $this->contactModel->import(
+//                $event->import->getMatchedFields(),
+//                $event->rowData,
+//                $event->import->getDefault('owner'),
+//                $event->import->getDefault('list'),
+//                $event->import->getDefault('tags'),
+//                true,
+//                $event->eventLog,
+//                (int) $event->import->getId(),
+//                $event->import->getDefault('skip_if_exists')
+//            );
+//            $event->setWasMerged((bool) $merged);
+//            $event->stopPropagation();
+//        }
+
         if ($event->importIsForObject('lead')) {
             $merged = $this->contactModel->import(
                 $event->import->getMatchedFields(),
