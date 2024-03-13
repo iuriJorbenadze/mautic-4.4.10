@@ -33,6 +33,9 @@ use Mautic\LeadBundle\Entity\LeadField;
 use Mautic\LeadBundle\Entity\LeadList;
 use Mautic\LeadBundle\Entity\LeadRepository;
 
+use Mautic\LeadBundle\Entity\CustomLead;
+use Mautic\LeadBundle\Entity\CustomLeadRepository;
+
 //TODO add
 //TODO use Mautic\LeadBundle\Entity\CustomLeadRepository;
 
@@ -264,6 +267,21 @@ class LeadModel extends FormModel
 
 
     ///TODO might need to add getCustomRepository which will return CustomLeadRepository
+
+
+
+    /**
+     * Get the custom lead repository.
+     *
+     * @return CustomLeadRepository
+     */
+    public function getCustomLeadRepository()
+    {
+        /** @var CustomLeadRepository $repo */
+        $repo = $this->em->getRepository(CustomLead::class);
+
+        return $repo;
+    }
 
     /**
      * Get the tags repository.
@@ -554,9 +572,12 @@ class LeadModel extends FormModel
         //$this->getRepository()->saveEntity($entity);
 //        $this->getRepository()->saveE
 
+        $this->getCustomLeadRepository()->saveEntity($entity);
         ///
         ///
         /// TODO   transform Lead into CustomLead using copy constructor before saving
+        ///
+        /// ///
         parent::saveEntity($entity, $unlock);
 
 
