@@ -577,7 +577,7 @@ class LeadModel extends FormModel
         ///
         /// TODO   transform Lead into CustomLead using copy constructor before saving
         ///
-        /// ///
+        /// ///Not commenting saveEntity bellow, to make sure during testing that once original Lead is saved, custom lead will be saved as well.
         parent::saveEntity($entity, $unlock);
 
 
