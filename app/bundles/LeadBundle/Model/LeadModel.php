@@ -572,7 +572,15 @@ class LeadModel extends FormModel
         //$this->getRepository()->saveEntity($entity);
 //        $this->getRepository()->saveE
 
-        $this->getCustomLeadRepository()->saveEntity($entity);
+        // Assuming $lead is your Lead entity instance you wish to copy
+        // Call the static method copyLead on CustomLead class to create a CustomLead instance from $lead
+        $customLeadEntity = CustomLead::copyLead($entity);
+
+        // Now $customLeadEntity is a CustomLead instance with copied values from $lead
+
+        // Assuming you have a method getCustomLeadRepository() that returns a repository capable of saving CustomLead entities
+        $this->getCustomLeadRepository()->saveEntity($customLeadEntity);
+
         ///
         ///
         /// TODO   transform Lead into CustomLead using copy constructor before saving

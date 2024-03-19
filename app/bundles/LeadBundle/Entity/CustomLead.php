@@ -13,12 +13,14 @@ use Mautic\LeadBundle\Model\FieldModel;
 use Mautic\NotificationBundle\Entity\PushID;
 use Mautic\StageBundle\Entity\Stage;
 use Mautic\UserBundle\Entity\User;
+use ReflectionClass;
+use ReflectionProperty;
 
 
 /**
  * @ORM\Entity(repositoryClass="Mautic\LeadBundle\Entity\CustomLeadRepository")
  */
-class CustomLead extends FormEntity implements CustomFieldEntityInterface, IdentifierFieldEntityInterface
+class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierFieldEntityInterface
 {
     use CustomFieldEntityTrait;
 
@@ -217,6 +219,9 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
 
     public function __construct()
     {
+        parent::__construct();
+        //TODO add parent constructor call.
+
         $this->ipAddresses      = new ArrayCollection();
         $this->pushIds          = new ArrayCollection();
         $this->eventLog         = new ArrayCollection();
@@ -227,6 +232,106 @@ class CustomLead extends FormEntity implements CustomFieldEntityInterface, Ident
         $this->frequencyRules   = new ArrayCollection();
         $this->companyChangeLog = new ArrayCollection();
     }
+
+
+    public static function copyLead(Lead $lead): CustomLead {
+        $customLead = new CustomLead();
+
+        // Create a reflection object for the Lead instance
+        $reflectionClass = new ReflectionClass($lead);
+
+        // Loop through all the properties of the Lead class
+        foreach ($reflectionClass->getProperties() as $property) {
+            // Make private and protected properties accessible
+            $property->setAccessible(true);
+
+            // Get the value of the current property from the Lead instance
+            $value = $property->getValue($lead);
+
+            // Assuming CustomLead has the same properties, set the value to the CustomLead instance
+            // Use ReflectionProperty to set value for private and protected properties
+            $reflectionProperty = new ReflectionProperty(CustomLead::class, $property->getName());
+            $reflectionProperty->setAccessible(true);
+            $reflectionProperty->setValue($customLead, $value);
+        }
+
+        return $customLead;
+    }
+
+//    public static function copyLead(Lead $lead): CustomLead {
+//        $customLead = new CustomLead();
+//
+//
+//
+//
+//        // Copy simple properties
+//        $customLead->setTitle($lead->getTitle());
+//        $customLead->setFirstname($lead->getFirstname());
+//        $customLead->setLastname($lead->getLastname());
+//        $customLead->setCompany($lead->getCompany());
+//        $customLead->setPosition($lead->getPosition());
+//        $customLead->setEmail($lead->getEmail());
+//        $customLead->setPhone($lead->getPhone());
+//        $customLead->setMobile($lead->getMobile());
+//        $customLead->setAddress1($lead->getAddress1());
+//        $customLead->setAddress2($lead->getAddress2());
+//        $customLead->setCity($lead->getCity());
+//        $customLead->setState($lead->getState());
+//        $customLead->setZipcode($lead->getZipcode());
+//        $customLead->setTimezone($lead->getTimezone());
+//        $customLead->setCountry($lead->getCountry());
+//        $customLead->setPoints($lead->getPoints());
+//        $customLead->setColor($lead->getColor());
+//        $customLead->setPreferredProfileImage($lead->getPreferredProfileImage());
+//        $customLead->setDateIdentified($lead->getDateIdentified());
+//        $customLead->setOwner($lead->getOwner()); // Ensure proper handling of user entity
+//
+//
+//
+//
+//        // lead has 71 get methods
+//        //customlead has 83 set methods
+//
+//        $customLead = new CustomLead();
+//        $reflectionClass = new ReflectionClass($lead);
+//        foreach ($reflectionClass->getProperties() as $property) {
+//            $property->setAccessible(true); // Make private and protected properties accessible
+//            $value = $property->getValue($lead);
+//            $property->setValue($customLead, $value);
+//        }
+//        // Perform any additional initialization specific to CustomLead here
+//
+//        // Inside your CustomLead::copyLead method
+//        echo "Copying values...\n";
+//        foreach ($reflectionClass->getProperties() as $property) {
+//            $property->setAccessible(true);
+//            $value = $property->getValue($lead);
+//            echo $property->getName() . ": " . (is_array($value) || is_object($value) ? print_r($value, true) : $value) . "\n";
+//            $property->setValue($customLead, $value);
+//        }
+//        echo "Copy complete.\n";
+//
+//        echo "Custom Lead First Name: " . $customLead->getFirstname() . "\n";
+//        //$customLead->setFirstname($lead->getFirstname());
+//
+//        //TODO go over lead and call every getMethod
+//
+//        //TODO make sure that if lead not only stores stuff in it's
+//        // files, but also during creation, or during import has made som changes
+//        // outside and set other things, we might need to connect them to our
+//        // customLead, but that might not be needed if we keep same id
+//
+//        echo "Lead First Name: " . $lead->getFirstname() . "\n";
+//        echo "Lead Last Name: " . $lead->getLastname() . "\n";
+//
+//        echo "Custom Lead First Name: " . $customLead->getFirstname() . "\n";
+//        echo "Custom Lead Last Name: " . $customLead->getLastname() . "\n";
+//
+//
+//        return $customLead;
+//    }
+
+
 
     public static function loadMetadata(ORM\ClassMetadata $metadata)
     {
