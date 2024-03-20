@@ -121,6 +121,38 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+//In production code use something like this:
+//// Include Composer's autoloader
+//require_once '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/vendor/autoload.php';
+//
+//// Include the custom entity files
+//require_once '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/app/bundles/LeadBundle/Entity/Lead.php';
+//require_once '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/app/bundles/LeadBundle/Entity/CustomLead.php';
+//Or better to use:
+//$autoloadPath = '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/vendor/autoload.php';
+//if (file_exists($autoloadPath)) {
+//    require_once $autoloadPath;
+//} else {
+//    die("Autoload file not found.");
+//}
+//
+//$leadPath = '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/app/bundles/LeadBundle/Entity/Lead.php';
+//if (file_exists($leadPath)) {
+//    require_once $leadPath;
+//} else {
+//    die("Lead file not found.");
+//}
+//
+//$customLeadPath = '/home/getgenesisai.org/domains/ems2.getgenesisai.org/public_html/app/bundles/LeadBundle/Entity/CustomLead.php';
+//if (file_exists($customLeadPath)) {
+//    require_once $customLeadPath;
+//} else {
+//    die("CustomLead file not found.");
+//}
+
+
+
 // Include Composer's autoloader and required files
 require_once 'C:/Users/Asus/Desktop/Mautic 4.4.10/vendor/autoload.php';
 require_once 'Lead.php';

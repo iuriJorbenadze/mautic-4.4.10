@@ -15,7 +15,7 @@ use Mautic\LeadBundle\LeadEvents;
 use Mautic\PointBundle\Model\TriggerModel;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
-class CustomLeadRepository extends CommonRepository implements CustomFieldRepositoryInterface
+class CustomLeadRepositoryReserve extends CommonRepository implements CustomFieldRepositoryInterface
 {
     use CustomFieldRepositoryTrait {
         prepareDbalFieldsForSave as defaultPrepareDbalFieldsForSave;
@@ -80,7 +80,6 @@ class CustomLeadRepository extends CommonRepository implements CustomFieldReposi
         $this->dispatcher = $dispatcher;
     }
 
-    //TODO for future use regarding List Lead Lists this might give an insight
     public function setListLeadRepository(ListLeadRepository $listLeadRepository): void
     {
         $this->listLeadRepository = $listLeadRepository;

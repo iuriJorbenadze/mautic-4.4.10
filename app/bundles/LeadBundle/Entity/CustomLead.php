@@ -17,6 +17,9 @@ use ReflectionClass;
 use ReflectionProperty;
 
 
+require_once 'Lead.php';
+
+
 /**
  * @ORM\Entity(repositoryClass="Mautic\LeadBundle\Entity\CustomLeadRepository")
  */
@@ -250,7 +253,10 @@ class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierF
 
             // Assuming CustomLead has the same properties, set the value to the CustomLead instance
             // Use ReflectionProperty to set value for private and protected properties
-            $reflectionProperty = new ReflectionProperty(CustomLead::class, $property->getName());
+            try {
+                $reflectionProperty = new ReflectionProperty(CustomLead::class, $property->getName());
+            } catch (\ReflectionException $e) {
+            }
             $reflectionProperty->setAccessible(true);
             $reflectionProperty->setValue($customLead, $value);
         }
