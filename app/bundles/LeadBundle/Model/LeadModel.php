@@ -2,7 +2,10 @@
 
 namespace Mautic\LeadBundle\Model;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\ORM\Exception\ORMException;
 use Doctrine\ORM\NonUniqueResultException;
+use Doctrine\ORM\OptimisticLockException;
 use Doctrine\ORM\Tools\Pagination\Paginator;
 use Mautic\CategoryBundle\Entity\Category;
 use Mautic\CategoryBundle\Model\CategoryModel;
@@ -574,19 +577,52 @@ class LeadModel extends FormModel
 
         // Assuming $lead is your Lead entity instance you wish to copy
         // Call the static method copyLead on CustomLead class to create a CustomLead instance from $lead
-        $customLeadEntity = CustomLead::copyLead($entity);
+
+
+        $customLeadEntity = CustomLead::copyLead($entity);   ///  TODO uncomment
+
+        //TODO   after all properties are copied, I will go over eventlog related variable from lead and copy them into customlead related variable
+        //TODO   making sure that LeadEventLog object is transformed into CustomLeadEvent object
+
+        //TODO or see code which is inside addeventlog and removeeventlog
+
+//        $customLeadEntity = new CustomLead();   ///  TODO uncomment
+//        $customLeadEntity->setFirstname("testtesttest444444444");  ///  TODO uncomment
+
+//        $customLeadEntity->__set('eventLog', new ArrayCollection());
+
 
         // Now $customLeadEntity is a CustomLead instance with copied values from $lead
 
         // Assuming you have a method getCustomLeadRepository() that returns a repository capable of saving CustomLead entities
+
+//        try {
+//            $this->em->persist($customLeadEntity);
+//        } catch (ORMException $e) {
+//        }
+
         $this->getCustomLeadRepository()->saveEntity($customLeadEntity);
+
+        //TODO add code which will get id of this customlead and will save that id into custom lead lists leads datatable
+
+
+
+//        try {
+//            $this->em->persist($customLeadEntity);
+//        } catch (ORMException $e) {
+//        }
+//        try {
+//            $this->em->flush();
+//        } catch (OptimisticLockException $e) {
+//        } catch (ORMException $e) {
+//        }
 
         ///
         ///
         /// TODO   transform Lead into CustomLead using copy constructor before saving
         ///
         /// ///Not commenting saveEntity bellow, to make sure during testing that once original Lead is saved, custom lead will be saved as well.
-        parent::saveEntity($entity, $unlock);
+        parent::saveEntity($entity, $unlock); ///  TODO uncomment
 
 
 
@@ -1077,6 +1113,7 @@ class LeadModel extends FormModel
      * @param array|LeadList $lists
      * @param bool           $manuallyAdded
      */
+    //TODO This is responsible for calling function from ListModel which will add  lead to lead lists leads
     public function addToLists($lead, $lists, $manuallyAdded = true)
     {
         $this->leadListModel->addLead($lead, $lists, $manuallyAdded);
@@ -1604,7 +1641,11 @@ class LeadModel extends FormModel
             /// Important
             ///
             $this->saveEntity($lead);
+            //TODO  for more correct structure, try to create customlead here, copy values into it and then save
+            //TODO but be aware not to miss any other creations and conenctions lead or customlead are going through in function above
 
+
+            //TODO after lead entity is saved on line above, then it is saved into lead lists leads down here
             if (null !== $list) {
                 $this->addToLists($lead, [$list]);
             }
