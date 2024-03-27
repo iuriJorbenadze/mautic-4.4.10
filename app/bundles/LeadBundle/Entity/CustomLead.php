@@ -23,7 +23,7 @@ require_once 'Lead.php';
 /**
  * @ORM\Entity(repositoryClass="Mautic\LeadBundle\Entity\CustomLeadRepository")
  */
-class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierFieldEntityInterface
+class CustomLead extends FormEntity implements CustomFieldEntityInterface, IdentifierFieldEntityInterface
 {
     use CustomFieldEntityTrait;
 
@@ -222,7 +222,7 @@ class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierF
 
     public function __construct()
     {
-        parent::__construct();
+//        parent::__construct();
         //TODO add parent constructor call.
 
         $this->ipAddresses      = new ArrayCollection();
@@ -236,33 +236,145 @@ class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierF
         $this->companyChangeLog = new ArrayCollection();
     }
 
+//
+//    public static function copyLead(Lead $lead): CustomLead {
+//        $customLead = new CustomLead();
+//
+//        // Create a reflection object for the Lead instance
+//        $reflectionClass = new ReflectionClass($lead);
+//
+//        // Loop through all the properties of the Lead class
+//        foreach ($reflectionClass->getProperties() as $property) {
+//            // Make private and protected properties accessible
+//            $property->setAccessible(true);
+//
+//            // Get the value of the current property from the Lead instance
+//            $value = $property->getValue($lead);
+//
+//            // Assuming CustomLead has the same properties, set the value to the CustomLead instance
+//            // Use ReflectionProperty to set value for private and protected properties
+//            try {
+//                $reflectionProperty = new ReflectionProperty(CustomLead::class, $property->getName());
+//            } catch (\ReflectionException $e) {
+//            }
+//            $reflectionProperty->setAccessible(true);
+//            $reflectionProperty->setValue($customLead, $value);
+//        }
+//
+//        return $customLead;
+//    }
+
+
+// code of copylead above works ad copies but needs handling for evenlogs
+//codes bellow are  in beta phaze
+
+//    public static function copyLead(Lead $lead): CustomLead {
+//        $customLead = new CustomLead();
+//
+//        // Create a reflection object for the Lead instance
+//        $reflectionClass = new ReflectionClass($lead);
+//
+//        // Loop through all the properties of the Lead class
+//        foreach ($reflectionClass->getProperties() as $property) {
+//            $propertyName = $property->getName();
+//
+////            //TODO might need to remove
+////            if ($propertyName === 'id') {
+////                continue;
+////            }
+//            // Skip the eventLog property for now
+//            if ($propertyName === 'eventLog') {
+//                continue;
+//            }
+//
+//            // Make private and protected properties accessible
+//            $property->setAccessible(true);
+//
+//            // Get the value of the current property from the Lead instance
+//            $value = $property->getValue($lead);
+//
+//            // Assuming CustomLead has the same properties, set the value to the CustomLead instance
+//            try {
+//                $reflectionProperty = new ReflectionProperty(CustomLead::class, $propertyName);
+//            } catch (\ReflectionException $e) {
+//                continue; // Skip properties that do not exist on CustomLead
+//            }
+//            $reflectionProperty->setAccessible(true);
+//            $reflectionProperty->setValue($customLead, $value);
+//        }
+//
+//        //TODO implement implement implement
+//        // Handle eventLog specifically
+//        $eventLogs = $lead->getEventLog(); // Assuming getEventLog returns a collection or array of LeadEventLog
+//        $customEventLogs = new ArrayCollection();
+//        foreach ($eventLogs as $eventLog) {
+//            $customEventLog = new CustomLeadEventLog();
+//            // Copy or transform properties from $eventLog to $customEventLog as necessary
+//            // For example:
+//            // $customEventLog->setProperty($eventLog->getProperty());
+//            $customEventLogs->add($customEventLog);
+//        }
+//        $customLead->setEventLog($customEventLogs);
+//
+//        return $customLead;
+//    }
+
 
     public static function copyLead(Lead $lead): CustomLead {
         $customLead = new CustomLead();
 
-        // Create a reflection object for the Lead instance
+        // Assuming CustomLeadEventLog exists and is similar to LeadEventLog but for CustomLead
+        $customEventLogs = new ArrayCollection();
+
+        // Reflect over the Lead object
         $reflectionClass = new ReflectionClass($lead);
 
         // Loop through all the properties of the Lead class
         foreach ($reflectionClass->getProperties() as $property) {
+            $propertyName = $property->getName();
+
             // Make private and protected properties accessible
             $property->setAccessible(true);
-
-            // Get the value of the current property from the Lead instance
             $value = $property->getValue($lead);
 
-            // Assuming CustomLead has the same properties, set the value to the CustomLead instance
-            // Use ReflectionProperty to set value for private and protected properties
-            try {
-                $reflectionProperty = new ReflectionProperty(CustomLead::class, $property->getName());
-            } catch (\ReflectionException $e) {
+            // Special handling for the eventLog property
+            if ($propertyName === 'eventLog') {
+                foreach ($value as $eventLog) {
+                    // Assuming CustomLeadEventLog's constructor and setters mirror those of LeadEventLog
+                    $customEventLog = new CustomLeadEventLog();
+                    // You would set the properties from LeadEventLog to CustomLeadEventLog here
+                    $customEventLog->setUserId($eventLog->getUserId());
+                    $customEventLog->setUserName($eventLog->getUserName());
+                    $customEventLog->setBundle($eventLog->getBundle());
+                    $customEventLog->setObject($eventLog->getObject());
+                    $customEventLog->setObjectId($eventLog->getObjectId());
+                    $customEventLog->setAction($eventLog->getAction());
+                    $customEventLog->setDateAdded($eventLog->getDateAdded());
+                    $customEventLog->setProperties($eventLog->getProperties());
+
+                    // Set the lead reference to the new custom lead
+                    $customEventLog->setLead($customLead);
+
+                    $customEventLogs->add($customEventLog);
+                }
+                // Set the populated collection to the customLead
+                $customLead->eventLog = $customEventLogs;
+            } else {
+                // Copy other properties normally
+                try {
+                    $reflectionProperty = new ReflectionProperty(CustomLead::class, $propertyName);
+                    $reflectionProperty->setAccessible(true);
+                    $reflectionProperty->setValue($customLead, $value);
+                } catch (\ReflectionException $e) {
+                    // Handle the case where the property doesn't exist on CustomLead
+                }
             }
-            $reflectionProperty->setAccessible(true);
-            $reflectionProperty->setValue($customLead, $value);
         }
 
         return $customLead;
     }
+
+
 
 //    public static function copyLead(Lead $lead): CustomLead {
 //        $customLead = new CustomLead();
@@ -405,7 +517,7 @@ class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierF
             ->fetchExtraLazy()
             ->build();
 
-        $builder->createOneToMany('eventLog', LeadEventLog::class)
+        $builder->createOneToMany('eventLog', CustomLeadEventLog::class)
             ->mappedBy('lead')
             ->cascadePersist()
             ->cascadeMerge()
@@ -1183,22 +1295,60 @@ class CustomLead extends Lead implements CustomFieldEntityInterface, IdentifierF
     {
         return $this->pushIds;
     }
+//
+//    /**
+//     * @return $this
+//     */
+//    public function addEventLog(CustomLeadEventLog $log)
+//    {
+//        $this->eventLog[] = $log;
+//        $log->setLead($this);
+//
+//        return $this;
+//    }
+//
+//    public function removeEventLog(CustomLeadEventLog $eventLog)
+//    {
+//        $this->eventLog->removeElement($eventLog);
+//    }
 
-    /**
-     * @return $this
-     */
     public function addEventLog(LeadEventLog $log)
     {
-        $this->eventLog[] = $log;
-        $log->setLead($this);
+        $customLog = new CustomLeadEventLog();
+        // Make sure to implement setters in CustomLeadEventLog or adjust these lines accordingly
+        $customLog->setLead($this); // Assuming this CustomLead instance is the one to associate
+        $customLog->setUserId($log->getUserId());
+        $customLog->setUserName($log->getUserName());
+        $customLog->setBundle($log->getBundle());
+        $customLog->setObject($log->getObject());
+        $customLog->setObjectId($log->getObjectId());
+        $customLog->setAction($log->getAction());
+        $customLog->setDateAdded($log->getDateAdded());
+        // Assuming setProperties() accepts an array and you have a method to convert properties to array in LeadEventLog
+        $customLog->setProperties(method_exists($log, 'getProperties') ? $log->getProperties() : []);
+
+        $this->eventLog->add($customLog);
 
         return $this;
     }
 
+// Adjust the removeEventLog method if needed to work with CustomLeadEventLog instances
+
+
     public function removeEventLog(LeadEventLog $eventLog)
     {
-        $this->eventLog->removeElement($eventLog);
+        foreach ($this->eventLog as $key => $log) {
+            if ($log->getId() === $eventLog->getId()) {
+                unset($this->eventLog[$key]);
+                break;
+            }
+        }
+        // Optionally, reindex the array if necessary
+        $this->eventLog = array_values($this->eventLog);
+
+        return $this;
     }
+
 
     /**
      * @return $this
