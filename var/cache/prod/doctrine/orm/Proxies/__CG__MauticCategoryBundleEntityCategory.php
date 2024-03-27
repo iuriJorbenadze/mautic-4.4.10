@@ -582,7 +582,7 @@ class Category extends \Mautic\CategoryBundle\Entity\Category implements \Doctri
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

@@ -393,7 +393,7 @@ class FrequencyRule extends \Mautic\LeadBundle\Entity\FrequencyRule implements \
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

@@ -5,108 +5,109 @@
 return [[
 
 'Mautic__ApiBundle__Entity__oAuth2__AccessToken__CLASSMETADATA__' => 0,
-'Mautic__ApiBundle__Entity__oAuth2__AuthCode__CLASSMETADATA__' => 1,
-'Mautic__ApiBundle__Entity__oAuth2__Client__CLASSMETADATA__' => 2,
+'Mautic__ApiBundle__Entity__oAuth2__Client__CLASSMETADATA__' => 1,
+'Mautic__ApiBundle__Entity__oAuth2__AuthCode__CLASSMETADATA__' => 2,
 'Mautic__ApiBundle__Entity__oAuth2__RefreshToken__CLASSMETADATA__' => 3,
-'Mautic__AssetBundle__Entity__Asset__CLASSMETADATA__' => 4,
-'Mautic__CoreBundle__Entity__CommonEntity__CLASSMETADATA__' => 5,
-'Mautic__CoreBundle__Entity__FormEntity__CLASSMETADATA__' => 6,
-'Mautic__AssetBundle__Entity__Download__CLASSMETADATA__' => 7,
-'Mautic__CampaignBundle__Entity__Campaign__CLASSMETADATA__' => 8,
-'Mautic__CampaignBundle__Entity__Event__CLASSMETADATA__' => 9,
-'Mautic__CampaignBundle__Entity__FailedLeadEventLog__CLASSMETADATA__' => 10,
-'Mautic__CampaignBundle__Entity__Lead__CLASSMETADATA__' => 11,
-'Mautic__CampaignBundle__Entity__LeadEventLog__CLASSMETADATA__' => 12,
+'Mautic__AssetBundle__Entity__Download__CLASSMETADATA__' => 4,
+'Mautic__AssetBundle__Entity__Asset__CLASSMETADATA__' => 5,
+'Mautic__CoreBundle__Entity__CommonEntity__CLASSMETADATA__' => 6,
+'Mautic__CoreBundle__Entity__FormEntity__CLASSMETADATA__' => 7,
+'Mautic__CampaignBundle__Entity__FailedLeadEventLog__CLASSMETADATA__' => 8,
+'Mautic__CampaignBundle__Entity__Campaign__CLASSMETADATA__' => 9,
+'Mautic__CampaignBundle__Entity__Event__CLASSMETADATA__' => 10,
+'Mautic__CampaignBundle__Entity__LeadEventLog__CLASSMETADATA__' => 11,
+'Mautic__CampaignBundle__Entity__Lead__CLASSMETADATA__' => 12,
 'Mautic__CampaignBundle__Entity__Summary__CLASSMETADATA__' => 13,
 'Mautic__CategoryBundle__Entity__Category__CLASSMETADATA__' => 14,
 'Mautic__ChannelBundle__Entity__Channel__CLASSMETADATA__' => 15,
-'Mautic__ChannelBundle__Entity__Message__CLASSMETADATA__' => 16,
-'Mautic__ChannelBundle__Entity__MessageQueue__CLASSMETADATA__' => 17,
+'Mautic__ChannelBundle__Entity__MessageQueue__CLASSMETADATA__' => 16,
+'Mautic__ChannelBundle__Entity__Message__CLASSMETADATA__' => 17,
 'Mautic__CoreBundle__Entity__AuditLog__CLASSMETADATA__' => 18,
-'Mautic__CoreBundle__Entity__Cache__CLASSMETADATA__' => 19,
+'Mautic__CoreBundle__Entity__Notification__CLASSMETADATA__' => 19,
 'Mautic__CoreBundle__Entity__IpAddress__CLASSMETADATA__' => 20,
-'Mautic__CoreBundle__Entity__Notification__CLASSMETADATA__' => 21,
+'Mautic__CoreBundle__Entity__Cache__CLASSMETADATA__' => 21,
 'Mautic__DashboardBundle__Entity__Widget__CLASSMETADATA__' => 22,
-'Mautic__DynamicContentBundle__Entity__DynamicContent__CLASSMETADATA__' => 23,
+'Mautic__DynamicContentBundle__Entity__Stat__CLASSMETADATA__' => 23,
 'Mautic__DynamicContentBundle__Entity__DynamicContentLeadData__CLASSMETADATA__' => 24,
-'Mautic__DynamicContentBundle__Entity__Stat__CLASSMETADATA__' => 25,
-'Mautic__EmailBundle__Entity__Copy__CLASSMETADATA__' => 26,
-'Mautic__EmailBundle__Entity__Email__CLASSMETADATA__' => 27,
-'Mautic__EmailBundle__Entity__EmailReply__CLASSMETADATA__' => 28,
-'Mautic__EmailBundle__Entity__Stat__CLASSMETADATA__' => 29,
-'Mautic__EmailBundle__Entity__StatDevice__CLASSMETADATA__' => 30,
-'Mautic__FormBundle__Entity__Action__CLASSMETADATA__' => 31,
-'Mautic__FormBundle__Entity__Field__CLASSMETADATA__' => 32,
-'Mautic__FormBundle__Entity__Form__CLASSMETADATA__' => 33,
-'Mautic__FormBundle__Entity__Submission__CLASSMETADATA__' => 34,
-'Mautic__IntegrationsBundle__Entity__FieldChange__CLASSMETADATA__' => 35,
-'Mautic__IntegrationsBundle__Entity__ObjectMapping__CLASSMETADATA__' => 36,
-'Mautic__LeadBundle__Entity__Company__CLASSMETADATA__' => 37,
-'Mautic__LeadBundle__Entity__CompanyChangeLog__CLASSMETADATA__' => 38,
-'Mautic__LeadBundle__Entity__CompanyLead__CLASSMETADATA__' => 39,
-'Mautic__LeadBundle__Entity__CustomLead__CLASSMETADATA__' => 40,
-'Mautic__LeadBundle__Entity__DoNotContact__CLASSMETADATA__' => 41,
-'Mautic__LeadBundle__Entity__FrequencyRule__CLASSMETADATA__' => 42,
+'Mautic__DynamicContentBundle__Entity__DynamicContent__CLASSMETADATA__' => 25,
+'Mautic__EmailBundle__Entity__Stat__CLASSMETADATA__' => 26,
+'Mautic__EmailBundle__Entity__EmailReply__CLASSMETADATA__' => 27,
+'Mautic__EmailBundle__Entity__StatDevice__CLASSMETADATA__' => 28,
+'Mautic__EmailBundle__Entity__Copy__CLASSMETADATA__' => 29,
+'Mautic__EmailBundle__Entity__Email__CLASSMETADATA__' => 30,
+'Mautic__FormBundle__Entity__Field__CLASSMETADATA__' => 31,
+'Mautic__FormBundle__Entity__Submission__CLASSMETADATA__' => 32,
+'Mautic__FormBundle__Entity__Action__CLASSMETADATA__' => 33,
+'Mautic__FormBundle__Entity__Form__CLASSMETADATA__' => 34,
+'Mautic__IntegrationsBundle__Entity__ObjectMapping__CLASSMETADATA__' => 35,
+'Mautic__IntegrationsBundle__Entity__FieldChange__CLASSMETADATA__' => 36,
+'Mautic__LeadBundle__Entity__CompanyLead__CLASSMETADATA__' => 37,
+'Mautic__LeadBundle__Entity__LeadList__CLASSMETADATA__' => 38,
+'Mautic__LeadBundle__Entity__FrequencyRule__CLASSMETADATA__' => 39,
+'Mautic__LeadBundle__Entity__UtmTag__CLASSMETADATA__' => 40,
+'Mautic__LeadBundle__Entity__Tag__CLASSMETADATA__' => 41,
+'Mautic__LeadBundle__Entity__PointsChangeLog__CLASSMETADATA__' => 42,
 'Mautic__LeadBundle__Entity__Import__CLASSMETADATA__' => 43,
-'Mautic__LeadBundle__Entity__Lead__CLASSMETADATA__' => 44,
-'Mautic__LeadBundle__Entity__LeadCategory__CLASSMETADATA__' => 45,
-'Mautic__LeadBundle__Entity__LeadDevice__CLASSMETADATA__' => 46,
-'Mautic__LeadBundle__Entity__LeadEventLog__CLASSMETADATA__' => 47,
-'Mautic__LeadBundle__Entity__LeadField__CLASSMETADATA__' => 48,
-'Mautic__LeadBundle__Entity__LeadList__CLASSMETADATA__' => 49,
-'Mautic__LeadBundle__Entity__LeadNote__CLASSMETADATA__' => 50,
-'Mautic__LeadBundle__Entity__ListLead__CLASSMETADATA__' => 51,
-'Mautic__LeadBundle__Entity__MergeRecord__CLASSMETADATA__' => 52,
-'Mautic__LeadBundle__Entity__PointsChangeLog__CLASSMETADATA__' => 53,
-'Mautic__LeadBundle__Entity__StagesChangeLog__CLASSMETADATA__' => 54,
-'Mautic__LeadBundle__Entity__Tag__CLASSMETADATA__' => 55,
-'Mautic__LeadBundle__Entity__UtmTag__CLASSMETADATA__' => 56,
-'Mautic__NotificationBundle__Entity__Notification__CLASSMETADATA__' => 57,
-'Mautic__NotificationBundle__Entity__PushID__CLASSMETADATA__' => 58,
-'Mautic__NotificationBundle__Entity__Stat__CLASSMETADATA__' => 59,
-'Mautic__PageBundle__Entity__Hit__CLASSMETADATA__' => 60,
-'Mautic__PageBundle__Entity__Page__CLASSMETADATA__' => 61,
-'Mautic__PageBundle__Entity__Redirect__CLASSMETADATA__' => 62,
-'Mautic__PageBundle__Entity__Trackable__CLASSMETADATA__' => 63,
+'Mautic__LeadBundle__Entity__DoNotContact__CLASSMETADATA__' => 44,
+'Mautic__LeadBundle__Entity__Company__CLASSMETADATA__' => 45,
+'Mautic__LeadBundle__Entity__MergeRecord__CLASSMETADATA__' => 46,
+'Mautic__LeadBundle__Entity__CustomLead__CLASSMETADATA__' => 47,
+'Mautic__LeadBundle__Entity__Lead__CLASSMETADATA__' => 48,
+'Mautic__LeadBundle__Entity__LeadCategory__CLASSMETADATA__' => 49,
+'Mautic__LeadBundle__Entity__LeadEventLog__CLASSMETADATA__' => 50,
+'Mautic__LeadBundle__Entity__StagesChangeLog__CLASSMETADATA__' => 51,
+'Mautic__LeadBundle__Entity__CompanyChangeLog__CLASSMETADATA__' => 52,
+'Mautic__LeadBundle__Entity__LeadNote__CLASSMETADATA__' => 53,
+'Mautic__LeadBundle__Entity__ListLead__CLASSMETADATA__' => 54,
+'Mautic__LeadBundle__Entity__LeadField__CLASSMETADATA__' => 55,
+'Mautic__LeadBundle__Entity__LeadDevice__CLASSMETADATA__' => 56,
+'Mautic__LeadBundle__Entity__CustomLeadEventLog__CLASSMETADATA__' => 57,
+'Mautic__NotificationBundle__Entity__Stat__CLASSMETADATA__' => 58,
+'Mautic__NotificationBundle__Entity__Notification__CLASSMETADATA__' => 59,
+'Mautic__NotificationBundle__Entity__PushID__CLASSMETADATA__' => 60,
+'Mautic__PageBundle__Entity__Trackable__CLASSMETADATA__' => 61,
+'Mautic__PageBundle__Entity__Page__CLASSMETADATA__' => 62,
+'Mautic__PageBundle__Entity__Hit__CLASSMETADATA__' => 63,
 'Mautic__PageBundle__Entity__VideoHit__CLASSMETADATA__' => 64,
-'Mautic__PluginBundle__Entity__Integration__CLASSMETADATA__' => 65,
-'Mautic__PluginBundle__Entity__IntegrationEntity__CLASSMETADATA__' => 66,
-'Mautic__PluginBundle__Entity__Plugin__CLASSMETADATA__' => 67,
-'Mautic__PointBundle__Entity__LeadPointLog__CLASSMETADATA__' => 68,
-'Mautic__PointBundle__Entity__LeadTriggerLog__CLASSMETADATA__' => 69,
-'Mautic__PointBundle__Entity__Point__CLASSMETADATA__' => 70,
-'Mautic__PointBundle__Entity__Trigger__CLASSMETADATA__' => 71,
-'Mautic__PointBundle__Entity__TriggerEvent__CLASSMETADATA__' => 72,
-'Mautic__ReportBundle__Entity__Report__CLASSMETADATA__' => 73,
+'Mautic__PageBundle__Entity__Redirect__CLASSMETADATA__' => 65,
+'Mautic__PluginBundle__Entity__Integration__CLASSMETADATA__' => 66,
+'Mautic__PluginBundle__Entity__IntegrationEntity__CLASSMETADATA__' => 67,
+'Mautic__PluginBundle__Entity__Plugin__CLASSMETADATA__' => 68,
+'Mautic__PointBundle__Entity__TriggerEvent__CLASSMETADATA__' => 69,
+'Mautic__PointBundle__Entity__LeadTriggerLog__CLASSMETADATA__' => 70,
+'Mautic__PointBundle__Entity__Point__CLASSMETADATA__' => 71,
+'Mautic__PointBundle__Entity__Trigger__CLASSMETADATA__' => 72,
+'Mautic__PointBundle__Entity__LeadPointLog__CLASSMETADATA__' => 73,
 'Mautic__ReportBundle__Entity__Scheduler__CLASSMETADATA__' => 74,
-'Mautic__SmsBundle__Entity__Sms__CLASSMETADATA__' => 75,
+'Mautic__ReportBundle__Entity__Report__CLASSMETADATA__' => 75,
 'Mautic__SmsBundle__Entity__Stat__CLASSMETADATA__' => 76,
-'Mautic__StageBundle__Entity__LeadStageLog__CLASSMETADATA__' => 77,
+'Mautic__SmsBundle__Entity__Sms__CLASSMETADATA__' => 77,
 'Mautic__StageBundle__Entity__Stage__CLASSMETADATA__' => 78,
-'Mautic__UserBundle__Entity__IdEntry__CLASSMETADATA__' => 79,
-'Mautic__UserBundle__Entity__Permission__CLASSMETADATA__' => 80,
+'Mautic__StageBundle__Entity__LeadStageLog__CLASSMETADATA__' => 79,
+'Mautic__UserBundle__Entity__IdEntry__CLASSMETADATA__' => 80,
 'Mautic__UserBundle__Entity__Role__CLASSMETADATA__' => 81,
 'Mautic__UserBundle__Entity__User__CLASSMETADATA__' => 82,
 'Mautic__UserBundle__Entity__UserToken__CLASSMETADATA__' => 83,
-'Mautic__WebhookBundle__Entity__Event__CLASSMETADATA__' => 84,
-'Mautic__WebhookBundle__Entity__Log__CLASSMETADATA__' => 85,
-'Mautic__WebhookBundle__Entity__Webhook__CLASSMETADATA__' => 86,
-'Mautic__WebhookBundle__Entity__WebhookQueue__CLASSMETADATA__' => 87,
-'MauticPlugin__GrapesJsBuilderBundle__Entity__GrapesJsBuilder__CLASSMETADATA__' => 88,
-'MauticPlugin__MauticCitrixBundle__Entity__CitrixEvent__CLASSMETADATA__' => 89,
-'MauticPlugin__MauticCrmBundle__Entity__PipedriveOwner__CLASSMETADATA__' => 90,
+'Mautic__UserBundle__Entity__Permission__CLASSMETADATA__' => 84,
+'Mautic__WebhookBundle__Entity__WebhookQueue__CLASSMETADATA__' => 85,
+'Mautic__WebhookBundle__Entity__Event__CLASSMETADATA__' => 86,
+'Mautic__WebhookBundle__Entity__Webhook__CLASSMETADATA__' => 87,
+'Mautic__WebhookBundle__Entity__Log__CLASSMETADATA__' => 88,
+'MauticPlugin__GrapesJsBuilderBundle__Entity__GrapesJsBuilder__CLASSMETADATA__' => 89,
+'MauticPlugin__MauticFocusBundle__Entity__Stat__CLASSMETADATA__' => 90,
 'MauticPlugin__MauticFocusBundle__Entity__Focus__CLASSMETADATA__' => 91,
-'MauticPlugin__MauticFocusBundle__Entity__Stat__CLASSMETADATA__' => 92,
-'MauticPlugin__MauticSocialBundle__Entity__Lead__CLASSMETADATA__' => 93,
-'MauticPlugin__MauticSocialBundle__Entity__Monitoring__CLASSMETADATA__' => 94,
-'MauticPlugin__MauticSocialBundle__Entity__PostCount__CLASSMETADATA__' => 95,
-'MauticPlugin__MauticSocialBundle__Entity__Tweet__CLASSMETADATA__' => 96,
-'MauticPlugin__MauticSocialBundle__Entity__TweetStat__CLASSMETADATA__' => 97,
-'MauticPlugin__MauticTagManagerBundle__Entity__Tag__CLASSMETADATA__' => 98,
-'FOS__OAuthServerBundle__Entity__AccessToken__CLASSMETADATA__' => 99,
-'FOS__OAuthServerBundle__Entity__AuthCode__CLASSMETADATA__' => 100,
-'FOS__OAuthServerBundle__Entity__Client__CLASSMETADATA__' => 101,
-'FOS__OAuthServerBundle__Entity__RefreshToken__CLASSMETADATA__' => 102,
+'MauticPlugin__MauticTagManagerBundle__Entity__Tag__CLASSMETADATA__' => 92,
+'MauticPlugin__MauticSocialBundle__Entity__Monitoring__CLASSMETADATA__' => 93,
+'MauticPlugin__MauticSocialBundle__Entity__TweetStat__CLASSMETADATA__' => 94,
+'MauticPlugin__MauticSocialBundle__Entity__Tweet__CLASSMETADATA__' => 95,
+'MauticPlugin__MauticSocialBundle__Entity__PostCount__CLASSMETADATA__' => 96,
+'MauticPlugin__MauticSocialBundle__Entity__Lead__CLASSMETADATA__' => 97,
+'MauticPlugin__MauticCitrixBundle__Entity__CitrixEvent__CLASSMETADATA__' => 98,
+'MauticPlugin__MauticCrmBundle__Entity__PipedriveOwner__CLASSMETADATA__' => 99,
+'FOS__OAuthServerBundle__Entity__Client__CLASSMETADATA__' => 100,
+'FOS__OAuthServerBundle__Entity__AccessToken__CLASSMETADATA__' => 101,
+'FOS__OAuthServerBundle__Entity__AuthCode__CLASSMETADATA__' => 102,
+'FOS__OAuthServerBundle__Entity__RefreshToken__CLASSMETADATA__' => 103,
 
 ], [
 
@@ -284,180 +285,6 @@ return [[
     );
 },
 1 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
-                ],
-                'namespace' => [
-                    'Mautic\\ApiBundle\\Entity\\oAuth2',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'columnName' => 'id',
-                        ],
-                        'token' => [
-                            'fieldName' => 'token',
-                            'type' => 'string',
-                            'length' => 191,
-                            'unique' => true,
-                            'columnName' => 'token',
-                        ],
-                        'expiresAt' => [
-                            'fieldName' => 'expiresAt',
-                            'type' => 'bigint',
-                            'columnName' => 'expires_at',
-                            'nullable' => true,
-                        ],
-                        'scope' => [
-                            'fieldName' => 'scope',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'scope',
-                        ],
-                        'redirectUri' => [
-                            'fieldName' => 'redirectUri',
-                            'type' => 'text',
-                            'columnName' => 'redirect_uri',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'token' => 'token',
-                        'expires_at' => 'expiresAt',
-                        'scope' => 'scope',
-                        'redirect_uri' => 'redirectUri',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'token' => 'token',
-                        'expiresAt' => 'expires_at',
-                        'scope' => 'scope',
-                        'redirectUri' => 'redirect_uri',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'oauth2_authcodes',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'client' => [
-                            'fieldName' => 'client',
-                            'targetEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\Client',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'client_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'client_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'client_id' => 'client_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'client_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'user' => [
-                            'fieldName' => 'user',
-                            'targetEntity' => 'Mautic\\UserBundle\\Entity\\User',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'user_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'user_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'user_id' => 'user_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'user_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-2 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -665,6 +492,180 @@ return [[
         []
     );
 },
+2 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
+                ],
+                'namespace' => [
+                    'Mautic\\ApiBundle\\Entity\\oAuth2',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'columnName' => 'id',
+                        ],
+                        'token' => [
+                            'fieldName' => 'token',
+                            'type' => 'string',
+                            'length' => 191,
+                            'unique' => true,
+                            'columnName' => 'token',
+                        ],
+                        'expiresAt' => [
+                            'fieldName' => 'expiresAt',
+                            'type' => 'bigint',
+                            'columnName' => 'expires_at',
+                            'nullable' => true,
+                        ],
+                        'scope' => [
+                            'fieldName' => 'scope',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'scope',
+                        ],
+                        'redirectUri' => [
+                            'fieldName' => 'redirectUri',
+                            'type' => 'text',
+                            'columnName' => 'redirect_uri',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'token' => 'token',
+                        'expires_at' => 'expiresAt',
+                        'scope' => 'scope',
+                        'redirect_uri' => 'redirectUri',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'token' => 'token',
+                        'expiresAt' => 'expires_at',
+                        'scope' => 'scope',
+                        'redirectUri' => 'redirect_uri',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'oauth2_authcodes',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'client' => [
+                            'fieldName' => 'client',
+                            'targetEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\Client',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'client_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'client_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'client_id' => 'client_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'client_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'user' => [
+                            'fieldName' => 'user',
+                            'targetEntity' => 'Mautic\\UserBundle\\Entity\\User',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'user_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\ApiBundle\\Entity\\oAuth2\\AuthCode',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'user_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'user_id' => 'user_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'user_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
 3 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -839,6 +840,294 @@ return [[
     );
 },
 4 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\AssetBundle\\Entity\\Download',
+                ],
+                'namespace' => [
+                    'Mautic\\AssetBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\AssetBundle\\Entity\\Download',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\AssetBundle\\Entity\\DownloadRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'dateDownload' => [
+                            'fieldName' => 'dateDownload',
+                            'type' => 'datetime',
+                            'columnName' => 'date_download',
+                        ],
+                        'code' => [
+                            'fieldName' => 'code',
+                            'type' => 'integer',
+                            'columnName' => 'code',
+                        ],
+                        'referer' => [
+                            'fieldName' => 'referer',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'referer',
+                        ],
+                        'trackingId' => [
+                            'fieldName' => 'trackingId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_id',
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
+                            'type' => 'integer',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_download' => 'dateDownload',
+                        'code' => 'code',
+                        'referer' => 'referer',
+                        'tracking_id' => 'trackingId',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateDownload' => 'date_download',
+                        'code' => 'code',
+                        'referer' => 'referer',
+                        'trackingId' => 'tracking_id',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'asset_downloads',
+                        'indexes' => [
+                            'download_tracking_search' => [
+                                'columns' => [
+                                    'tracking_id',
+                                ],
+                            ],
+                            'download_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                            'asset_date_download' => [
+                                'columns' => [
+                                    'date_download',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'asset' => [
+                            'fieldName' => 'asset',
+                            'targetEntity' => 'Mautic\\AssetBundle\\Entity\\Asset',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'asset_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'asset_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'asset_id' => 'asset_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'asset_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'email' => [
+                            'fieldName' => 'email',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'email_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'email_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'email_id' => 'email_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'email_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+5 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -1187,7 +1476,7 @@ return [[
         []
     );
 },
-5 => static function () {
+6 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -1227,7 +1516,7 @@ return [[
         []
     );
 },
-6 => static function () {
+7 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -1361,124 +1650,66 @@ return [[
         []
     );
 },
-7 => static function () {
+8 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
         ],
         null,
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\AssetBundle\\Entity\\Download',
+                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
                 ],
                 'namespace' => [
-                    'Mautic\\AssetBundle\\Entity',
+                    'Mautic\\CampaignBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\AssetBundle\\Entity\\Download',
+                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\AssetBundle\\Entity\\DownloadRepository',
+                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLogRepository',
                 ],
                 'identifier' => [
                     [
-                        'id',
+                        'log',
                     ],
-                ],
-                'generatorType' => [
-                    4,
                 ],
                 'fieldMappings' => [
                     [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'dateDownload' => [
-                            'fieldName' => 'dateDownload',
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
                             'type' => 'datetime',
-                            'columnName' => 'date_download',
+                            'columnName' => 'date_added',
                         ],
-                        'code' => [
-                            'fieldName' => 'code',
-                            'type' => 'integer',
-                            'columnName' => 'code',
-                        ],
-                        'referer' => [
-                            'fieldName' => 'referer',
+                        'reason' => [
+                            'fieldName' => 'reason',
                             'type' => 'text',
                             'nullable' => true,
-                            'columnName' => 'referer',
-                        ],
-                        'trackingId' => [
-                            'fieldName' => 'trackingId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_id',
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
-                            'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
+                            'columnName' => 'reason',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
-                        'id' => 'id',
-                        'date_download' => 'dateDownload',
-                        'code' => 'code',
-                        'referer' => 'referer',
-                        'tracking_id' => 'trackingId',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
+                        'date_added' => 'dateAdded',
+                        'reason' => 'reason',
                     ],
                 ],
                 'columnNames' => [
                     [
-                        'id' => 'id',
-                        'dateDownload' => 'date_download',
-                        'code' => 'code',
-                        'referer' => 'referer',
-                        'trackingId' => 'tracking_id',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
+                        'dateAdded' => 'date_added',
+                        'reason' => 'reason',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'asset_downloads',
+                        'name' => 'campaign_lead_event_failed_log',
                         'indexes' => [
-                            'download_tracking_search' => [
+                            'campaign_event_failed_date' => [
                                 'columns' => [
-                                    'tracking_id',
-                                ],
-                            ],
-                            'download_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                            'asset_date_download' => [
-                                'columns' => [
-                                    'date_download',
+                                    'date_added',
                                 ],
                             ],
                         ],
@@ -1487,24 +1718,25 @@ return [[
                 ],
                 'associationMappings' => [
                     [
-                        'asset' => [
-                            'fieldName' => 'asset',
-                            'targetEntity' => 'Mautic\\AssetBundle\\Entity\\Asset',
+                        'log' => [
+                            'fieldName' => 'log',
+                            'targetEntity' => 'Mautic\\CampaignBundle\\Entity\\LeadEventLog',
+                            'id' => true,
+                            'inversedBy' => 'failedLog',
                             'joinColumns' => [
                                 [
-                                    'name' => 'asset_id',
+                                    'name' => 'log_id',
                                     'referencedColumnName' => 'id',
-                                    'nullable' => true,
+                                    'nullable' => false,
                                     'unique' => false,
                                     'onDelete' => 'CASCADE',
                                     'columnDefinition' => null,
                                 ],
                             ],
-                            'type' => 2,
+                            'type' => 1,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
+                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -1513,129 +1745,20 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'asset_id' => 'id',
+                                'log_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'asset_id' => 'asset_id',
+                                'log_id' => 'log_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'asset_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'email' => [
-                            'fieldName' => 'email',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'email_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\AssetBundle\\Entity\\Download',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'email_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'email_id' => 'email_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'email_id',
+                                'id' => 'log_id',
                             ],
                             'orphanRemoval' => false,
                         ],
                     ],
+                ],
+                'containsForeignIdentifier' => [
+                    true,
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -1649,7 +1772,7 @@ return [[
         []
     );
 },
-8 => static function () {
+9 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -2051,7 +2174,7 @@ return [[
         []
     );
 },
-9 => static function () {
+10 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -2406,326 +2529,7 @@ return [[
         []
     );
 },
-10 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
-                ],
-                'namespace' => [
-                    'Mautic\\CampaignBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLogRepository',
-                ],
-                'identifier' => [
-                    [
-                        'log',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'reason' => [
-                            'fieldName' => 'reason',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'reason',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_added' => 'dateAdded',
-                        'reason' => 'reason',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateAdded' => 'date_added',
-                        'reason' => 'reason',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'campaign_lead_event_failed_log',
-                        'indexes' => [
-                            'campaign_event_failed_date' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'log' => [
-                            'fieldName' => 'log',
-                            'targetEntity' => 'Mautic\\CampaignBundle\\Entity\\LeadEventLog',
-                            'id' => true,
-                            'inversedBy' => 'failedLog',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'log_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 1,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\FailedLeadEventLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'log_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'log_id' => 'log_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'log_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
 11 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\CampaignBundle\\Entity\\Lead',
-                ],
-                'namespace' => [
-                    'Mautic\\CampaignBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\CampaignBundle\\Entity\\Lead',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\CampaignBundle\\Entity\\LeadRepository',
-                ],
-                'identifier' => [
-                    [
-                        'campaign',
-                        'lead',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'manuallyRemoved' => [
-                            'fieldName' => 'manuallyRemoved',
-                            'type' => 'boolean',
-                            'columnName' => 'manually_removed',
-                        ],
-                        'manuallyAdded' => [
-                            'fieldName' => 'manuallyAdded',
-                            'type' => 'boolean',
-                            'columnName' => 'manually_added',
-                        ],
-                        'dateLastExited' => [
-                            'fieldName' => 'dateLastExited',
-                            'type' => 'datetime',
-                            'columnName' => 'date_last_exited',
-                            'nullable' => true,
-                        ],
-                        'rotation' => [
-                            'fieldName' => 'rotation',
-                            'type' => 'integer',
-                            'columnName' => 'rotation',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_added' => 'dateAdded',
-                        'manually_removed' => 'manuallyRemoved',
-                        'manually_added' => 'manuallyAdded',
-                        'date_last_exited' => 'dateLastExited',
-                        'rotation' => 'rotation',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateAdded' => 'date_added',
-                        'manuallyRemoved' => 'manually_removed',
-                        'manuallyAdded' => 'manually_added',
-                        'dateLastExited' => 'date_last_exited',
-                        'rotation' => 'rotation',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'campaign_leads',
-                        'indexes' => [
-                            'campaign_leads_date_added' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                            'campaign_leads_date_exited' => [
-                                'columns' => [
-                                    'date_last_exited',
-                                ],
-                            ],
-                            'campaign_leads' => [
-                                'columns' => [
-                                    'campaign_id',
-                                    'manually_removed',
-                                    'lead_id',
-                                    'rotation',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'campaign' => [
-                            'fieldName' => 'campaign',
-                            'targetEntity' => 'Mautic\\CampaignBundle\\Entity\\Campaign',
-                            'id' => true,
-                            'inversedBy' => 'leads',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'campaign_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\Lead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'campaign_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'campaign_id' => 'campaign_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'campaign_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\Lead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-12 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -3090,6 +2894,203 @@ return [[
                             'orphanRemoval' => false,
                         ],
                     ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+12 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\CampaignBundle\\Entity\\Lead',
+                ],
+                'namespace' => [
+                    'Mautic\\CampaignBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\CampaignBundle\\Entity\\Lead',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\CampaignBundle\\Entity\\LeadRepository',
+                ],
+                'identifier' => [
+                    [
+                        'campaign',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'manuallyRemoved' => [
+                            'fieldName' => 'manuallyRemoved',
+                            'type' => 'boolean',
+                            'columnName' => 'manually_removed',
+                        ],
+                        'manuallyAdded' => [
+                            'fieldName' => 'manuallyAdded',
+                            'type' => 'boolean',
+                            'columnName' => 'manually_added',
+                        ],
+                        'dateLastExited' => [
+                            'fieldName' => 'dateLastExited',
+                            'type' => 'datetime',
+                            'columnName' => 'date_last_exited',
+                            'nullable' => true,
+                        ],
+                        'rotation' => [
+                            'fieldName' => 'rotation',
+                            'type' => 'integer',
+                            'columnName' => 'rotation',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_added' => 'dateAdded',
+                        'manually_removed' => 'manuallyRemoved',
+                        'manually_added' => 'manuallyAdded',
+                        'date_last_exited' => 'dateLastExited',
+                        'rotation' => 'rotation',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateAdded' => 'date_added',
+                        'manuallyRemoved' => 'manually_removed',
+                        'manuallyAdded' => 'manually_added',
+                        'dateLastExited' => 'date_last_exited',
+                        'rotation' => 'rotation',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'campaign_leads',
+                        'indexes' => [
+                            'campaign_leads_date_added' => [
+                                'columns' => [
+                                    'date_added',
+                                ],
+                            ],
+                            'campaign_leads_date_exited' => [
+                                'columns' => [
+                                    'date_last_exited',
+                                ],
+                            ],
+                            'campaign_leads' => [
+                                'columns' => [
+                                    'campaign_id',
+                                    'manually_removed',
+                                    'lead_id',
+                                    'rotation',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'campaign' => [
+                            'fieldName' => 'campaign',
+                            'targetEntity' => 'Mautic\\CampaignBundle\\Entity\\Campaign',
+                            'id' => true,
+                            'inversedBy' => 'leads',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'campaign_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\Lead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'campaign_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'campaign_id' => 'campaign_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'campaign_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\CampaignBundle\\Entity\\Lead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -3674,272 +3675,6 @@ return [[
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\ChannelBundle\\Entity\\Message',
-                ],
-                'namespace' => [
-                    'Mautic\\ChannelBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\ChannelBundle\\Entity\\Message',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\ChannelBundle\\Entity\\MessageRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'isPublished' => [
-                            'fieldName' => 'isPublished',
-                            'type' => 'boolean',
-                            'columnName' => 'is_published',
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdBy' => [
-                            'fieldName' => 'createdBy',
-                            'type' => 'integer',
-                            'columnName' => 'created_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdByUser' => [
-                            'fieldName' => 'createdByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'created_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateModified' => [
-                            'fieldName' => 'dateModified',
-                            'type' => 'datetime',
-                            'columnName' => 'date_modified',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedBy' => [
-                            'fieldName' => 'modifiedBy',
-                            'type' => 'integer',
-                            'columnName' => 'modified_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedByUser' => [
-                            'fieldName' => 'modifiedByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'modified_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOut' => [
-                            'fieldName' => 'checkedOut',
-                            'type' => 'datetime',
-                            'columnName' => 'checked_out',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutBy' => [
-                            'fieldName' => 'checkedOutBy',
-                            'type' => 'integer',
-                            'columnName' => 'checked_out_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutByUser' => [
-                            'fieldName' => 'checkedOutByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'checked_out_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'name' => [
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'name',
-                        ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'description',
-                        ],
-                        'publishUp' => [
-                            'fieldName' => 'publishUp',
-                            'type' => 'datetime',
-                            'columnName' => 'publish_up',
-                            'nullable' => true,
-                        ],
-                        'publishDown' => [
-                            'fieldName' => 'publishDown',
-                            'type' => 'datetime',
-                            'columnName' => 'publish_down',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'is_published' => 'isPublished',
-                        'date_added' => 'dateAdded',
-                        'created_by' => 'createdBy',
-                        'created_by_user' => 'createdByUser',
-                        'date_modified' => 'dateModified',
-                        'modified_by' => 'modifiedBy',
-                        'modified_by_user' => 'modifiedByUser',
-                        'checked_out' => 'checkedOut',
-                        'checked_out_by' => 'checkedOutBy',
-                        'checked_out_by_user' => 'checkedOutByUser',
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'publish_up' => 'publishUp',
-                        'publish_down' => 'publishDown',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'isPublished' => 'is_published',
-                        'dateAdded' => 'date_added',
-                        'createdBy' => 'created_by',
-                        'createdByUser' => 'created_by_user',
-                        'dateModified' => 'date_modified',
-                        'modifiedBy' => 'modified_by',
-                        'modifiedByUser' => 'modified_by_user',
-                        'checkedOut' => 'checked_out',
-                        'checkedOutBy' => 'checked_out_by',
-                        'checkedOutByUser' => 'checked_out_by_user',
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'publishUp' => 'publish_up',
-                        'publishDown' => 'publish_down',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'messages',
-                        'indexes' => [
-                            'date_message_added' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'category' => [
-                            'fieldName' => 'category',
-                            'targetEntity' => 'Mautic\\CategoryBundle\\Entity\\Category',
-                            'cascade' => [
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'category_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\ChannelBundle\\Entity\\Message',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'category_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'category_id' => 'category_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'category_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'channels' => [
-                            'fieldName' => 'channels',
-                            'targetEntity' => 'Mautic\\ChannelBundle\\Entity\\Channel',
-                            'indexBy' => 'channel',
-                            'orphanRemoval' => true,
-                            'mappedBy' => 'message',
-                            'cascade' => [
-                                'merge',
-                                'persist',
-                                'detach',
-                            ],
-                            'type' => 4,
-                            'inversedBy' => null,
-                            'isOwningSide' => false,
-                            'sourceEntity' => 'Mautic\\ChannelBundle\\Entity\\Message',
-                            'fetch' => 2,
-                            'isCascadeRemove' => true,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-17 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
             clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
         ],
         null,
@@ -4207,6 +3942,272 @@ return [[
         []
     );
 },
+17 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\ChannelBundle\\Entity\\Message',
+                ],
+                'namespace' => [
+                    'Mautic\\ChannelBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\ChannelBundle\\Entity\\Message',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\ChannelBundle\\Entity\\MessageRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'isPublished' => [
+                            'fieldName' => 'isPublished',
+                            'type' => 'boolean',
+                            'columnName' => 'is_published',
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdBy' => [
+                            'fieldName' => 'createdBy',
+                            'type' => 'integer',
+                            'columnName' => 'created_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdByUser' => [
+                            'fieldName' => 'createdByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'created_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateModified' => [
+                            'fieldName' => 'dateModified',
+                            'type' => 'datetime',
+                            'columnName' => 'date_modified',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedBy' => [
+                            'fieldName' => 'modifiedBy',
+                            'type' => 'integer',
+                            'columnName' => 'modified_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedByUser' => [
+                            'fieldName' => 'modifiedByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'modified_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOut' => [
+                            'fieldName' => 'checkedOut',
+                            'type' => 'datetime',
+                            'columnName' => 'checked_out',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutBy' => [
+                            'fieldName' => 'checkedOutBy',
+                            'type' => 'integer',
+                            'columnName' => 'checked_out_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutByUser' => [
+                            'fieldName' => 'checkedOutByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'checked_out_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'name' => [
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'name',
+                        ],
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'description',
+                        ],
+                        'publishUp' => [
+                            'fieldName' => 'publishUp',
+                            'type' => 'datetime',
+                            'columnName' => 'publish_up',
+                            'nullable' => true,
+                        ],
+                        'publishDown' => [
+                            'fieldName' => 'publishDown',
+                            'type' => 'datetime',
+                            'columnName' => 'publish_down',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'is_published' => 'isPublished',
+                        'date_added' => 'dateAdded',
+                        'created_by' => 'createdBy',
+                        'created_by_user' => 'createdByUser',
+                        'date_modified' => 'dateModified',
+                        'modified_by' => 'modifiedBy',
+                        'modified_by_user' => 'modifiedByUser',
+                        'checked_out' => 'checkedOut',
+                        'checked_out_by' => 'checkedOutBy',
+                        'checked_out_by_user' => 'checkedOutByUser',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'publish_up' => 'publishUp',
+                        'publish_down' => 'publishDown',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'isPublished' => 'is_published',
+                        'dateAdded' => 'date_added',
+                        'createdBy' => 'created_by',
+                        'createdByUser' => 'created_by_user',
+                        'dateModified' => 'date_modified',
+                        'modifiedBy' => 'modified_by',
+                        'modifiedByUser' => 'modified_by_user',
+                        'checkedOut' => 'checked_out',
+                        'checkedOutBy' => 'checked_out_by',
+                        'checkedOutByUser' => 'checked_out_by_user',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'publishUp' => 'publish_up',
+                        'publishDown' => 'publish_down',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'messages',
+                        'indexes' => [
+                            'date_message_added' => [
+                                'columns' => [
+                                    'date_added',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'category' => [
+                            'fieldName' => 'category',
+                            'targetEntity' => 'Mautic\\CategoryBundle\\Entity\\Category',
+                            'cascade' => [
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'category_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\ChannelBundle\\Entity\\Message',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'category_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'category_id' => 'category_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'category_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'channels' => [
+                            'fieldName' => 'channels',
+                            'targetEntity' => 'Mautic\\ChannelBundle\\Entity\\Channel',
+                            'indexBy' => 'channel',
+                            'orphanRemoval' => true,
+                            'mappedBy' => 'message',
+                            'cascade' => [
+                                'merge',
+                                'persist',
+                                'detach',
+                            ],
+                            'type' => 4,
+                            'inversedBy' => null,
+                            'isOwningSide' => false,
+                            'sourceEntity' => 'Mautic\\ChannelBundle\\Entity\\Message',
+                            'fetch' => 2,
+                            'isCascadeRemove' => true,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
 18 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -4377,189 +4378,6 @@ return [[
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\CoreBundle\\Entity\\Cache',
-                ],
-                'namespace' => [
-                    'Mautic\\CoreBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\CoreBundle\\Entity\\Cache',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'binary',
-                            'columnName' => 'item_id',
-                            'id' => true,
-                        ],
-                        'data' => [
-                            'fieldName' => 'data',
-                            'type' => 'blob',
-                            'columnName' => 'item_data',
-                        ],
-                        'lifetime' => [
-                            'columnName' => 'item_lifetime',
-                            'nullable' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'fieldName' => 'lifetime',
-                            'type' => 'integer',
-                        ],
-                        'time' => [
-                            'columnName' => 'item_time',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'fieldName' => 'time',
-                            'type' => 'integer',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'item_id' => 'id',
-                        'item_data' => 'data',
-                        'item_lifetime' => 'lifetime',
-                        'item_time' => 'time',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'item_id',
-                        'data' => 'item_data',
-                        'lifetime' => 'item_lifetime',
-                        'time' => 'item_time',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'cache_items',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-20 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\CoreBundle\\Entity\\IpAddress',
-                ],
-                'namespace' => [
-                    'Mautic\\CoreBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\CoreBundle\\Entity\\IpAddress',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\CoreBundle\\Entity\\IpAddressRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'type' => 'string',
-                            'length' => 45,
-                            'columnName' => 'ip_address',
-                        ],
-                        'ipDetails' => [
-                            'fieldName' => 'ipDetails',
-                            'type' => 'array',
-                            'columnName' => 'ip_details',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'ip_address' => 'ipAddress',
-                        'ip_details' => 'ipDetails',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'ipAddress' => 'ip_address',
-                        'ipDetails' => 'ip_details',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'ip_addresses',
-                        'indexes' => [
-                            'ip_search' => [
-                                'columns' => [
-                                    'ip_address',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-21 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
             clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
         ],
         null,
@@ -4718,6 +4536,189 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+20 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\CoreBundle\\Entity\\IpAddress',
+                ],
+                'namespace' => [
+                    'Mautic\\CoreBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\CoreBundle\\Entity\\IpAddress',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\CoreBundle\\Entity\\IpAddressRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'type' => 'string',
+                            'length' => 45,
+                            'columnName' => 'ip_address',
+                        ],
+                        'ipDetails' => [
+                            'fieldName' => 'ipDetails',
+                            'type' => 'array',
+                            'columnName' => 'ip_details',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'ip_address' => 'ipAddress',
+                        'ip_details' => 'ipDetails',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'ipAddress' => 'ip_address',
+                        'ipDetails' => 'ip_details',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'ip_addresses',
+                        'indexes' => [
+                            'ip_search' => [
+                                'columns' => [
+                                    'ip_address',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+21 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\CoreBundle\\Entity\\Cache',
+                ],
+                'namespace' => [
+                    'Mautic\\CoreBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\CoreBundle\\Entity\\Cache',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'binary',
+                            'columnName' => 'item_id',
+                            'id' => true,
+                        ],
+                        'data' => [
+                            'fieldName' => 'data',
+                            'type' => 'blob',
+                            'columnName' => 'item_data',
+                        ],
+                        'lifetime' => [
+                            'columnName' => 'item_lifetime',
+                            'nullable' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'fieldName' => 'lifetime',
+                            'type' => 'integer',
+                        ],
+                        'time' => [
+                            'columnName' => 'item_time',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'fieldName' => 'time',
+                            'type' => 'integer',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'item_id' => 'id',
+                        'item_data' => 'data',
+                        'item_lifetime' => 'lifetime',
+                        'item_time' => 'time',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'item_id',
+                        'data' => 'item_data',
+                        'lifetime' => 'item_lifetime',
+                        'time' => 'item_time',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'cache_items',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
                     ],
                 ],
                 'idGenerator' => [
@@ -4950,6 +4951,385 @@ return [[
     );
 },
 23 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                ],
+                'namespace' => [
+                    'Mautic\\DynamicContentBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\StatRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'dateSent' => [
+                            'fieldName' => 'dateSent',
+                            'type' => 'datetime',
+                            'columnName' => 'date_sent',
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
+                            'type' => 'integer',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                        'tokens' => [
+                            'fieldName' => 'tokens',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'tokens',
+                        ],
+                        'sentCount' => [
+                            'fieldName' => 'sentCount',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'sent_count',
+                        ],
+                        'lastSent' => [
+                            'fieldName' => 'lastSent',
+                            'type' => 'datetime',
+                            'nullable' => true,
+                            'columnName' => 'last_sent',
+                        ],
+                        'sentDetails' => [
+                            'fieldName' => 'sentDetails',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'sent_details',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_sent' => 'dateSent',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                        'tokens' => 'tokens',
+                        'sent_count' => 'sentCount',
+                        'last_sent' => 'lastSent',
+                        'sent_details' => 'sentDetails',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateSent' => 'date_sent',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                        'tokens' => 'tokens',
+                        'sentCount' => 'sent_count',
+                        'lastSent' => 'last_sent',
+                        'sentDetails' => 'sent_details',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'dynamic_content_stats',
+                        'indexes' => [
+                            'stat_dynamic_content_search' => [
+                                'columns' => [
+                                    'dynamic_content_id',
+                                    'lead_id',
+                                ],
+                            ],
+                            'stat_dynamic_content_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'dynamicContent' => [
+                            'fieldName' => 'dynamicContent',
+                            'targetEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContent',
+                            'inversedBy' => 'stats',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'dynamic_content_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'dynamic_content_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'dynamic_content_id' => 'dynamic_content_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'dynamic_content_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+24 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
+                ],
+                'namespace' => [
+                    'Mautic\\DynamicContentBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadDataRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                        ],
+                        'slot' => [
+                            'fieldName' => 'slot',
+                            'type' => 'text',
+                            'columnName' => 'slot',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_added' => 'dateAdded',
+                        'slot' => 'slot',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateAdded' => 'date_added',
+                        'slot' => 'slot',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'dynamic_content_lead_data',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'dynamicContent' => [
+                            'fieldName' => 'dynamicContent',
+                            'targetEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContent',
+                            'inversedBy' => 'id',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'dynamic_content_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'dynamic_content_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'dynamic_content_id' => 'dynamic_content_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'dynamic_content_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+25 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -5416,169 +5796,7 @@ return [[
         []
     );
 },
-24 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
-                ],
-                'namespace' => [
-                    'Mautic\\DynamicContentBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadDataRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                        ],
-                        'slot' => [
-                            'fieldName' => 'slot',
-                            'type' => 'text',
-                            'columnName' => 'slot',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'slot' => 'slot',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'slot' => 'slot',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'dynamic_content_lead_data',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'dynamicContent' => [
-                            'fieldName' => 'dynamicContent',
-                            'targetEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContent',
-                            'inversedBy' => 'id',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'dynamic_content_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContentLeadData',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'dynamic_content_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'dynamic_content_id' => 'dynamic_content_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'dynamic_content_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-25 => static function () {
+26 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -5588,16 +5806,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                    'Mautic\\EmailBundle\\Entity\\Stat',
                 ],
                 'namespace' => [
-                    'Mautic\\DynamicContentBundle\\Entity',
+                    'Mautic\\EmailBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                    'Mautic\\EmailBundle\\Entity\\Stat',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\DynamicContentBundle\\Entity\\StatRepository',
+                    'Mautic\\EmailBundle\\Entity\\StatRepository',
                 ],
                 'identifier' => [
                     [
@@ -5619,10 +5837,50 @@ return [[
                                 'unsigned' => true,
                             ],
                         ],
+                        'emailAddress' => [
+                            'fieldName' => 'emailAddress',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'email_address',
+                        ],
                         'dateSent' => [
                             'fieldName' => 'dateSent',
                             'type' => 'datetime',
                             'columnName' => 'date_sent',
+                        ],
+                        'isRead' => [
+                            'fieldName' => 'isRead',
+                            'type' => 'boolean',
+                            'columnName' => 'is_read',
+                        ],
+                        'isFailed' => [
+                            'fieldName' => 'isFailed',
+                            'type' => 'boolean',
+                            'columnName' => 'is_failed',
+                        ],
+                        'viewedInBrowser' => [
+                            'fieldName' => 'viewedInBrowser',
+                            'type' => 'boolean',
+                            'columnName' => 'viewed_in_browser',
+                        ],
+                        'dateRead' => [
+                            'fieldName' => 'dateRead',
+                            'type' => 'datetime',
+                            'columnName' => 'date_read',
+                            'nullable' => true,
+                        ],
+                        'trackingHash' => [
+                            'fieldName' => 'trackingHash',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_hash',
+                            'nullable' => true,
+                        ],
+                        'retryCount' => [
+                            'fieldName' => 'retryCount',
+                            'type' => 'integer',
+                            'columnName' => 'retry_count',
+                            'nullable' => true,
                         ],
                         'source' => [
                             'fieldName' => 'source',
@@ -5643,64 +5901,111 @@ return [[
                             'nullable' => true,
                             'columnName' => 'tokens',
                         ],
-                        'sentCount' => [
-                            'fieldName' => 'sentCount',
+                        'openCount' => [
+                            'fieldName' => 'openCount',
                             'type' => 'integer',
                             'nullable' => true,
-                            'columnName' => 'sent_count',
+                            'columnName' => 'open_count',
                         ],
-                        'lastSent' => [
-                            'fieldName' => 'lastSent',
+                        'lastOpened' => [
+                            'fieldName' => 'lastOpened',
                             'type' => 'datetime',
                             'nullable' => true,
-                            'columnName' => 'last_sent',
+                            'columnName' => 'last_opened',
                         ],
-                        'sentDetails' => [
-                            'fieldName' => 'sentDetails',
+                        'openDetails' => [
+                            'fieldName' => 'openDetails',
                             'type' => 'array',
                             'nullable' => true,
-                            'columnName' => 'sent_details',
+                            'columnName' => 'open_details',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
+                        'email_address' => 'emailAddress',
                         'date_sent' => 'dateSent',
+                        'is_read' => 'isRead',
+                        'is_failed' => 'isFailed',
+                        'viewed_in_browser' => 'viewedInBrowser',
+                        'date_read' => 'dateRead',
+                        'tracking_hash' => 'trackingHash',
+                        'retry_count' => 'retryCount',
                         'source' => 'source',
                         'source_id' => 'sourceId',
                         'tokens' => 'tokens',
-                        'sent_count' => 'sentCount',
-                        'last_sent' => 'lastSent',
-                        'sent_details' => 'sentDetails',
+                        'open_count' => 'openCount',
+                        'last_opened' => 'lastOpened',
+                        'open_details' => 'openDetails',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
+                        'emailAddress' => 'email_address',
                         'dateSent' => 'date_sent',
+                        'isRead' => 'is_read',
+                        'isFailed' => 'is_failed',
+                        'viewedInBrowser' => 'viewed_in_browser',
+                        'dateRead' => 'date_read',
+                        'trackingHash' => 'tracking_hash',
+                        'retryCount' => 'retry_count',
                         'source' => 'source',
                         'sourceId' => 'source_id',
                         'tokens' => 'tokens',
-                        'sentCount' => 'sent_count',
-                        'lastSent' => 'last_sent',
-                        'sentDetails' => 'sent_details',
+                        'openCount' => 'open_count',
+                        'lastOpened' => 'last_opened',
+                        'openDetails' => 'open_details',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'dynamic_content_stats',
+                        'name' => 'email_stats',
                         'indexes' => [
-                            'stat_dynamic_content_search' => [
+                            'stat_email_search' => [
                                 'columns' => [
-                                    'dynamic_content_id',
+                                    'email_id',
                                     'lead_id',
                                 ],
                             ],
-                            'stat_dynamic_content_source_search' => [
+                            'stat_email_search2' => [
+                                'columns' => [
+                                    'lead_id',
+                                    'email_id',
+                                ],
+                            ],
+                            'stat_email_failed_search' => [
+                                'columns' => [
+                                    'is_failed',
+                                ],
+                            ],
+                            'is_read_date_sent' => [
+                                'columns' => [
+                                    'is_read',
+                                    'date_sent',
+                                ],
+                            ],
+                            'stat_email_hash_search' => [
+                                'columns' => [
+                                    'tracking_hash',
+                                ],
+                            ],
+                            'stat_email_source_search' => [
                                 'columns' => [
                                     'source',
                                     'source_id',
+                                ],
+                            ],
+                            'email_date_sent' => [
+                                'columns' => [
+                                    'date_sent',
+                                ],
+                            ],
+                            'email_date_read_lead' => [
+                                'columns' => [
+                                    'date_read',
+                                    'lead_id',
                                 ],
                             ],
                         ],
@@ -5709,13 +6014,13 @@ return [[
                 ],
                 'associationMappings' => [
                     [
-                        'dynamicContent' => [
-                            'fieldName' => 'dynamicContent',
-                            'targetEntity' => 'Mautic\\DynamicContentBundle\\Entity\\DynamicContent',
+                        'email' => [
+                            'fieldName' => 'email',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
                             'inversedBy' => 'stats',
                             'joinColumns' => [
                                 [
-                                    'name' => 'dynamic_content_id',
+                                    'name' => 'email_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => true,
                                     'unique' => false,
@@ -5726,7 +6031,7 @@ return [[
                             'type' => 2,
                             'mappedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -5735,13 +6040,13 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'dynamic_content_id' => 'id',
+                                'email_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'dynamic_content_id' => 'dynamic_content_id',
+                                'email_id' => 'email_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'dynamic_content_id',
+                                'id' => 'email_id',
                             ],
                             'orphanRemoval' => false,
                         ],
@@ -5762,7 +6067,7 @@ return [[
                             'mappedBy' => null,
                             'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\DynamicContentBundle\\Entity\\Stat',
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -5781,6 +6086,141 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
+                        'list' => [
+                            'fieldName' => 'list',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'list_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'list_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'list_id' => 'list_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'list_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'storedCopy' => [
+                            'fieldName' => 'storedCopy',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Copy',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'copy_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'copy_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'copy_id' => 'copy_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'copy_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'replies' => [
+                            'fieldName' => 'replies',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\EmailReply',
+                            'mappedBy' => 'stat',
+                            'fetch' => 4,
+                            'cascade' => [
+                                'remove',
+                                'persist',
+                                'refresh',
+                                'merge',
+                                'detach',
+                            ],
+                            'type' => 4,
+                            'inversedBy' => null,
+                            'isOwningSide' => false,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'isCascadeRemove' => true,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => true,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'orphanRemoval' => false,
+                        ],
                     ],
                 ],
                 'idGenerator' => [
@@ -5795,7 +6235,340 @@ return [[
         []
     );
 },
-26 => static function () {
+27 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\EmailBundle\\Entity\\EmailReply',
+                ],
+                'namespace' => [
+                    'Mautic\\EmailBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\EmailBundle\\Entity\\EmailReply',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\EmailBundle\\Entity\\EmailReplyRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'guid',
+                            'id' => true,
+                            'columnName' => 'id',
+                        ],
+                        'dateReplied' => [
+                            'fieldName' => 'dateReplied',
+                            'type' => 'datetime',
+                            'columnName' => 'date_replied',
+                        ],
+                        'messageId' => [
+                            'fieldName' => 'messageId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'message_id',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_replied' => 'dateReplied',
+                        'message_id' => 'messageId',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateReplied' => 'date_replied',
+                        'messageId' => 'message_id',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'email_stat_replies',
+                        'indexes' => [
+                            'email_replies' => [
+                                'columns' => [
+                                    'stat_id',
+                                    'message_id',
+                                ],
+                            ],
+                            'date_email_replied' => [
+                                'columns' => [
+                                    'date_replied',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'stat' => [
+                            'fieldName' => 'stat',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'inversedBy' => 'replies',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'stat_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\EmailReply',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'stat_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'stat_id' => 'stat_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'stat_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+28 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\EmailBundle\\Entity\\StatDevice',
+                ],
+                'namespace' => [
+                    'Mautic\\EmailBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\EmailBundle\\Entity\\StatDevice',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\EmailBundle\\Entity\\StatDeviceRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'dateOpened' => [
+                            'fieldName' => 'dateOpened',
+                            'type' => 'datetime',
+                            'columnName' => 'date_opened',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_opened' => 'dateOpened',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateOpened' => 'date_opened',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'email_stats_devices',
+                        'indexes' => [
+                            'date_opened_search' => [
+                                'columns' => [
+                                    'date_opened',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'device' => [
+                            'fieldName' => 'device',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'device_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'device_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'device_id' => 'device_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'device_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'stat' => [
+                            'fieldName' => 'stat',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'stat_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'stat_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'stat_id' => 'stat_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'stat_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+29 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -5884,7 +6657,7 @@ return [[
         []
     );
 },
-27 => static function () {
+30 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -6624,934 +7397,7 @@ return [[
         []
     );
 },
-28 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\EmailBundle\\Entity\\EmailReply',
-                ],
-                'namespace' => [
-                    'Mautic\\EmailBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\EmailBundle\\Entity\\EmailReply',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\EmailBundle\\Entity\\EmailReplyRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'guid',
-                            'id' => true,
-                            'columnName' => 'id',
-                        ],
-                        'dateReplied' => [
-                            'fieldName' => 'dateReplied',
-                            'type' => 'datetime',
-                            'columnName' => 'date_replied',
-                        ],
-                        'messageId' => [
-                            'fieldName' => 'messageId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'message_id',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_replied' => 'dateReplied',
-                        'message_id' => 'messageId',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateReplied' => 'date_replied',
-                        'messageId' => 'message_id',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'email_stat_replies',
-                        'indexes' => [
-                            'email_replies' => [
-                                'columns' => [
-                                    'stat_id',
-                                    'message_id',
-                                ],
-                            ],
-                            'date_email_replied' => [
-                                'columns' => [
-                                    'date_replied',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'stat' => [
-                            'fieldName' => 'stat',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'inversedBy' => 'replies',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'stat_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\EmailReply',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'stat_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'stat_id' => 'stat_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'stat_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-29 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\EmailBundle\\Entity\\Stat',
-                ],
-                'namespace' => [
-                    'Mautic\\EmailBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\EmailBundle\\Entity\\Stat',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\EmailBundle\\Entity\\StatRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'emailAddress' => [
-                            'fieldName' => 'emailAddress',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'email_address',
-                        ],
-                        'dateSent' => [
-                            'fieldName' => 'dateSent',
-                            'type' => 'datetime',
-                            'columnName' => 'date_sent',
-                        ],
-                        'isRead' => [
-                            'fieldName' => 'isRead',
-                            'type' => 'boolean',
-                            'columnName' => 'is_read',
-                        ],
-                        'isFailed' => [
-                            'fieldName' => 'isFailed',
-                            'type' => 'boolean',
-                            'columnName' => 'is_failed',
-                        ],
-                        'viewedInBrowser' => [
-                            'fieldName' => 'viewedInBrowser',
-                            'type' => 'boolean',
-                            'columnName' => 'viewed_in_browser',
-                        ],
-                        'dateRead' => [
-                            'fieldName' => 'dateRead',
-                            'type' => 'datetime',
-                            'columnName' => 'date_read',
-                            'nullable' => true,
-                        ],
-                        'trackingHash' => [
-                            'fieldName' => 'trackingHash',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_hash',
-                            'nullable' => true,
-                        ],
-                        'retryCount' => [
-                            'fieldName' => 'retryCount',
-                            'type' => 'integer',
-                            'columnName' => 'retry_count',
-                            'nullable' => true,
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
-                            'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
-                        ],
-                        'tokens' => [
-                            'fieldName' => 'tokens',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'tokens',
-                        ],
-                        'openCount' => [
-                            'fieldName' => 'openCount',
-                            'type' => 'integer',
-                            'nullable' => true,
-                            'columnName' => 'open_count',
-                        ],
-                        'lastOpened' => [
-                            'fieldName' => 'lastOpened',
-                            'type' => 'datetime',
-                            'nullable' => true,
-                            'columnName' => 'last_opened',
-                        ],
-                        'openDetails' => [
-                            'fieldName' => 'openDetails',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'open_details',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'email_address' => 'emailAddress',
-                        'date_sent' => 'dateSent',
-                        'is_read' => 'isRead',
-                        'is_failed' => 'isFailed',
-                        'viewed_in_browser' => 'viewedInBrowser',
-                        'date_read' => 'dateRead',
-                        'tracking_hash' => 'trackingHash',
-                        'retry_count' => 'retryCount',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
-                        'tokens' => 'tokens',
-                        'open_count' => 'openCount',
-                        'last_opened' => 'lastOpened',
-                        'open_details' => 'openDetails',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'emailAddress' => 'email_address',
-                        'dateSent' => 'date_sent',
-                        'isRead' => 'is_read',
-                        'isFailed' => 'is_failed',
-                        'viewedInBrowser' => 'viewed_in_browser',
-                        'dateRead' => 'date_read',
-                        'trackingHash' => 'tracking_hash',
-                        'retryCount' => 'retry_count',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
-                        'tokens' => 'tokens',
-                        'openCount' => 'open_count',
-                        'lastOpened' => 'last_opened',
-                        'openDetails' => 'open_details',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'email_stats',
-                        'indexes' => [
-                            'stat_email_search' => [
-                                'columns' => [
-                                    'email_id',
-                                    'lead_id',
-                                ],
-                            ],
-                            'stat_email_search2' => [
-                                'columns' => [
-                                    'lead_id',
-                                    'email_id',
-                                ],
-                            ],
-                            'stat_email_failed_search' => [
-                                'columns' => [
-                                    'is_failed',
-                                ],
-                            ],
-                            'is_read_date_sent' => [
-                                'columns' => [
-                                    'is_read',
-                                    'date_sent',
-                                ],
-                            ],
-                            'stat_email_hash_search' => [
-                                'columns' => [
-                                    'tracking_hash',
-                                ],
-                            ],
-                            'stat_email_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                            'email_date_sent' => [
-                                'columns' => [
-                                    'date_sent',
-                                ],
-                            ],
-                            'email_date_read_lead' => [
-                                'columns' => [
-                                    'date_read',
-                                    'lead_id',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'email' => [
-                            'fieldName' => 'email',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
-                            'inversedBy' => 'stats',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'email_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'email_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'email_id' => 'email_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'email_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'list' => [
-                            'fieldName' => 'list',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'list_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'list_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'list_id' => 'list_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'list_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'storedCopy' => [
-                            'fieldName' => 'storedCopy',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Copy',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'copy_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'copy_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'copy_id' => 'copy_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'copy_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'replies' => [
-                            'fieldName' => 'replies',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\EmailReply',
-                            'mappedBy' => 'stat',
-                            'fetch' => 4,
-                            'cascade' => [
-                                'remove',
-                                'persist',
-                                'refresh',
-                                'merge',
-                                'detach',
-                            ],
-                            'type' => 4,
-                            'inversedBy' => null,
-                            'isOwningSide' => false,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'isCascadeRemove' => true,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => true,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-30 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\EmailBundle\\Entity\\StatDevice',
-                ],
-                'namespace' => [
-                    'Mautic\\EmailBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\EmailBundle\\Entity\\StatDevice',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\EmailBundle\\Entity\\StatDeviceRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'dateOpened' => [
-                            'fieldName' => 'dateOpened',
-                            'type' => 'datetime',
-                            'columnName' => 'date_opened',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_opened' => 'dateOpened',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateOpened' => 'date_opened',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'email_stats_devices',
-                        'indexes' => [
-                            'date_opened_search' => [
-                                'columns' => [
-                                    'date_opened',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'device' => [
-                            'fieldName' => 'device',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'device_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'device_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'device_id' => 'device_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'device_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'stat' => [
-                            'fieldName' => 'stat',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Stat',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'stat_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'stat_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'stat_id' => 'stat_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'stat_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\EmailBundle\\Entity\\StatDevice',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
 31 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\FormBundle\\Entity\\Action',
-                ],
-                'namespace' => [
-                    'Mautic\\FormBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\FormBundle\\Entity\\Action',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\FormBundle\\Entity\\ActionRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'name' => [
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'name',
-                        ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'description',
-                        ],
-                        'type' => [
-                            'fieldName' => 'type',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'type',
-                        ],
-                        'order' => [
-                            'fieldName' => 'order',
-                            'type' => 'integer',
-                            'columnName' => 'action_order',
-                        ],
-                        'properties' => [
-                            'fieldName' => 'properties',
-                            'type' => 'array',
-                            'columnName' => 'properties',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'type' => 'type',
-                        'action_order' => 'order',
-                        'properties' => 'properties',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'type' => 'type',
-                        'order' => 'action_order',
-                        'properties' => 'properties',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'form_actions',
-                        'indexes' => [
-                            'form_action_type_search' => [
-                                'columns' => [
-                                    'type',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'form' => [
-                            'fieldName' => 'form',
-                            'targetEntity' => 'Mautic\\FormBundle\\Entity\\Form',
-                            'inversedBy' => 'actions',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'form_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Action',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'form_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'form_id' => 'form_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'form_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-32 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -7862,7 +7708,420 @@ return [[
         []
     );
 },
+32 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\FormBundle\\Entity\\Submission',
+                ],
+                'namespace' => [
+                    'Mautic\\FormBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\FormBundle\\Entity\\Submission',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\FormBundle\\Entity\\SubmissionRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'trackingId' => [
+                            'fieldName' => 'trackingId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_id',
+                            'nullable' => true,
+                        ],
+                        'dateSubmitted' => [
+                            'fieldName' => 'dateSubmitted',
+                            'type' => 'datetime',
+                            'columnName' => 'date_submitted',
+                        ],
+                        'referer' => [
+                            'fieldName' => 'referer',
+                            'type' => 'text',
+                            'columnName' => 'referer',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'tracking_id' => 'trackingId',
+                        'date_submitted' => 'dateSubmitted',
+                        'referer' => 'referer',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'trackingId' => 'tracking_id',
+                        'dateSubmitted' => 'date_submitted',
+                        'referer' => 'referer',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'form_submissions',
+                        'indexes' => [
+                            'form_submission_tracking_search' => [
+                                'columns' => [
+                                    'tracking_id',
+                                ],
+                            ],
+                            'form_date_submitted' => [
+                                'columns' => [
+                                    'date_submitted',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'form' => [
+                            'fieldName' => 'form',
+                            'targetEntity' => 'Mautic\\FormBundle\\Entity\\Form',
+                            'inversedBy' => 'submissions',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'form_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'form_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'form_id' => 'form_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'form_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'page' => [
+                            'fieldName' => 'page',
+                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Page',
+                            'fetch' => 4,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'page_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'page_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'page_id' => 'page_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'page_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
 33 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\FormBundle\\Entity\\Action',
+                ],
+                'namespace' => [
+                    'Mautic\\FormBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\FormBundle\\Entity\\Action',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\FormBundle\\Entity\\ActionRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'name' => [
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'name',
+                        ],
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'description',
+                        ],
+                        'type' => [
+                            'fieldName' => 'type',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'type',
+                        ],
+                        'order' => [
+                            'fieldName' => 'order',
+                            'type' => 'integer',
+                            'columnName' => 'action_order',
+                        ],
+                        'properties' => [
+                            'fieldName' => 'properties',
+                            'type' => 'array',
+                            'columnName' => 'properties',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'type' => 'type',
+                        'action_order' => 'order',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'type' => 'type',
+                        'order' => 'action_order',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'form_actions',
+                        'indexes' => [
+                            'form_action_type_search' => [
+                                'columns' => [
+                                    'type',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'form' => [
+                            'fieldName' => 'form',
+                            'targetEntity' => 'Mautic\\FormBundle\\Entity\\Form',
+                            'inversedBy' => 'actions',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'form_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Action',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'form_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'form_id' => 'form_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'form_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+34 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -8265,417 +8524,7 @@ return [[
         []
     );
 },
-34 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\FormBundle\\Entity\\Submission',
-                ],
-                'namespace' => [
-                    'Mautic\\FormBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\FormBundle\\Entity\\Submission',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\FormBundle\\Entity\\SubmissionRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'trackingId' => [
-                            'fieldName' => 'trackingId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_id',
-                            'nullable' => true,
-                        ],
-                        'dateSubmitted' => [
-                            'fieldName' => 'dateSubmitted',
-                            'type' => 'datetime',
-                            'columnName' => 'date_submitted',
-                        ],
-                        'referer' => [
-                            'fieldName' => 'referer',
-                            'type' => 'text',
-                            'columnName' => 'referer',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'tracking_id' => 'trackingId',
-                        'date_submitted' => 'dateSubmitted',
-                        'referer' => 'referer',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'trackingId' => 'tracking_id',
-                        'dateSubmitted' => 'date_submitted',
-                        'referer' => 'referer',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'form_submissions',
-                        'indexes' => [
-                            'form_submission_tracking_search' => [
-                                'columns' => [
-                                    'tracking_id',
-                                ],
-                            ],
-                            'form_date_submitted' => [
-                                'columns' => [
-                                    'date_submitted',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'form' => [
-                            'fieldName' => 'form',
-                            'targetEntity' => 'Mautic\\FormBundle\\Entity\\Form',
-                            'inversedBy' => 'submissions',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'form_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'form_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'form_id' => 'form_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'form_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'page' => [
-                            'fieldName' => 'page',
-                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Page',
-                            'fetch' => 4,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'page_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\FormBundle\\Entity\\Submission',
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'page_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'page_id' => 'page_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'page_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
 35 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\IntegrationsBundle\\Entity\\FieldChange',
-                ],
-                'namespace' => [
-                    'Mautic\\IntegrationsBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\IntegrationsBundle\\Entity\\FieldChange',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\IntegrationsBundle\\Entity\\FieldChangeRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'integration' => [
-                            'fieldName' => 'integration',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'integration',
-                        ],
-                        'objectId' => [
-                            'fieldName' => 'objectId',
-                            'columnName' => 'object_id',
-                            'id' => false,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'objectType' => [
-                            'fieldName' => 'objectType',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'object_type',
-                        ],
-                        'modifiedAt' => [
-                            'fieldName' => 'modifiedAt',
-                            'type' => 'datetime',
-                            'columnName' => 'modified_at',
-                        ],
-                        'columnName' => [
-                            'fieldName' => 'columnName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'column_name',
-                        ],
-                        'columnType' => [
-                            'fieldName' => 'columnType',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'column_type',
-                        ],
-                        'columnValue' => [
-                            'fieldName' => 'columnValue',
-                            'type' => 'text',
-                            'columnName' => 'column_value',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'integration' => 'integration',
-                        'object_id' => 'objectId',
-                        'object_type' => 'objectType',
-                        'modified_at' => 'modifiedAt',
-                        'column_name' => 'columnName',
-                        'column_type' => 'columnType',
-                        'column_value' => 'columnValue',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'integration' => 'integration',
-                        'objectId' => 'object_id',
-                        'objectType' => 'object_type',
-                        'modifiedAt' => 'modified_at',
-                        'columnName' => 'column_name',
-                        'columnType' => 'column_type',
-                        'columnValue' => 'column_value',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'sync_object_field_change_report',
-                        'indexes' => [
-                            'object_composite_key' => [
-                                'columns' => [
-                                    'object_type',
-                                    'object_id',
-                                    'column_name',
-                                ],
-                            ],
-                            'integration_object_composite_key' => [
-                                'columns' => [
-                                    'integration',
-                                    'object_type',
-                                    'object_id',
-                                    'column_name',
-                                ],
-                            ],
-                            'integration_object_type_modification_composite_key' => [
-                                'columns' => [
-                                    'integration',
-                                    'object_type',
-                                    'modified_at',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-36 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -8850,7 +8699,1706 @@ return [[
         []
     );
 },
+36 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\IntegrationsBundle\\Entity\\FieldChange',
+                ],
+                'namespace' => [
+                    'Mautic\\IntegrationsBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\IntegrationsBundle\\Entity\\FieldChange',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\IntegrationsBundle\\Entity\\FieldChangeRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'integration' => [
+                            'fieldName' => 'integration',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'integration',
+                        ],
+                        'objectId' => [
+                            'fieldName' => 'objectId',
+                            'columnName' => 'object_id',
+                            'id' => false,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'objectType' => [
+                            'fieldName' => 'objectType',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'object_type',
+                        ],
+                        'modifiedAt' => [
+                            'fieldName' => 'modifiedAt',
+                            'type' => 'datetime',
+                            'columnName' => 'modified_at',
+                        ],
+                        'columnName' => [
+                            'fieldName' => 'columnName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'column_name',
+                        ],
+                        'columnType' => [
+                            'fieldName' => 'columnType',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'column_type',
+                        ],
+                        'columnValue' => [
+                            'fieldName' => 'columnValue',
+                            'type' => 'text',
+                            'columnName' => 'column_value',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'integration' => 'integration',
+                        'object_id' => 'objectId',
+                        'object_type' => 'objectType',
+                        'modified_at' => 'modifiedAt',
+                        'column_name' => 'columnName',
+                        'column_type' => 'columnType',
+                        'column_value' => 'columnValue',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'integration' => 'integration',
+                        'objectId' => 'object_id',
+                        'objectType' => 'object_type',
+                        'modifiedAt' => 'modified_at',
+                        'columnName' => 'column_name',
+                        'columnType' => 'column_type',
+                        'columnValue' => 'column_value',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'sync_object_field_change_report',
+                        'indexes' => [
+                            'object_composite_key' => [
+                                'columns' => [
+                                    'object_type',
+                                    'object_id',
+                                    'column_name',
+                                ],
+                            ],
+                            'integration_object_composite_key' => [
+                                'columns' => [
+                                    'integration',
+                                    'object_type',
+                                    'object_id',
+                                    'column_name',
+                                ],
+                            ],
+                            'integration_object_type_modification_composite_key' => [
+                                'columns' => [
+                                    'integration',
+                                    'object_type',
+                                    'modified_at',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
 37 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyLead',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyLead',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyLeadRepository',
+                ],
+                'identifier' => [
+                    [
+                        'company',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'primary' => [
+                            'fieldName' => 'primary',
+                            'type' => 'boolean',
+                            'columnName' => 'is_primary',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_added' => 'dateAdded',
+                        'is_primary' => 'primary',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateAdded' => 'date_added',
+                        'primary' => 'is_primary',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'companies_leads',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'company' => [
+                            'fieldName' => 'company',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Company',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'company_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyLead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'company_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'company_id' => 'company_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'company_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyLead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+38 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadList',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadList',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadListRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'isPublished' => [
+                            'fieldName' => 'isPublished',
+                            'type' => 'boolean',
+                            'columnName' => 'is_published',
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdBy' => [
+                            'fieldName' => 'createdBy',
+                            'type' => 'integer',
+                            'columnName' => 'created_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdByUser' => [
+                            'fieldName' => 'createdByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'created_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateModified' => [
+                            'fieldName' => 'dateModified',
+                            'type' => 'datetime',
+                            'columnName' => 'date_modified',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedBy' => [
+                            'fieldName' => 'modifiedBy',
+                            'type' => 'integer',
+                            'columnName' => 'modified_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedByUser' => [
+                            'fieldName' => 'modifiedByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'modified_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOut' => [
+                            'fieldName' => 'checkedOut',
+                            'type' => 'datetime',
+                            'columnName' => 'checked_out',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutBy' => [
+                            'fieldName' => 'checkedOutBy',
+                            'type' => 'integer',
+                            'columnName' => 'checked_out_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutByUser' => [
+                            'fieldName' => 'checkedOutByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'checked_out_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'name' => [
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'name',
+                        ],
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'description',
+                        ],
+                        'alias' => [
+                            'length' => 191,
+                            'fieldName' => 'alias',
+                            'type' => 'string',
+                            'columnName' => 'alias',
+                        ],
+                        'publicName' => [
+                            'fieldName' => 'publicName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'public_name',
+                        ],
+                        'filters' => [
+                            'fieldName' => 'filters',
+                            'type' => 'array',
+                            'columnName' => 'filters',
+                        ],
+                        'isGlobal' => [
+                            'fieldName' => 'isGlobal',
+                            'type' => 'boolean',
+                            'columnName' => 'is_global',
+                        ],
+                        'isPreferenceCenter' => [
+                            'fieldName' => 'isPreferenceCenter',
+                            'type' => 'boolean',
+                            'columnName' => 'is_preference_center',
+                        ],
+                        'lastBuiltDate' => [
+                            'fieldName' => 'lastBuiltDate',
+                            'type' => 'datetime',
+                            'columnName' => 'last_built_date',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'is_published' => 'isPublished',
+                        'date_added' => 'dateAdded',
+                        'created_by' => 'createdBy',
+                        'created_by_user' => 'createdByUser',
+                        'date_modified' => 'dateModified',
+                        'modified_by' => 'modifiedBy',
+                        'modified_by_user' => 'modifiedByUser',
+                        'checked_out' => 'checkedOut',
+                        'checked_out_by' => 'checkedOutBy',
+                        'checked_out_by_user' => 'checkedOutByUser',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'alias' => 'alias',
+                        'public_name' => 'publicName',
+                        'filters' => 'filters',
+                        'is_global' => 'isGlobal',
+                        'is_preference_center' => 'isPreferenceCenter',
+                        'last_built_date' => 'lastBuiltDate',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'isPublished' => 'is_published',
+                        'dateAdded' => 'date_added',
+                        'createdBy' => 'created_by',
+                        'createdByUser' => 'created_by_user',
+                        'dateModified' => 'date_modified',
+                        'modifiedBy' => 'modified_by',
+                        'modifiedByUser' => 'modified_by_user',
+                        'checkedOut' => 'checked_out',
+                        'checkedOutBy' => 'checked_out_by',
+                        'checkedOutByUser' => 'checked_out_by_user',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'alias' => 'alias',
+                        'publicName' => 'public_name',
+                        'filters' => 'filters',
+                        'isGlobal' => 'is_global',
+                        'isPreferenceCenter' => 'is_preference_center',
+                        'lastBuiltDate' => 'last_built_date',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_lists',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'lifecycleCallbacks' => [
+                    [
+                        'prePersist' => [
+                            'initializeLastBuiltDate',
+                        ],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'category' => [
+                            'fieldName' => 'category',
+                            'targetEntity' => 'Mautic\\CategoryBundle\\Entity\\Category',
+                            'cascade' => [
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'category_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'category_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'category_id' => 'category_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'category_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'leads' => [
+                            'fieldName' => 'leads',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
+                            'indexBy' => 'id',
+                            'mappedBy' => 'list',
+                            'fetch' => 4,
+                            'type' => 4,
+                            'inversedBy' => null,
+                            'isOwningSide' => false,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+39 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\FrequencyRule',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\FrequencyRule',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\FrequencyRuleRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'frequencyNumber' => [
+                            'fieldName' => 'frequencyNumber',
+                            'type' => 'smallint',
+                            'columnName' => 'frequency_number',
+                            'nullable' => true,
+                        ],
+                        'frequencyTime' => [
+                            'fieldName' => 'frequencyTime',
+                            'type' => 'string',
+                            'length' => 25,
+                            'columnName' => 'frequency_time',
+                            'nullable' => true,
+                        ],
+                        'channel' => [
+                            'fieldName' => 'channel',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'channel',
+                        ],
+                        'preferredChannel' => [
+                            'fieldName' => 'preferredChannel',
+                            'type' => 'boolean',
+                            'columnName' => 'preferred_channel',
+                        ],
+                        'pauseFromDate' => [
+                            'fieldName' => 'pauseFromDate',
+                            'type' => 'datetime',
+                            'columnName' => 'pause_from_date',
+                            'nullable' => true,
+                        ],
+                        'pauseToDate' => [
+                            'fieldName' => 'pauseToDate',
+                            'type' => 'datetime',
+                            'columnName' => 'pause_to_date',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_added' => 'dateAdded',
+                        'frequency_number' => 'frequencyNumber',
+                        'frequency_time' => 'frequencyTime',
+                        'channel' => 'channel',
+                        'preferred_channel' => 'preferredChannel',
+                        'pause_from_date' => 'pauseFromDate',
+                        'pause_to_date' => 'pauseToDate',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateAdded' => 'date_added',
+                        'frequencyNumber' => 'frequency_number',
+                        'frequencyTime' => 'frequency_time',
+                        'channel' => 'channel',
+                        'preferredChannel' => 'preferred_channel',
+                        'pauseFromDate' => 'pause_from_date',
+                        'pauseToDate' => 'pause_to_date',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_frequencyrules',
+                        'indexes' => [
+                            'channel_frequency' => [
+                                'columns' => [
+                                    'channel',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'frequencyRules',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\FrequencyRule',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+40 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\UtmTag',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\UtmTag',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\UtmTagRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'query' => [
+                            'fieldName' => 'query',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'query',
+                        ],
+                        'referer' => [
+                            'fieldName' => 'referer',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'referer',
+                        ],
+                        'remoteHost' => [
+                            'fieldName' => 'remoteHost',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'remote_host',
+                        ],
+                        'url' => [
+                            'fieldName' => 'url',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'url',
+                        ],
+                        'userAgent' => [
+                            'fieldName' => 'userAgent',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'user_agent',
+                        ],
+                        'utmCampaign' => [
+                            'fieldName' => 'utmCampaign',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'utm_campaign',
+                        ],
+                        'utmContent' => [
+                            'fieldName' => 'utmContent',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'utm_content',
+                        ],
+                        'utmMedium' => [
+                            'fieldName' => 'utmMedium',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'utm_medium',
+                        ],
+                        'utmSource' => [
+                            'fieldName' => 'utmSource',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'utm_source',
+                        ],
+                        'utmTerm' => [
+                            'fieldName' => 'utmTerm',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'utm_term',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_added' => 'dateAdded',
+                        'query' => 'query',
+                        'referer' => 'referer',
+                        'remote_host' => 'remoteHost',
+                        'url' => 'url',
+                        'user_agent' => 'userAgent',
+                        'utm_campaign' => 'utmCampaign',
+                        'utm_content' => 'utmContent',
+                        'utm_medium' => 'utmMedium',
+                        'utm_source' => 'utmSource',
+                        'utm_term' => 'utmTerm',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateAdded' => 'date_added',
+                        'query' => 'query',
+                        'referer' => 'referer',
+                        'remoteHost' => 'remote_host',
+                        'url' => 'url',
+                        'userAgent' => 'user_agent',
+                        'utmCampaign' => 'utm_campaign',
+                        'utmContent' => 'utm_content',
+                        'utmMedium' => 'utm_medium',
+                        'utmSource' => 'utm_source',
+                        'utmTerm' => 'utm_term',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_utmtags',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'utmtags',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\UtmTag',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+41 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\Tag',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\Tag',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\TagRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'tag' => [
+                            'length' => 191,
+                            'fieldName' => 'tag',
+                            'type' => 'string',
+                            'columnName' => 'tag',
+                        ],
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'columnName' => 'description',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'tag' => 'tag',
+                        'description' => 'description',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'tag' => 'tag',
+                        'description' => 'description',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_tags',
+                        'indexes' => [
+                            'lead_tag_search' => [
+                                'columns' => [
+                                    'tag',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+42 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\PointsChangeLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'type' => [
+                            'fieldName' => 'type',
+                            'type' => 'text',
+                            'length' => 50,
+                            'columnName' => 'type',
+                        ],
+                        'eventName' => [
+                            'fieldName' => 'eventName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'event_name',
+                        ],
+                        'actionName' => [
+                            'fieldName' => 'actionName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'action_name',
+                        ],
+                        'delta' => [
+                            'fieldName' => 'delta',
+                            'type' => 'integer',
+                            'columnName' => 'delta',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'type' => 'type',
+                        'event_name' => 'eventName',
+                        'action_name' => 'actionName',
+                        'delta' => 'delta',
+                        'date_added' => 'dateAdded',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'type' => 'type',
+                        'eventName' => 'event_name',
+                        'actionName' => 'action_name',
+                        'delta' => 'delta',
+                        'dateAdded' => 'date_added',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_points_change_log',
+                        'indexes' => [
+                            'point_date_added' => [
+                                'columns' => [
+                                    'date_added',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'pointsChangeLog',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+43 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\Import',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\Import',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\ImportRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'isPublished' => [
+                            'fieldName' => 'isPublished',
+                            'type' => 'boolean',
+                            'columnName' => 'is_published',
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdBy' => [
+                            'fieldName' => 'createdBy',
+                            'type' => 'integer',
+                            'columnName' => 'created_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdByUser' => [
+                            'fieldName' => 'createdByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'created_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateModified' => [
+                            'fieldName' => 'dateModified',
+                            'type' => 'datetime',
+                            'columnName' => 'date_modified',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedBy' => [
+                            'fieldName' => 'modifiedBy',
+                            'type' => 'integer',
+                            'columnName' => 'modified_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedByUser' => [
+                            'fieldName' => 'modifiedByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'modified_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOut' => [
+                            'fieldName' => 'checkedOut',
+                            'type' => 'datetime',
+                            'columnName' => 'checked_out',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutBy' => [
+                            'fieldName' => 'checkedOutBy',
+                            'type' => 'integer',
+                            'columnName' => 'checked_out_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutByUser' => [
+                            'fieldName' => 'checkedOutByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'checked_out_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dir' => [
+                            'length' => 191,
+                            'fieldName' => 'dir',
+                            'type' => 'string',
+                            'columnName' => 'dir',
+                        ],
+                        'file' => [
+                            'length' => 191,
+                            'fieldName' => 'file',
+                            'type' => 'string',
+                            'columnName' => 'file',
+                        ],
+                        'originalFile' => [
+                            'fieldName' => 'originalFile',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'original_file',
+                        ],
+                        'lineCount' => [
+                            'fieldName' => 'lineCount',
+                            'type' => 'integer',
+                            'columnName' => 'line_count',
+                        ],
+                        'insertedCount' => [
+                            'fieldName' => 'insertedCount',
+                            'type' => 'integer',
+                            'columnName' => 'inserted_count',
+                        ],
+                        'updatedCount' => [
+                            'fieldName' => 'updatedCount',
+                            'type' => 'integer',
+                            'columnName' => 'updated_count',
+                        ],
+                        'ignoredCount' => [
+                            'fieldName' => 'ignoredCount',
+                            'type' => 'integer',
+                            'columnName' => 'ignored_count',
+                        ],
+                        'priority' => [
+                            'fieldName' => 'priority',
+                            'type' => 'integer',
+                            'columnName' => 'priority',
+                        ],
+                        'status' => [
+                            'fieldName' => 'status',
+                            'type' => 'integer',
+                            'columnName' => 'status',
+                        ],
+                        'dateStarted' => [
+                            'fieldName' => 'dateStarted',
+                            'type' => 'datetime',
+                            'nullable' => true,
+                            'columnName' => 'date_started',
+                        ],
+                        'dateEnded' => [
+                            'fieldName' => 'dateEnded',
+                            'type' => 'datetime',
+                            'nullable' => true,
+                            'columnName' => 'date_ended',
+                        ],
+                        'object' => [
+                            'length' => 191,
+                            'fieldName' => 'object',
+                            'type' => 'string',
+                            'columnName' => 'object',
+                        ],
+                        'properties' => [
+                            'fieldName' => 'properties',
+                            'type' => 'json_array',
+                            'nullable' => true,
+                            'columnName' => 'properties',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'is_published' => 'isPublished',
+                        'date_added' => 'dateAdded',
+                        'created_by' => 'createdBy',
+                        'created_by_user' => 'createdByUser',
+                        'date_modified' => 'dateModified',
+                        'modified_by' => 'modifiedBy',
+                        'modified_by_user' => 'modifiedByUser',
+                        'checked_out' => 'checkedOut',
+                        'checked_out_by' => 'checkedOutBy',
+                        'checked_out_by_user' => 'checkedOutByUser',
+                        'id' => 'id',
+                        'dir' => 'dir',
+                        'file' => 'file',
+                        'original_file' => 'originalFile',
+                        'line_count' => 'lineCount',
+                        'inserted_count' => 'insertedCount',
+                        'updated_count' => 'updatedCount',
+                        'ignored_count' => 'ignoredCount',
+                        'priority' => 'priority',
+                        'status' => 'status',
+                        'date_started' => 'dateStarted',
+                        'date_ended' => 'dateEnded',
+                        'object' => 'object',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'isPublished' => 'is_published',
+                        'dateAdded' => 'date_added',
+                        'createdBy' => 'created_by',
+                        'createdByUser' => 'created_by_user',
+                        'dateModified' => 'date_modified',
+                        'modifiedBy' => 'modified_by',
+                        'modifiedByUser' => 'modified_by_user',
+                        'checkedOut' => 'checked_out',
+                        'checkedOutBy' => 'checked_out_by',
+                        'checkedOutByUser' => 'checked_out_by_user',
+                        'id' => 'id',
+                        'dir' => 'dir',
+                        'file' => 'file',
+                        'originalFile' => 'original_file',
+                        'lineCount' => 'line_count',
+                        'insertedCount' => 'inserted_count',
+                        'updatedCount' => 'updated_count',
+                        'ignoredCount' => 'ignored_count',
+                        'priority' => 'priority',
+                        'status' => 'status',
+                        'dateStarted' => 'date_started',
+                        'dateEnded' => 'date_ended',
+                        'object' => 'object',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'imports',
+                        'indexes' => [
+                            'import_object' => [
+                                'columns' => [
+                                    'object',
+                                ],
+                            ],
+                            'import_status' => [
+                                'columns' => [
+                                    'status',
+                                ],
+                            ],
+                            'import_priority' => [
+                                'columns' => [
+                                    'priority',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+44 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\DoNotContact',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\DoNotContact',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\DoNotContactRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'reason' => [
+                            'fieldName' => 'reason',
+                            'type' => 'smallint',
+                            'columnName' => 'reason',
+                        ],
+                        'channel' => [
+                            'fieldName' => 'channel',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'channel',
+                        ],
+                        'channelId' => [
+                            'fieldName' => 'channelId',
+                            'type' => 'integer',
+                            'columnName' => 'channel_id',
+                            'nullable' => true,
+                        ],
+                        'comments' => [
+                            'fieldName' => 'comments',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'comments',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_added' => 'dateAdded',
+                        'reason' => 'reason',
+                        'channel' => 'channel',
+                        'channel_id' => 'channelId',
+                        'comments' => 'comments',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateAdded' => 'date_added',
+                        'reason' => 'reason',
+                        'channel' => 'channel',
+                        'channelId' => 'channel_id',
+                        'comments' => 'comments',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_donotcontact',
+                        'indexes' => [
+                            'dnc_reason_search' => [
+                                'columns' => [
+                                    'reason',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'doNotContact',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\DoNotContact',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+45 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -9175,7 +10723,7 @@ return [[
         []
     );
 },
-38 => static function () {
+46 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -9185,16 +10733,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                    'Mautic\\LeadBundle\\Entity\\MergeRecord',
                 ],
                 'namespace' => [
                     'Mautic\\LeadBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                    'Mautic\\LeadBundle\\Entity\\MergeRecord',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLogRepository',
+                    'Mautic\\LeadBundle\\Entity\\MergeRecordRepository',
                 ],
                 'identifier' => [
                     [
@@ -9210,83 +10758,68 @@ return [[
                             'fieldName' => 'id',
                             'type' => 'integer',
                             'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
                             'columnName' => 'id',
-                        ],
-                        'type' => [
-                            'fieldName' => 'type',
-                            'type' => 'text',
-                            'length' => 50,
-                            'columnName' => 'type',
-                        ],
-                        'eventName' => [
-                            'fieldName' => 'eventName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'event_name',
-                        ],
-                        'actionName' => [
-                            'fieldName' => 'actionName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'action_name',
-                        ],
-                        'company' => [
-                            'fieldName' => 'company',
-                            'type' => 'integer',
-                            'columnName' => 'company_id',
                         ],
                         'dateAdded' => [
                             'fieldName' => 'dateAdded',
                             'type' => 'datetime',
                             'columnName' => 'date_added',
                         ],
+                        'mergedId' => [
+                            'fieldName' => 'mergedId',
+                            'type' => 'integer',
+                            'columnName' => 'merged_id',
+                        ],
+                        'name' => [
+                            'length' => 191,
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'columnName' => 'name',
+                        ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'event_name' => 'eventName',
-                        'action_name' => 'actionName',
-                        'company_id' => 'company',
                         'date_added' => 'dateAdded',
+                        'merged_id' => 'mergedId',
+                        'name' => 'name',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'eventName' => 'event_name',
-                        'actionName' => 'action_name',
-                        'company' => 'company_id',
                         'dateAdded' => 'date_added',
+                        'mergedId' => 'merged_id',
+                        'name' => 'name',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'lead_companies_change_log',
+                        'name' => 'contact_merge_records',
                         'indexes' => [
-                            'company_date_added' => [
+                            'contact_merge_date_added' => [
                                 'columns' => [
                                     'date_added',
                                 ],
                             ],
+                            'contact_merge_ids' => [
+                                'columns' => [
+                                    'merged_id',
+                                ],
+                            ],
                         ],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'lead' => [
-                            'fieldName' => 'lead',
+                        'contact' => [
+                            'fieldName' => 'contact',
                             'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'companyChangeLog',
                             'joinColumns' => [
                                 [
-                                    'name' => 'lead_id',
+                                    'name' => 'contact_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => false,
                                     'unique' => false,
@@ -9296,8 +10829,9 @@ return [[
                             ],
                             'type' => 2,
                             'mappedBy' => null,
+                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\MergeRecord',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -9306,13 +10840,13 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
+                                'contact_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
+                                'contact_id' => 'contact_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
+                                'id' => 'contact_id',
                             ],
                             'orphanRemoval' => false,
                         ],
@@ -9330,164 +10864,7 @@ return [[
         []
     );
 },
-39 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyLead',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyLead',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\CompanyLeadRepository',
-                ],
-                'identifier' => [
-                    [
-                        'company',
-                        'lead',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'primary' => [
-                            'fieldName' => 'primary',
-                            'type' => 'boolean',
-                            'columnName' => 'is_primary',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_added' => 'dateAdded',
-                        'is_primary' => 'primary',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateAdded' => 'date_added',
-                        'primary' => 'is_primary',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'companies_leads',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'company' => [
-                            'fieldName' => 'company',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Company',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'company_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyLead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'company_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'company_id' => 'company_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'company_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyLead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-40 => static function () {
+47 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -9506,7 +10883,7 @@ return [[
                     'Mautic\\LeadBundle\\Entity\\CustomLead',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadRepository',
+                    'Mautic\\LeadBundle\\Entity\\CustomLeadRepository',
                 ],
                 'identifier' => [
                     [
@@ -10038,7 +11415,7 @@ return [[
                         ],
                         'eventLog' => [
                             'fieldName' => 'eventLog',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadEventLog',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\CustomLeadEventLog',
                             'mappedBy' => 'lead',
                             'cascade' => [
                                 'persist',
@@ -10269,612 +11646,7 @@ return [[
         []
     );
 },
-41 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\DoNotContact',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\DoNotContact',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\DoNotContactRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'reason' => [
-                            'fieldName' => 'reason',
-                            'type' => 'smallint',
-                            'columnName' => 'reason',
-                        ],
-                        'channel' => [
-                            'fieldName' => 'channel',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'channel',
-                        ],
-                        'channelId' => [
-                            'fieldName' => 'channelId',
-                            'type' => 'integer',
-                            'columnName' => 'channel_id',
-                            'nullable' => true,
-                        ],
-                        'comments' => [
-                            'fieldName' => 'comments',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'comments',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'reason' => 'reason',
-                        'channel' => 'channel',
-                        'channel_id' => 'channelId',
-                        'comments' => 'comments',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'reason' => 'reason',
-                        'channel' => 'channel',
-                        'channelId' => 'channel_id',
-                        'comments' => 'comments',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_donotcontact',
-                        'indexes' => [
-                            'dnc_reason_search' => [
-                                'columns' => [
-                                    'reason',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'doNotContact',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\DoNotContact',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-42 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\FrequencyRule',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\FrequencyRule',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\FrequencyRuleRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'frequencyNumber' => [
-                            'fieldName' => 'frequencyNumber',
-                            'type' => 'smallint',
-                            'columnName' => 'frequency_number',
-                            'nullable' => true,
-                        ],
-                        'frequencyTime' => [
-                            'fieldName' => 'frequencyTime',
-                            'type' => 'string',
-                            'length' => 25,
-                            'columnName' => 'frequency_time',
-                            'nullable' => true,
-                        ],
-                        'channel' => [
-                            'fieldName' => 'channel',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'channel',
-                        ],
-                        'preferredChannel' => [
-                            'fieldName' => 'preferredChannel',
-                            'type' => 'boolean',
-                            'columnName' => 'preferred_channel',
-                        ],
-                        'pauseFromDate' => [
-                            'fieldName' => 'pauseFromDate',
-                            'type' => 'datetime',
-                            'columnName' => 'pause_from_date',
-                            'nullable' => true,
-                        ],
-                        'pauseToDate' => [
-                            'fieldName' => 'pauseToDate',
-                            'type' => 'datetime',
-                            'columnName' => 'pause_to_date',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'frequency_number' => 'frequencyNumber',
-                        'frequency_time' => 'frequencyTime',
-                        'channel' => 'channel',
-                        'preferred_channel' => 'preferredChannel',
-                        'pause_from_date' => 'pauseFromDate',
-                        'pause_to_date' => 'pauseToDate',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'frequencyNumber' => 'frequency_number',
-                        'frequencyTime' => 'frequency_time',
-                        'channel' => 'channel',
-                        'preferredChannel' => 'preferred_channel',
-                        'pauseFromDate' => 'pause_from_date',
-                        'pauseToDate' => 'pause_to_date',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_frequencyrules',
-                        'indexes' => [
-                            'channel_frequency' => [
-                                'columns' => [
-                                    'channel',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'frequencyRules',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\FrequencyRule',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-43 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\Import',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\Import',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\ImportRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'isPublished' => [
-                            'fieldName' => 'isPublished',
-                            'type' => 'boolean',
-                            'columnName' => 'is_published',
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdBy' => [
-                            'fieldName' => 'createdBy',
-                            'type' => 'integer',
-                            'columnName' => 'created_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdByUser' => [
-                            'fieldName' => 'createdByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'created_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateModified' => [
-                            'fieldName' => 'dateModified',
-                            'type' => 'datetime',
-                            'columnName' => 'date_modified',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedBy' => [
-                            'fieldName' => 'modifiedBy',
-                            'type' => 'integer',
-                            'columnName' => 'modified_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedByUser' => [
-                            'fieldName' => 'modifiedByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'modified_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOut' => [
-                            'fieldName' => 'checkedOut',
-                            'type' => 'datetime',
-                            'columnName' => 'checked_out',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutBy' => [
-                            'fieldName' => 'checkedOutBy',
-                            'type' => 'integer',
-                            'columnName' => 'checked_out_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutByUser' => [
-                            'fieldName' => 'checkedOutByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'checked_out_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'dir' => [
-                            'length' => 191,
-                            'fieldName' => 'dir',
-                            'type' => 'string',
-                            'columnName' => 'dir',
-                        ],
-                        'file' => [
-                            'length' => 191,
-                            'fieldName' => 'file',
-                            'type' => 'string',
-                            'columnName' => 'file',
-                        ],
-                        'originalFile' => [
-                            'fieldName' => 'originalFile',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'original_file',
-                        ],
-                        'lineCount' => [
-                            'fieldName' => 'lineCount',
-                            'type' => 'integer',
-                            'columnName' => 'line_count',
-                        ],
-                        'insertedCount' => [
-                            'fieldName' => 'insertedCount',
-                            'type' => 'integer',
-                            'columnName' => 'inserted_count',
-                        ],
-                        'updatedCount' => [
-                            'fieldName' => 'updatedCount',
-                            'type' => 'integer',
-                            'columnName' => 'updated_count',
-                        ],
-                        'ignoredCount' => [
-                            'fieldName' => 'ignoredCount',
-                            'type' => 'integer',
-                            'columnName' => 'ignored_count',
-                        ],
-                        'priority' => [
-                            'fieldName' => 'priority',
-                            'type' => 'integer',
-                            'columnName' => 'priority',
-                        ],
-                        'status' => [
-                            'fieldName' => 'status',
-                            'type' => 'integer',
-                            'columnName' => 'status',
-                        ],
-                        'dateStarted' => [
-                            'fieldName' => 'dateStarted',
-                            'type' => 'datetime',
-                            'nullable' => true,
-                            'columnName' => 'date_started',
-                        ],
-                        'dateEnded' => [
-                            'fieldName' => 'dateEnded',
-                            'type' => 'datetime',
-                            'nullable' => true,
-                            'columnName' => 'date_ended',
-                        ],
-                        'object' => [
-                            'length' => 191,
-                            'fieldName' => 'object',
-                            'type' => 'string',
-                            'columnName' => 'object',
-                        ],
-                        'properties' => [
-                            'fieldName' => 'properties',
-                            'type' => 'json_array',
-                            'nullable' => true,
-                            'columnName' => 'properties',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'is_published' => 'isPublished',
-                        'date_added' => 'dateAdded',
-                        'created_by' => 'createdBy',
-                        'created_by_user' => 'createdByUser',
-                        'date_modified' => 'dateModified',
-                        'modified_by' => 'modifiedBy',
-                        'modified_by_user' => 'modifiedByUser',
-                        'checked_out' => 'checkedOut',
-                        'checked_out_by' => 'checkedOutBy',
-                        'checked_out_by_user' => 'checkedOutByUser',
-                        'id' => 'id',
-                        'dir' => 'dir',
-                        'file' => 'file',
-                        'original_file' => 'originalFile',
-                        'line_count' => 'lineCount',
-                        'inserted_count' => 'insertedCount',
-                        'updated_count' => 'updatedCount',
-                        'ignored_count' => 'ignoredCount',
-                        'priority' => 'priority',
-                        'status' => 'status',
-                        'date_started' => 'dateStarted',
-                        'date_ended' => 'dateEnded',
-                        'object' => 'object',
-                        'properties' => 'properties',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'isPublished' => 'is_published',
-                        'dateAdded' => 'date_added',
-                        'createdBy' => 'created_by',
-                        'createdByUser' => 'created_by_user',
-                        'dateModified' => 'date_modified',
-                        'modifiedBy' => 'modified_by',
-                        'modifiedByUser' => 'modified_by_user',
-                        'checkedOut' => 'checked_out',
-                        'checkedOutBy' => 'checked_out_by',
-                        'checkedOutByUser' => 'checked_out_by_user',
-                        'id' => 'id',
-                        'dir' => 'dir',
-                        'file' => 'file',
-                        'originalFile' => 'original_file',
-                        'lineCount' => 'line_count',
-                        'insertedCount' => 'inserted_count',
-                        'updatedCount' => 'updated_count',
-                        'ignoredCount' => 'ignored_count',
-                        'priority' => 'priority',
-                        'status' => 'status',
-                        'dateStarted' => 'date_started',
-                        'dateEnded' => 'date_ended',
-                        'object' => 'object',
-                        'properties' => 'properties',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'imports',
-                        'indexes' => [
-                            'import_object' => [
-                                'columns' => [
-                                    'object',
-                                ],
-                            ],
-                            'import_status' => [
-                                'columns' => [
-                                    'status',
-                                ],
-                            ],
-                            'import_priority' => [
-                                'columns' => [
-                                    'priority',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-44 => static function () {
+48 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -11656,7 +12428,7 @@ return [[
         []
     );
 },
-45 => static function () {
+49 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -11824,248 +12596,7 @@ return [[
         []
     );
 },
-46 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadDevice',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadDevice',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadDeviceRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'clientInfo' => [
-                            'fieldName' => 'clientInfo',
-                            'type' => 'array',
-                            'columnName' => 'client_info',
-                            'nullable' => true,
-                        ],
-                        'device' => [
-                            'fieldName' => 'device',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'device',
-                        ],
-                        'deviceOsName' => [
-                            'fieldName' => 'deviceOsName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_os_name',
-                            'nullable' => true,
-                        ],
-                        'deviceOsShortName' => [
-                            'fieldName' => 'deviceOsShortName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_os_shortname',
-                            'nullable' => true,
-                        ],
-                        'deviceOsVersion' => [
-                            'fieldName' => 'deviceOsVersion',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_os_version',
-                            'nullable' => true,
-                        ],
-                        'deviceOsPlatform' => [
-                            'fieldName' => 'deviceOsPlatform',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_os_platform',
-                            'nullable' => true,
-                        ],
-                        'deviceBrand' => [
-                            'fieldName' => 'deviceBrand',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_brand',
-                            'nullable' => true,
-                        ],
-                        'deviceModel' => [
-                            'fieldName' => 'deviceModel',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'device_model',
-                            'nullable' => true,
-                        ],
-                        'trackingId' => [
-                            'fieldName' => 'trackingId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_id',
-                            'unique' => true,
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'client_info' => 'clientInfo',
-                        'device' => 'device',
-                        'device_os_name' => 'deviceOsName',
-                        'device_os_shortname' => 'deviceOsShortName',
-                        'device_os_version' => 'deviceOsVersion',
-                        'device_os_platform' => 'deviceOsPlatform',
-                        'device_brand' => 'deviceBrand',
-                        'device_model' => 'deviceModel',
-                        'tracking_id' => 'trackingId',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'clientInfo' => 'client_info',
-                        'device' => 'device',
-                        'deviceOsName' => 'device_os_name',
-                        'deviceOsShortName' => 'device_os_shortname',
-                        'deviceOsVersion' => 'device_os_version',
-                        'deviceOsPlatform' => 'device_os_platform',
-                        'deviceBrand' => 'device_brand',
-                        'deviceModel' => 'device_model',
-                        'trackingId' => 'tracking_id',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_devices',
-                        'indexes' => [
-                            'date_added_search' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                            'device_search' => [
-                                'columns' => [
-                                    'device',
-                                ],
-                            ],
-                            'device_os_name_search' => [
-                                'columns' => [
-                                    'device_os_name',
-                                ],
-                            ],
-                            'device_os_shortname_search' => [
-                                'columns' => [
-                                    'device_os_shortname',
-                                ],
-                            ],
-                            'device_os_version_search' => [
-                                'columns' => [
-                                    'device_os_version',
-                                ],
-                            ],
-                            'device_os_platform_search' => [
-                                'columns' => [
-                                    'device_os_platform',
-                                ],
-                            ],
-                            'device_brand_search' => [
-                                'columns' => [
-                                    'device_brand',
-                                ],
-                            ],
-                            'device_model_search' => [
-                                'columns' => [
-                                    'device_model',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-47 => static function () {
+50 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -12283,7 +12814,728 @@ return [[
         []
     );
 },
-48 => static function () {
+51 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\StagesChangeLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'eventName' => [
+                            'fieldName' => 'eventName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'event_name',
+                        ],
+                        'actionName' => [
+                            'fieldName' => 'actionName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'action_name',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'event_name' => 'eventName',
+                        'action_name' => 'actionName',
+                        'date_added' => 'dateAdded',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'eventName' => 'event_name',
+                        'actionName' => 'action_name',
+                        'dateAdded' => 'date_added',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_stages_change_log',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'stageChangeLog',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'stage' => [
+                            'fieldName' => 'stage',
+                            'targetEntity' => 'Mautic\\StageBundle\\Entity\\Stage',
+                            'inversedBy' => 'log',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'stage_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'stage_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'stage_id' => 'stage_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'stage_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+52 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\CompanyChangeLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'type' => [
+                            'fieldName' => 'type',
+                            'type' => 'text',
+                            'length' => 50,
+                            'columnName' => 'type',
+                        ],
+                        'eventName' => [
+                            'fieldName' => 'eventName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'event_name',
+                        ],
+                        'actionName' => [
+                            'fieldName' => 'actionName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'action_name',
+                        ],
+                        'company' => [
+                            'fieldName' => 'company',
+                            'type' => 'integer',
+                            'columnName' => 'company_id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'type' => 'type',
+                        'event_name' => 'eventName',
+                        'action_name' => 'actionName',
+                        'company_id' => 'company',
+                        'date_added' => 'dateAdded',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'type' => 'type',
+                        'eventName' => 'event_name',
+                        'actionName' => 'action_name',
+                        'company' => 'company_id',
+                        'dateAdded' => 'date_added',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_companies_change_log',
+                        'indexes' => [
+                            'company_date_added' => [
+                                'columns' => [
+                                    'date_added',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'companyChangeLog',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CompanyChangeLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+53 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadNote',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadNote',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\LeadNoteRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'isPublished' => [
+                            'fieldName' => 'isPublished',
+                            'type' => 'boolean',
+                            'columnName' => 'is_published',
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdBy' => [
+                            'fieldName' => 'createdBy',
+                            'type' => 'integer',
+                            'columnName' => 'created_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdByUser' => [
+                            'fieldName' => 'createdByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'created_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateModified' => [
+                            'fieldName' => 'dateModified',
+                            'type' => 'datetime',
+                            'columnName' => 'date_modified',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedBy' => [
+                            'fieldName' => 'modifiedBy',
+                            'type' => 'integer',
+                            'columnName' => 'modified_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedByUser' => [
+                            'fieldName' => 'modifiedByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'modified_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOut' => [
+                            'fieldName' => 'checkedOut',
+                            'type' => 'datetime',
+                            'columnName' => 'checked_out',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutBy' => [
+                            'fieldName' => 'checkedOutBy',
+                            'type' => 'integer',
+                            'columnName' => 'checked_out_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutByUser' => [
+                            'fieldName' => 'checkedOutByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'checked_out_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'text' => [
+                            'fieldName' => 'text',
+                            'type' => 'text',
+                            'columnName' => 'text',
+                        ],
+                        'type' => [
+                            'fieldName' => 'type',
+                            'type' => 'string',
+                            'length' => 50,
+                            'nullable' => true,
+                            'columnName' => 'type',
+                        ],
+                        'dateTime' => [
+                            'fieldName' => 'dateTime',
+                            'type' => 'datetime',
+                            'columnName' => 'date_time',
+                            'nullable' => true,
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'is_published' => 'isPublished',
+                        'date_added' => 'dateAdded',
+                        'created_by' => 'createdBy',
+                        'created_by_user' => 'createdByUser',
+                        'date_modified' => 'dateModified',
+                        'modified_by' => 'modifiedBy',
+                        'modified_by_user' => 'modifiedByUser',
+                        'checked_out' => 'checkedOut',
+                        'checked_out_by' => 'checkedOutBy',
+                        'checked_out_by_user' => 'checkedOutByUser',
+                        'id' => 'id',
+                        'text' => 'text',
+                        'type' => 'type',
+                        'date_time' => 'dateTime',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'isPublished' => 'is_published',
+                        'dateAdded' => 'date_added',
+                        'createdBy' => 'created_by',
+                        'createdByUser' => 'created_by_user',
+                        'dateModified' => 'date_modified',
+                        'modifiedBy' => 'modified_by',
+                        'modifiedByUser' => 'modified_by_user',
+                        'checkedOut' => 'checked_out',
+                        'checkedOutBy' => 'checked_out_by',
+                        'checkedOutByUser' => 'checked_out_by_user',
+                        'id' => 'id',
+                        'text' => 'text',
+                        'type' => 'type',
+                        'dateTime' => 'date_time',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_notes',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'inversedBy' => 'notes',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadNote',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+54 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\ListLead',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\ListLead',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\ListLeadRepository',
+                ],
+                'identifier' => [
+                    [
+                        'list',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'manuallyRemoved' => [
+                            'fieldName' => 'manuallyRemoved',
+                            'type' => 'boolean',
+                            'columnName' => 'manually_removed',
+                        ],
+                        'manuallyAdded' => [
+                            'fieldName' => 'manuallyAdded',
+                            'type' => 'boolean',
+                            'columnName' => 'manually_added',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_added' => 'dateAdded',
+                        'manually_removed' => 'manuallyRemoved',
+                        'manually_added' => 'manuallyAdded',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateAdded' => 'date_added',
+                        'manuallyRemoved' => 'manually_removed',
+                        'manuallyAdded' => 'manually_added',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'lead_lists_leads',
+                        'indexes' => [
+                            'manually_removed' => [
+                                'columns' => [
+                                    'manually_removed',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'list' => [
+                            'fieldName' => 'list',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'id' => true,
+                            'inversedBy' => 'leads',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'leadlist_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'leadlist_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'leadlist_id' => 'leadlist_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'leadlist_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+55 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -12596,836 +13848,7 @@ return [[
         []
     );
 },
-49 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadList',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadList',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadListRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'isPublished' => [
-                            'fieldName' => 'isPublished',
-                            'type' => 'boolean',
-                            'columnName' => 'is_published',
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdBy' => [
-                            'fieldName' => 'createdBy',
-                            'type' => 'integer',
-                            'columnName' => 'created_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdByUser' => [
-                            'fieldName' => 'createdByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'created_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateModified' => [
-                            'fieldName' => 'dateModified',
-                            'type' => 'datetime',
-                            'columnName' => 'date_modified',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedBy' => [
-                            'fieldName' => 'modifiedBy',
-                            'type' => 'integer',
-                            'columnName' => 'modified_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedByUser' => [
-                            'fieldName' => 'modifiedByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'modified_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOut' => [
-                            'fieldName' => 'checkedOut',
-                            'type' => 'datetime',
-                            'columnName' => 'checked_out',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutBy' => [
-                            'fieldName' => 'checkedOutBy',
-                            'type' => 'integer',
-                            'columnName' => 'checked_out_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutByUser' => [
-                            'fieldName' => 'checkedOutByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'checked_out_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'name' => [
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'name',
-                        ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'description',
-                        ],
-                        'alias' => [
-                            'length' => 191,
-                            'fieldName' => 'alias',
-                            'type' => 'string',
-                            'columnName' => 'alias',
-                        ],
-                        'publicName' => [
-                            'fieldName' => 'publicName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'public_name',
-                        ],
-                        'filters' => [
-                            'fieldName' => 'filters',
-                            'type' => 'array',
-                            'columnName' => 'filters',
-                        ],
-                        'isGlobal' => [
-                            'fieldName' => 'isGlobal',
-                            'type' => 'boolean',
-                            'columnName' => 'is_global',
-                        ],
-                        'isPreferenceCenter' => [
-                            'fieldName' => 'isPreferenceCenter',
-                            'type' => 'boolean',
-                            'columnName' => 'is_preference_center',
-                        ],
-                        'lastBuiltDate' => [
-                            'fieldName' => 'lastBuiltDate',
-                            'type' => 'datetime',
-                            'columnName' => 'last_built_date',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'is_published' => 'isPublished',
-                        'date_added' => 'dateAdded',
-                        'created_by' => 'createdBy',
-                        'created_by_user' => 'createdByUser',
-                        'date_modified' => 'dateModified',
-                        'modified_by' => 'modifiedBy',
-                        'modified_by_user' => 'modifiedByUser',
-                        'checked_out' => 'checkedOut',
-                        'checked_out_by' => 'checkedOutBy',
-                        'checked_out_by_user' => 'checkedOutByUser',
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'alias' => 'alias',
-                        'public_name' => 'publicName',
-                        'filters' => 'filters',
-                        'is_global' => 'isGlobal',
-                        'is_preference_center' => 'isPreferenceCenter',
-                        'last_built_date' => 'lastBuiltDate',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'isPublished' => 'is_published',
-                        'dateAdded' => 'date_added',
-                        'createdBy' => 'created_by',
-                        'createdByUser' => 'created_by_user',
-                        'dateModified' => 'date_modified',
-                        'modifiedBy' => 'modified_by',
-                        'modifiedByUser' => 'modified_by_user',
-                        'checkedOut' => 'checked_out',
-                        'checkedOutBy' => 'checked_out_by',
-                        'checkedOutByUser' => 'checked_out_by_user',
-                        'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'alias' => 'alias',
-                        'publicName' => 'public_name',
-                        'filters' => 'filters',
-                        'isGlobal' => 'is_global',
-                        'isPreferenceCenter' => 'is_preference_center',
-                        'lastBuiltDate' => 'last_built_date',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_lists',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'lifecycleCallbacks' => [
-                    [
-                        'prePersist' => [
-                            'initializeLastBuiltDate',
-                        ],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'category' => [
-                            'fieldName' => 'category',
-                            'targetEntity' => 'Mautic\\CategoryBundle\\Entity\\Category',
-                            'cascade' => [
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'category_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'category_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'category_id' => 'category_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'category_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'leads' => [
-                            'fieldName' => 'leads',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
-                            'indexBy' => 'id',
-                            'mappedBy' => 'list',
-                            'fetch' => 4,
-                            'type' => 4,
-                            'inversedBy' => null,
-                            'isOwningSide' => false,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-50 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadNote',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadNote',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\LeadNoteRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'isPublished' => [
-                            'fieldName' => 'isPublished',
-                            'type' => 'boolean',
-                            'columnName' => 'is_published',
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdBy' => [
-                            'fieldName' => 'createdBy',
-                            'type' => 'integer',
-                            'columnName' => 'created_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdByUser' => [
-                            'fieldName' => 'createdByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'created_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateModified' => [
-                            'fieldName' => 'dateModified',
-                            'type' => 'datetime',
-                            'columnName' => 'date_modified',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedBy' => [
-                            'fieldName' => 'modifiedBy',
-                            'type' => 'integer',
-                            'columnName' => 'modified_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedByUser' => [
-                            'fieldName' => 'modifiedByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'modified_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOut' => [
-                            'fieldName' => 'checkedOut',
-                            'type' => 'datetime',
-                            'columnName' => 'checked_out',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutBy' => [
-                            'fieldName' => 'checkedOutBy',
-                            'type' => 'integer',
-                            'columnName' => 'checked_out_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutByUser' => [
-                            'fieldName' => 'checkedOutByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'checked_out_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'text' => [
-                            'fieldName' => 'text',
-                            'type' => 'text',
-                            'columnName' => 'text',
-                        ],
-                        'type' => [
-                            'fieldName' => 'type',
-                            'type' => 'string',
-                            'length' => 50,
-                            'nullable' => true,
-                            'columnName' => 'type',
-                        ],
-                        'dateTime' => [
-                            'fieldName' => 'dateTime',
-                            'type' => 'datetime',
-                            'columnName' => 'date_time',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'is_published' => 'isPublished',
-                        'date_added' => 'dateAdded',
-                        'created_by' => 'createdBy',
-                        'created_by_user' => 'createdByUser',
-                        'date_modified' => 'dateModified',
-                        'modified_by' => 'modifiedBy',
-                        'modified_by_user' => 'modifiedByUser',
-                        'checked_out' => 'checkedOut',
-                        'checked_out_by' => 'checkedOutBy',
-                        'checked_out_by_user' => 'checkedOutByUser',
-                        'id' => 'id',
-                        'text' => 'text',
-                        'type' => 'type',
-                        'date_time' => 'dateTime',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'isPublished' => 'is_published',
-                        'dateAdded' => 'date_added',
-                        'createdBy' => 'created_by',
-                        'createdByUser' => 'created_by_user',
-                        'dateModified' => 'date_modified',
-                        'modifiedBy' => 'modified_by',
-                        'modifiedByUser' => 'modified_by_user',
-                        'checkedOut' => 'checked_out',
-                        'checkedOutBy' => 'checked_out_by',
-                        'checkedOutByUser' => 'checked_out_by_user',
-                        'id' => 'id',
-                        'text' => 'text',
-                        'type' => 'type',
-                        'dateTime' => 'date_time',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_notes',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'notes',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadNote',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-51 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\ListLead',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\ListLead',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\ListLeadRepository',
-                ],
-                'identifier' => [
-                    [
-                        'list',
-                        'lead',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'manuallyRemoved' => [
-                            'fieldName' => 'manuallyRemoved',
-                            'type' => 'boolean',
-                            'columnName' => 'manually_removed',
-                        ],
-                        'manuallyAdded' => [
-                            'fieldName' => 'manuallyAdded',
-                            'type' => 'boolean',
-                            'columnName' => 'manually_added',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_added' => 'dateAdded',
-                        'manually_removed' => 'manuallyRemoved',
-                        'manually_added' => 'manuallyAdded',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateAdded' => 'date_added',
-                        'manuallyRemoved' => 'manually_removed',
-                        'manuallyAdded' => 'manually_added',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_lists_leads',
-                        'indexes' => [
-                            'manually_removed' => [
-                                'columns' => [
-                                    'manually_removed',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'list' => [
-                            'fieldName' => 'list',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'id' => true,
-                            'inversedBy' => 'leads',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'leadlist_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'leadlist_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'leadlist_id' => 'leadlist_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'leadlist_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\ListLead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-52 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\MergeRecord',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\MergeRecord',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\MergeRecordRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'columnName' => 'id',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'mergedId' => [
-                            'fieldName' => 'mergedId',
-                            'type' => 'integer',
-                            'columnName' => 'merged_id',
-                        ],
-                        'name' => [
-                            'length' => 191,
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'columnName' => 'name',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'merged_id' => 'mergedId',
-                        'name' => 'name',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'mergedId' => 'merged_id',
-                        'name' => 'name',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'contact_merge_records',
-                        'indexes' => [
-                            'contact_merge_date_added' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                            'contact_merge_ids' => [
-                                'columns' => [
-                                    'merged_id',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'contact' => [
-                            'fieldName' => 'contact',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'contact_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\MergeRecord',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'contact_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'contact_id' => 'contact_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'contact_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-53 => static function () {
+56 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -13435,16 +13858,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                    'Mautic\\LeadBundle\\Entity\\LeadDevice',
                 ],
                 'namespace' => [
                     'Mautic\\LeadBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
+                    'Mautic\\LeadBundle\\Entity\\LeadDevice',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\PointsChangeLogRepository',
+                    'Mautic\\LeadBundle\\Entity\\LeadDeviceRepository',
                 ],
                 'identifier' => [
                     [
@@ -13466,63 +13889,148 @@ return [[
                                 'unsigned' => true,
                             ],
                         ],
-                        'type' => [
-                            'fieldName' => 'type',
-                            'type' => 'text',
-                            'length' => 50,
-                            'columnName' => 'type',
-                        ],
-                        'eventName' => [
-                            'fieldName' => 'eventName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'event_name',
-                        ],
-                        'actionName' => [
-                            'fieldName' => 'actionName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'action_name',
-                        ],
-                        'delta' => [
-                            'fieldName' => 'delta',
-                            'type' => 'integer',
-                            'columnName' => 'delta',
-                        ],
                         'dateAdded' => [
                             'fieldName' => 'dateAdded',
                             'type' => 'datetime',
                             'columnName' => 'date_added',
+                        ],
+                        'clientInfo' => [
+                            'fieldName' => 'clientInfo',
+                            'type' => 'array',
+                            'columnName' => 'client_info',
+                            'nullable' => true,
+                        ],
+                        'device' => [
+                            'fieldName' => 'device',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'device',
+                        ],
+                        'deviceOsName' => [
+                            'fieldName' => 'deviceOsName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_os_name',
+                            'nullable' => true,
+                        ],
+                        'deviceOsShortName' => [
+                            'fieldName' => 'deviceOsShortName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_os_shortname',
+                            'nullable' => true,
+                        ],
+                        'deviceOsVersion' => [
+                            'fieldName' => 'deviceOsVersion',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_os_version',
+                            'nullable' => true,
+                        ],
+                        'deviceOsPlatform' => [
+                            'fieldName' => 'deviceOsPlatform',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_os_platform',
+                            'nullable' => true,
+                        ],
+                        'deviceBrand' => [
+                            'fieldName' => 'deviceBrand',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_brand',
+                            'nullable' => true,
+                        ],
+                        'deviceModel' => [
+                            'fieldName' => 'deviceModel',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'device_model',
+                            'nullable' => true,
+                        ],
+                        'trackingId' => [
+                            'fieldName' => 'trackingId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_id',
+                            'unique' => true,
+                            'nullable' => true,
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'event_name' => 'eventName',
-                        'action_name' => 'actionName',
-                        'delta' => 'delta',
                         'date_added' => 'dateAdded',
+                        'client_info' => 'clientInfo',
+                        'device' => 'device',
+                        'device_os_name' => 'deviceOsName',
+                        'device_os_shortname' => 'deviceOsShortName',
+                        'device_os_version' => 'deviceOsVersion',
+                        'device_os_platform' => 'deviceOsPlatform',
+                        'device_brand' => 'deviceBrand',
+                        'device_model' => 'deviceModel',
+                        'tracking_id' => 'trackingId',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'eventName' => 'event_name',
-                        'actionName' => 'action_name',
-                        'delta' => 'delta',
                         'dateAdded' => 'date_added',
+                        'clientInfo' => 'client_info',
+                        'device' => 'device',
+                        'deviceOsName' => 'device_os_name',
+                        'deviceOsShortName' => 'device_os_shortname',
+                        'deviceOsVersion' => 'device_os_version',
+                        'deviceOsPlatform' => 'device_os_platform',
+                        'deviceBrand' => 'device_brand',
+                        'deviceModel' => 'device_model',
+                        'trackingId' => 'tracking_id',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'lead_points_change_log',
+                        'name' => 'lead_devices',
                         'indexes' => [
-                            'point_date_added' => [
+                            'date_added_search' => [
                                 'columns' => [
                                     'date_added',
+                                ],
+                            ],
+                            'device_search' => [
+                                'columns' => [
+                                    'device',
+                                ],
+                            ],
+                            'device_os_name_search' => [
+                                'columns' => [
+                                    'device_os_name',
+                                ],
+                            ],
+                            'device_os_shortname_search' => [
+                                'columns' => [
+                                    'device_os_shortname',
+                                ],
+                            ],
+                            'device_os_version_search' => [
+                                'columns' => [
+                                    'device_os_version',
+                                ],
+                            ],
+                            'device_os_platform_search' => [
+                                'columns' => [
+                                    'device_os_platform',
+                                ],
+                            ],
+                            'device_brand_search' => [
+                                'columns' => [
+                                    'device_brand',
+                                ],
+                            ],
+                            'device_model_search' => [
+                                'columns' => [
+                                    'device_model',
                                 ],
                             ],
                         ],
@@ -13534,7 +14042,6 @@ return [[
                         'lead' => [
                             'fieldName' => 'lead',
                             'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'pointsChangeLog',
                             'joinColumns' => [
                                 [
                                     'name' => 'lead_id',
@@ -13542,46 +14049,6 @@ return [[
                                     'nullable' => false,
                                     'unique' => false,
                                     'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => null,
                                     'columnDefinition' => null,
                                 ],
                             ],
@@ -13589,473 +14056,7 @@ return [[
                             'mappedBy' => null,
                             'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\PointsChangeLog',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-54 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\StagesChangeLogRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'eventName' => [
-                            'fieldName' => 'eventName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'event_name',
-                        ],
-                        'actionName' => [
-                            'fieldName' => 'actionName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'action_name',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'event_name' => 'eventName',
-                        'action_name' => 'actionName',
-                        'date_added' => 'dateAdded',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'eventName' => 'event_name',
-                        'actionName' => 'action_name',
-                        'dateAdded' => 'date_added',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_stages_change_log',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'stageChangeLog',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'stage' => [
-                            'fieldName' => 'stage',
-                            'targetEntity' => 'Mautic\\StageBundle\\Entity\\Stage',
-                            'inversedBy' => 'log',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'stage_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\StagesChangeLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'stage_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'stage_id' => 'stage_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'stage_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-55 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\Tag',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\Tag',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\TagRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'tag' => [
-                            'length' => 191,
-                            'fieldName' => 'tag',
-                            'type' => 'string',
-                            'columnName' => 'tag',
-                        ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'columnName' => 'description',
-                            'nullable' => true,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'tag' => 'tag',
-                        'description' => 'description',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'tag' => 'tag',
-                        'description' => 'description',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_tags',
-                        'indexes' => [
-                            'lead_tag_search' => [
-                                'columns' => [
-                                    'tag',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-56 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\LeadBundle\\Entity\\UtmTag',
-                ],
-                'namespace' => [
-                    'Mautic\\LeadBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\UtmTag',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\LeadBundle\\Entity\\UtmTagRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                        'query' => [
-                            'fieldName' => 'query',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'query',
-                        ],
-                        'referer' => [
-                            'fieldName' => 'referer',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'referer',
-                        ],
-                        'remoteHost' => [
-                            'fieldName' => 'remoteHost',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'remote_host',
-                        ],
-                        'url' => [
-                            'fieldName' => 'url',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'url',
-                        ],
-                        'userAgent' => [
-                            'fieldName' => 'userAgent',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'user_agent',
-                        ],
-                        'utmCampaign' => [
-                            'fieldName' => 'utmCampaign',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'utm_campaign',
-                        ],
-                        'utmContent' => [
-                            'fieldName' => 'utmContent',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'utm_content',
-                        ],
-                        'utmMedium' => [
-                            'fieldName' => 'utmMedium',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'utm_medium',
-                        ],
-                        'utmSource' => [
-                            'fieldName' => 'utmSource',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'utm_source',
-                        ],
-                        'utmTerm' => [
-                            'fieldName' => 'utmTerm',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'utm_term',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_added' => 'dateAdded',
-                        'query' => 'query',
-                        'referer' => 'referer',
-                        'remote_host' => 'remoteHost',
-                        'url' => 'url',
-                        'user_agent' => 'userAgent',
-                        'utm_campaign' => 'utmCampaign',
-                        'utm_content' => 'utmContent',
-                        'utm_medium' => 'utmMedium',
-                        'utm_source' => 'utmSource',
-                        'utm_term' => 'utmTerm',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateAdded' => 'date_added',
-                        'query' => 'query',
-                        'referer' => 'referer',
-                        'remoteHost' => 'remote_host',
-                        'url' => 'url',
-                        'userAgent' => 'user_agent',
-                        'utmCampaign' => 'utm_campaign',
-                        'utmContent' => 'utm_content',
-                        'utmMedium' => 'utm_medium',
-                        'utmSource' => 'utm_source',
-                        'utmTerm' => 'utm_term',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'lead_utmtags',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'inversedBy' => 'utmtags',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\UtmTag',
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -14089,6 +14090,567 @@ return [[
     );
 },
 57 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\LeadBundle\\Entity\\CustomLeadEventLog',
+                ],
+                'namespace' => [
+                    'Mautic\\LeadBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\LeadBundle\\Entity\\CustomLeadEventLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\LeadBundle\\Entity\\CustomLeadEventLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'userId' => [
+                            'fieldName' => 'userId',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'user_id',
+                        ],
+                        'userName' => [
+                            'fieldName' => 'userName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'user_name',
+                        ],
+                        'bundle' => [
+                            'fieldName' => 'bundle',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'bundle',
+                        ],
+                        'object' => [
+                            'fieldName' => 'object',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'object',
+                        ],
+                        'action' => [
+                            'fieldName' => 'action',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'action',
+                        ],
+                        'objectId' => [
+                            'fieldName' => 'objectId',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'object_id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                        'properties' => [
+                            'fieldName' => 'properties',
+                            'type' => 'json_array',
+                            'nullable' => true,
+                            'columnName' => 'properties',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'user_id' => 'userId',
+                        'user_name' => 'userName',
+                        'bundle' => 'bundle',
+                        'object' => 'object',
+                        'action' => 'action',
+                        'object_id' => 'objectId',
+                        'date_added' => 'dateAdded',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'userId' => 'user_id',
+                        'userName' => 'user_name',
+                        'bundle' => 'bundle',
+                        'object' => 'object',
+                        'action' => 'action',
+                        'objectId' => 'object_id',
+                        'dateAdded' => 'date_added',
+                        'properties' => 'properties',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'custom_lead_event_log',
+                        'indexes' => [
+                            'lead_id_index' => [
+                                'columns' => [
+                                    'lead_id',
+                                ],
+                            ],
+                            'lead_object_index' => [
+                                'columns' => [
+                                    'object',
+                                    'object_id',
+                                ],
+                            ],
+                            'lead_timeline_index' => [
+                                'columns' => [
+                                    'bundle',
+                                    'object',
+                                    'action',
+                                    'object_id',
+                                ],
+                            ],
+                            'IDX_SEARCH' => [
+                                'columns' => [
+                                    'bundle',
+                                    'object',
+                                    'action',
+                                    'object_id',
+                                    'date_added',
+                                ],
+                            ],
+                            'lead_timeline_action_index' => [
+                                'columns' => [
+                                    'action',
+                                ],
+                            ],
+                            'lead_date_added_index' => [
+                                'columns' => [
+                                    'date_added',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\CustomLead',
+                            'inversedBy' => 'eventLog',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\LeadBundle\\Entity\\CustomLeadEventLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+58 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\NotificationBundle\\Entity\\Stat',
+                ],
+                'namespace' => [
+                    'Mautic\\NotificationBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\NotificationBundle\\Entity\\Stat',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\NotificationBundle\\Entity\\StatRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'dateSent' => [
+                            'fieldName' => 'dateSent',
+                            'type' => 'datetime',
+                            'columnName' => 'date_sent',
+                        ],
+                        'dateRead' => [
+                            'fieldName' => 'dateRead',
+                            'type' => 'datetime',
+                            'columnName' => 'date_read',
+                            'nullable' => true,
+                        ],
+                        'isClicked' => [
+                            'fieldName' => 'isClicked',
+                            'type' => 'boolean',
+                            'columnName' => 'is_clicked',
+                        ],
+                        'dateClicked' => [
+                            'fieldName' => 'dateClicked',
+                            'type' => 'datetime',
+                            'columnName' => 'date_clicked',
+                            'nullable' => true,
+                        ],
+                        'trackingHash' => [
+                            'fieldName' => 'trackingHash',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_hash',
+                            'nullable' => true,
+                        ],
+                        'retryCount' => [
+                            'fieldName' => 'retryCount',
+                            'type' => 'integer',
+                            'columnName' => 'retry_count',
+                            'nullable' => true,
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
+                            'type' => 'integer',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                        'tokens' => [
+                            'fieldName' => 'tokens',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'tokens',
+                        ],
+                        'clickCount' => [
+                            'fieldName' => 'clickCount',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'click_count',
+                        ],
+                        'lastClicked' => [
+                            'fieldName' => 'lastClicked',
+                            'type' => 'datetime',
+                            'nullable' => true,
+                            'columnName' => 'last_clicked',
+                        ],
+                        'clickDetails' => [
+                            'fieldName' => 'clickDetails',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'click_details',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_sent' => 'dateSent',
+                        'date_read' => 'dateRead',
+                        'is_clicked' => 'isClicked',
+                        'date_clicked' => 'dateClicked',
+                        'tracking_hash' => 'trackingHash',
+                        'retry_count' => 'retryCount',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                        'tokens' => 'tokens',
+                        'click_count' => 'clickCount',
+                        'last_clicked' => 'lastClicked',
+                        'click_details' => 'clickDetails',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateSent' => 'date_sent',
+                        'dateRead' => 'date_read',
+                        'isClicked' => 'is_clicked',
+                        'dateClicked' => 'date_clicked',
+                        'trackingHash' => 'tracking_hash',
+                        'retryCount' => 'retry_count',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                        'tokens' => 'tokens',
+                        'clickCount' => 'click_count',
+                        'lastClicked' => 'last_clicked',
+                        'clickDetails' => 'click_details',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'push_notification_stats',
+                        'indexes' => [
+                            'stat_notification_search' => [
+                                'columns' => [
+                                    'notification_id',
+                                    'lead_id',
+                                ],
+                            ],
+                            'stat_notification_clicked_search' => [
+                                'columns' => [
+                                    'is_clicked',
+                                ],
+                            ],
+                            'stat_notification_hash_search' => [
+                                'columns' => [
+                                    'tracking_hash',
+                                ],
+                            ],
+                            'stat_notification_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'notification' => [
+                            'fieldName' => 'notification',
+                            'targetEntity' => 'Mautic\\NotificationBundle\\Entity\\Notification',
+                            'inversedBy' => 'stats',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'notification_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'notification_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'notification_id' => 'notification_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'notification_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'list' => [
+                            'fieldName' => 'list',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'list_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'list_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'list_id' => 'list_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'list_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+59 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -14480,7 +15042,7 @@ return [[
         []
     );
 },
-58 => static function () {
+60 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -14611,595 +15173,83 @@ return [[
         []
     );
 },
-59 => static function () {
+61 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
         ],
         null,
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\NotificationBundle\\Entity\\Stat',
-                ],
-                'namespace' => [
-                    'Mautic\\NotificationBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\NotificationBundle\\Entity\\Stat',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\NotificationBundle\\Entity\\StatRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'dateSent' => [
-                            'fieldName' => 'dateSent',
-                            'type' => 'datetime',
-                            'columnName' => 'date_sent',
-                        ],
-                        'dateRead' => [
-                            'fieldName' => 'dateRead',
-                            'type' => 'datetime',
-                            'columnName' => 'date_read',
-                            'nullable' => true,
-                        ],
-                        'isClicked' => [
-                            'fieldName' => 'isClicked',
-                            'type' => 'boolean',
-                            'columnName' => 'is_clicked',
-                        ],
-                        'dateClicked' => [
-                            'fieldName' => 'dateClicked',
-                            'type' => 'datetime',
-                            'columnName' => 'date_clicked',
-                            'nullable' => true,
-                        ],
-                        'trackingHash' => [
-                            'fieldName' => 'trackingHash',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_hash',
-                            'nullable' => true,
-                        ],
-                        'retryCount' => [
-                            'fieldName' => 'retryCount',
-                            'type' => 'integer',
-                            'columnName' => 'retry_count',
-                            'nullable' => true,
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
-                            'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
-                        ],
-                        'tokens' => [
-                            'fieldName' => 'tokens',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'tokens',
-                        ],
-                        'clickCount' => [
-                            'fieldName' => 'clickCount',
-                            'type' => 'integer',
-                            'nullable' => true,
-                            'columnName' => 'click_count',
-                        ],
-                        'lastClicked' => [
-                            'fieldName' => 'lastClicked',
-                            'type' => 'datetime',
-                            'nullable' => true,
-                            'columnName' => 'last_clicked',
-                        ],
-                        'clickDetails' => [
-                            'fieldName' => 'clickDetails',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'click_details',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_sent' => 'dateSent',
-                        'date_read' => 'dateRead',
-                        'is_clicked' => 'isClicked',
-                        'date_clicked' => 'dateClicked',
-                        'tracking_hash' => 'trackingHash',
-                        'retry_count' => 'retryCount',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
-                        'tokens' => 'tokens',
-                        'click_count' => 'clickCount',
-                        'last_clicked' => 'lastClicked',
-                        'click_details' => 'clickDetails',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateSent' => 'date_sent',
-                        'dateRead' => 'date_read',
-                        'isClicked' => 'is_clicked',
-                        'dateClicked' => 'date_clicked',
-                        'trackingHash' => 'tracking_hash',
-                        'retryCount' => 'retry_count',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
-                        'tokens' => 'tokens',
-                        'clickCount' => 'click_count',
-                        'lastClicked' => 'last_clicked',
-                        'clickDetails' => 'click_details',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'push_notification_stats',
-                        'indexes' => [
-                            'stat_notification_search' => [
-                                'columns' => [
-                                    'notification_id',
-                                    'lead_id',
-                                ],
-                            ],
-                            'stat_notification_clicked_search' => [
-                                'columns' => [
-                                    'is_clicked',
-                                ],
-                            ],
-                            'stat_notification_hash_search' => [
-                                'columns' => [
-                                    'tracking_hash',
-                                ],
-                            ],
-                            'stat_notification_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'notification' => [
-                            'fieldName' => 'notification',
-                            'targetEntity' => 'Mautic\\NotificationBundle\\Entity\\Notification',
-                            'inversedBy' => 'stats',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'notification_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'notification_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'notification_id' => 'notification_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'notification_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'list' => [
-                            'fieldName' => 'list',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'list_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'list_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'list_id' => 'list_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'list_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\NotificationBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-60 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\PageBundle\\Entity\\Hit',
+                    'Mautic\\PageBundle\\Entity\\Trackable',
                 ],
                 'namespace' => [
                     'Mautic\\PageBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\PageBundle\\Entity\\Hit',
+                    'Mautic\\PageBundle\\Entity\\Trackable',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\PageBundle\\Entity\\HitRepository',
+                    'Mautic\\PageBundle\\Entity\\TrackableRepository',
                 ],
                 'identifier' => [
                     [
-                        'id',
+                        'redirect',
+                        'channelId',
                     ],
-                ],
-                'generatorType' => [
-                    4,
                 ],
                 'fieldMappings' => [
                     [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
+                        'channelId' => [
+                            'fieldName' => 'channelId',
+                            'type' => 'integer',
+                            'columnName' => 'channel_id',
                             'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
                         ],
-                        'dateHit' => [
-                            'fieldName' => 'dateHit',
-                            'type' => 'datetime',
-                            'columnName' => 'date_hit',
-                        ],
-                        'dateLeft' => [
-                            'fieldName' => 'dateLeft',
-                            'type' => 'datetime',
-                            'columnName' => 'date_left',
-                            'nullable' => true,
-                        ],
-                        'country' => [
-                            'fieldName' => 'country',
-                            'type' => 'string',
+                        'channel' => [
                             'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'country',
-                        ],
-                        'region' => [
-                            'fieldName' => 'region',
+                            'fieldName' => 'channel',
                             'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'region',
+                            'columnName' => 'channel',
                         ],
-                        'city' => [
-                            'fieldName' => 'city',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'city',
-                        ],
-                        'isp' => [
-                            'fieldName' => 'isp',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'isp',
-                        ],
-                        'organization' => [
-                            'fieldName' => 'organization',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'organization',
-                        ],
-                        'code' => [
-                            'fieldName' => 'code',
+                        'hits' => [
+                            'fieldName' => 'hits',
                             'type' => 'integer',
-                            'columnName' => 'code',
+                            'columnName' => 'hits',
                         ],
-                        'referer' => [
-                            'fieldName' => 'referer',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'referer',
-                        ],
-                        'url' => [
-                            'fieldName' => 'url',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'url',
-                        ],
-                        'urlTitle' => [
-                            'fieldName' => 'urlTitle',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'url_title',
-                            'nullable' => true,
-                        ],
-                        'userAgent' => [
-                            'fieldName' => 'userAgent',
-                            'type' => 'text',
-                            'columnName' => 'user_agent',
-                            'nullable' => true,
-                        ],
-                        'remoteHost' => [
-                            'fieldName' => 'remoteHost',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'remote_host',
-                            'nullable' => true,
-                        ],
-                        'pageLanguage' => [
-                            'fieldName' => 'pageLanguage',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'page_language',
-                            'nullable' => true,
-                        ],
-                        'browserLanguages' => [
-                            'fieldName' => 'browserLanguages',
-                            'type' => 'array',
-                            'columnName' => 'browser_languages',
-                            'nullable' => true,
-                        ],
-                        'trackingId' => [
-                            'fieldName' => 'trackingId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_id',
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
+                        'uniqueHits' => [
+                            'fieldName' => 'uniqueHits',
                             'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
-                        ],
-                        'query' => [
-                            'fieldName' => 'query',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'query',
+                            'columnName' => 'unique_hits',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
-                        'id' => 'id',
-                        'date_hit' => 'dateHit',
-                        'date_left' => 'dateLeft',
-                        'country' => 'country',
-                        'region' => 'region',
-                        'city' => 'city',
-                        'isp' => 'isp',
-                        'organization' => 'organization',
-                        'code' => 'code',
-                        'referer' => 'referer',
-                        'url' => 'url',
-                        'url_title' => 'urlTitle',
-                        'user_agent' => 'userAgent',
-                        'remote_host' => 'remoteHost',
-                        'page_language' => 'pageLanguage',
-                        'browser_languages' => 'browserLanguages',
-                        'tracking_id' => 'trackingId',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
-                        'query' => 'query',
+                        'channel_id' => 'channelId',
+                        'channel' => 'channel',
+                        'hits' => 'hits',
+                        'unique_hits' => 'uniqueHits',
                     ],
                 ],
                 'columnNames' => [
                     [
-                        'id' => 'id',
-                        'dateHit' => 'date_hit',
-                        'dateLeft' => 'date_left',
-                        'country' => 'country',
-                        'region' => 'region',
-                        'city' => 'city',
-                        'isp' => 'isp',
-                        'organization' => 'organization',
-                        'code' => 'code',
-                        'referer' => 'referer',
-                        'url' => 'url',
-                        'urlTitle' => 'url_title',
-                        'userAgent' => 'user_agent',
-                        'remoteHost' => 'remote_host',
-                        'pageLanguage' => 'page_language',
-                        'browserLanguages' => 'browser_languages',
-                        'trackingId' => 'tracking_id',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
-                        'query' => 'query',
+                        'channelId' => 'channel_id',
+                        'channel' => 'channel',
+                        'hits' => 'hits',
+                        'uniqueHits' => 'unique_hits',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'page_hits',
+                        'name' => 'channel_url_trackables',
                         'indexes' => [
-                            'page_hit_tracking_search' => [
+                            'channel_url_trackable_search' => [
                                 'columns' => [
-                                    'tracking_id',
-                                ],
-                            ],
-                            'page_hit_code_search' => [
-                                'columns' => [
-                                    'code',
-                                ],
-                            ],
-                            'page_hit_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                            'date_hit_left_index' => [
-                                'columns' => [
-                                    'date_hit',
-                                    'date_left',
-                                ],
-                            ],
-                            'page_hit_url' => [
-                                'columns' => [
-                                    'url',
-                                ],
-                                'options' => [
-                                    'lengths' => [
-                                        128,
-                                    ],
+                                    'channel',
+                                    'channel_id',
                                 ],
                             ],
                         ],
@@ -15208,64 +15258,31 @@ return [[
                 ],
                 'associationMappings' => [
                     [
-                        'page' => [
-                            'fieldName' => 'page',
-                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Page',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'page_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'page_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'page_id' => 'page_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'page_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
                         'redirect' => [
                             'fieldName' => 'redirect',
                             'targetEntity' => 'Mautic\\PageBundle\\Entity\\Redirect',
+                            'cascade' => [
+                                'persist',
+                            ],
+                            'inversedBy' => 'trackables',
+                            'id' => true,
                             'joinColumns' => [
                                 [
                                     'name' => 'redirect_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => true,
                                     'unique' => false,
-                                    'onDelete' => 'SET NULL',
+                                    'onDelete' => 'CASCADE',
                                     'columnDefinition' => null,
                                 ],
                             ],
                             'type' => 2,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Trackable',
                             'fetch' => 2,
-                            'cascade' => [],
                             'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
+                            'isCascadePersist' => true,
                             'isCascadeRefresh' => false,
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
@@ -15280,157 +15297,13 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
-                        'email' => [
-                            'fieldName' => 'email',
-                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'email_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'email_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'email_id' => 'email_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'email_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'device' => [
-                            'fieldName' => 'device',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
-                            'cascade' => [
-                                'persist',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'device_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'device_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'device_id' => 'device_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'device_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
                     ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -15444,7 +15317,7 @@ return [[
         []
     );
 },
-61 => static function () {
+62 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -15938,7 +15811,7 @@ return [[
         []
     );
 },
-62 => static function () {
+63 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -15948,16 +15821,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\PageBundle\\Entity\\Redirect',
+                    'Mautic\\PageBundle\\Entity\\Hit',
                 ],
                 'namespace' => [
                     'Mautic\\PageBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\PageBundle\\Entity\\Redirect',
+                    'Mautic\\PageBundle\\Entity\\Hit',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\PageBundle\\Entity\\RedirectRepository',
+                    'Mautic\\PageBundle\\Entity\\HitRepository',
                 ],
                 'identifier' => [
                     [
@@ -15969,78 +15842,6 @@ return [[
                 ],
                 'fieldMappings' => [
                     [
-                        'isPublished' => [
-                            'fieldName' => 'isPublished',
-                            'type' => 'boolean',
-                            'columnName' => 'is_published',
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdBy' => [
-                            'fieldName' => 'createdBy',
-                            'type' => 'integer',
-                            'columnName' => 'created_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'createdByUser' => [
-                            'fieldName' => 'createdByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'created_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'dateModified' => [
-                            'fieldName' => 'dateModified',
-                            'type' => 'datetime',
-                            'columnName' => 'date_modified',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedBy' => [
-                            'fieldName' => 'modifiedBy',
-                            'type' => 'integer',
-                            'columnName' => 'modified_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'modifiedByUser' => [
-                            'fieldName' => 'modifiedByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'modified_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOut' => [
-                            'fieldName' => 'checkedOut',
-                            'type' => 'datetime',
-                            'columnName' => 'checked_out',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutBy' => [
-                            'fieldName' => 'checkedOutBy',
-                            'type' => 'integer',
-                            'columnName' => 'checked_out_by',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
-                        'checkedOutByUser' => [
-                            'fieldName' => 'checkedOutByUser',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'checked_out_by_user',
-                            'nullable' => true,
-                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
-                        ],
                         'id' => [
                             'fieldName' => 'id',
                             'columnName' => 'id',
@@ -16051,217 +15852,277 @@ return [[
                                 'unsigned' => true,
                             ],
                         ],
-                        'redirectId' => [
-                            'fieldName' => 'redirectId',
+                        'dateHit' => [
+                            'fieldName' => 'dateHit',
+                            'type' => 'datetime',
+                            'columnName' => 'date_hit',
+                        ],
+                        'dateLeft' => [
+                            'fieldName' => 'dateLeft',
+                            'type' => 'datetime',
+                            'columnName' => 'date_left',
+                            'nullable' => true,
+                        ],
+                        'country' => [
+                            'fieldName' => 'country',
                             'type' => 'string',
-                            'length' => 25,
-                            'columnName' => 'redirect_id',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'country',
+                        ],
+                        'region' => [
+                            'fieldName' => 'region',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'region',
+                        ],
+                        'city' => [
+                            'fieldName' => 'city',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'city',
+                        ],
+                        'isp' => [
+                            'fieldName' => 'isp',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'isp',
+                        ],
+                        'organization' => [
+                            'fieldName' => 'organization',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'organization',
+                        ],
+                        'code' => [
+                            'fieldName' => 'code',
+                            'type' => 'integer',
+                            'columnName' => 'code',
+                        ],
+                        'referer' => [
+                            'fieldName' => 'referer',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'referer',
                         ],
                         'url' => [
                             'fieldName' => 'url',
                             'type' => 'text',
+                            'nullable' => true,
                             'columnName' => 'url',
                         ],
-                        'hits' => [
-                            'fieldName' => 'hits',
-                            'type' => 'integer',
-                            'columnName' => 'hits',
+                        'urlTitle' => [
+                            'fieldName' => 'urlTitle',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'url_title',
+                            'nullable' => true,
                         ],
-                        'uniqueHits' => [
-                            'fieldName' => 'uniqueHits',
+                        'userAgent' => [
+                            'fieldName' => 'userAgent',
+                            'type' => 'text',
+                            'columnName' => 'user_agent',
+                            'nullable' => true,
+                        ],
+                        'remoteHost' => [
+                            'fieldName' => 'remoteHost',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'remote_host',
+                            'nullable' => true,
+                        ],
+                        'pageLanguage' => [
+                            'fieldName' => 'pageLanguage',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'page_language',
+                            'nullable' => true,
+                        ],
+                        'browserLanguages' => [
+                            'fieldName' => 'browserLanguages',
+                            'type' => 'array',
+                            'columnName' => 'browser_languages',
+                            'nullable' => true,
+                        ],
+                        'trackingId' => [
+                            'fieldName' => 'trackingId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_id',
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
                             'type' => 'integer',
-                            'columnName' => 'unique_hits',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                        'query' => [
+                            'fieldName' => 'query',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'query',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
-                        'is_published' => 'isPublished',
-                        'date_added' => 'dateAdded',
-                        'created_by' => 'createdBy',
-                        'created_by_user' => 'createdByUser',
-                        'date_modified' => 'dateModified',
-                        'modified_by' => 'modifiedBy',
-                        'modified_by_user' => 'modifiedByUser',
-                        'checked_out' => 'checkedOut',
-                        'checked_out_by' => 'checkedOutBy',
-                        'checked_out_by_user' => 'checkedOutByUser',
                         'id' => 'id',
-                        'redirect_id' => 'redirectId',
+                        'date_hit' => 'dateHit',
+                        'date_left' => 'dateLeft',
+                        'country' => 'country',
+                        'region' => 'region',
+                        'city' => 'city',
+                        'isp' => 'isp',
+                        'organization' => 'organization',
+                        'code' => 'code',
+                        'referer' => 'referer',
                         'url' => 'url',
-                        'hits' => 'hits',
-                        'unique_hits' => 'uniqueHits',
+                        'url_title' => 'urlTitle',
+                        'user_agent' => 'userAgent',
+                        'remote_host' => 'remoteHost',
+                        'page_language' => 'pageLanguage',
+                        'browser_languages' => 'browserLanguages',
+                        'tracking_id' => 'trackingId',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                        'query' => 'query',
                     ],
                 ],
                 'columnNames' => [
                     [
-                        'isPublished' => 'is_published',
-                        'dateAdded' => 'date_added',
-                        'createdBy' => 'created_by',
-                        'createdByUser' => 'created_by_user',
-                        'dateModified' => 'date_modified',
-                        'modifiedBy' => 'modified_by',
-                        'modifiedByUser' => 'modified_by_user',
-                        'checkedOut' => 'checked_out',
-                        'checkedOutBy' => 'checked_out_by',
-                        'checkedOutByUser' => 'checked_out_by_user',
                         'id' => 'id',
-                        'redirectId' => 'redirect_id',
+                        'dateHit' => 'date_hit',
+                        'dateLeft' => 'date_left',
+                        'country' => 'country',
+                        'region' => 'region',
+                        'city' => 'city',
+                        'isp' => 'isp',
+                        'organization' => 'organization',
+                        'code' => 'code',
+                        'referer' => 'referer',
                         'url' => 'url',
-                        'hits' => 'hits',
-                        'uniqueHits' => 'unique_hits',
+                        'urlTitle' => 'url_title',
+                        'userAgent' => 'user_agent',
+                        'remoteHost' => 'remote_host',
+                        'pageLanguage' => 'page_language',
+                        'browserLanguages' => 'browser_languages',
+                        'trackingId' => 'tracking_id',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                        'query' => 'query',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'page_redirects',
-                        'indexes' => [],
+                        'name' => 'page_hits',
+                        'indexes' => [
+                            'page_hit_tracking_search' => [
+                                'columns' => [
+                                    'tracking_id',
+                                ],
+                            ],
+                            'page_hit_code_search' => [
+                                'columns' => [
+                                    'code',
+                                ],
+                            ],
+                            'page_hit_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                            'date_hit_left_index' => [
+                                'columns' => [
+                                    'date_hit',
+                                    'date_left',
+                                ],
+                            ],
+                            'page_hit_url' => [
+                                'columns' => [
+                                    'url',
+                                ],
+                                'options' => [
+                                    'lengths' => [
+                                        128,
+                                    ],
+                                ],
+                            ],
+                        ],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'trackables' => [
-                            'fieldName' => 'trackables',
-                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Trackable',
-                            'mappedBy' => 'redirect',
-                            'fetch' => 4,
-                            'type' => 4,
+                        'page' => [
+                            'fieldName' => 'page',
+                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Page',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'page_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
                             'inversedBy' => null,
-                            'isOwningSide' => false,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Redirect',
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
                             'isCascadePersist' => false,
                             'isCascadeRefresh' => false,
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'page_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'page_id' => 'page_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'page_id',
+                            ],
                             'orphanRemoval' => false,
                         ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-63 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\PageBundle\\Entity\\Trackable',
-                ],
-                'namespace' => [
-                    'Mautic\\PageBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\PageBundle\\Entity\\Trackable',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\PageBundle\\Entity\\TrackableRepository',
-                ],
-                'identifier' => [
-                    [
-                        'redirect',
-                        'channelId',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'channelId' => [
-                            'fieldName' => 'channelId',
-                            'type' => 'integer',
-                            'columnName' => 'channel_id',
-                            'id' => true,
-                        ],
-                        'channel' => [
-                            'length' => 191,
-                            'fieldName' => 'channel',
-                            'type' => 'string',
-                            'columnName' => 'channel',
-                        ],
-                        'hits' => [
-                            'fieldName' => 'hits',
-                            'type' => 'integer',
-                            'columnName' => 'hits',
-                        ],
-                        'uniqueHits' => [
-                            'fieldName' => 'uniqueHits',
-                            'type' => 'integer',
-                            'columnName' => 'unique_hits',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'channel_id' => 'channelId',
-                        'channel' => 'channel',
-                        'hits' => 'hits',
-                        'unique_hits' => 'uniqueHits',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'channelId' => 'channel_id',
-                        'channel' => 'channel',
-                        'hits' => 'hits',
-                        'uniqueHits' => 'unique_hits',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'channel_url_trackables',
-                        'indexes' => [
-                            'channel_url_trackable_search' => [
-                                'columns' => [
-                                    'channel',
-                                    'channel_id',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
                         'redirect' => [
                             'fieldName' => 'redirect',
                             'targetEntity' => 'Mautic\\PageBundle\\Entity\\Redirect',
-                            'cascade' => [
-                                'persist',
-                            ],
-                            'inversedBy' => 'trackables',
-                            'id' => true,
                             'joinColumns' => [
                                 [
                                     'name' => 'redirect_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => true,
                                     'unique' => false,
-                                    'onDelete' => 'CASCADE',
+                                    'onDelete' => 'SET NULL',
                                     'columnDefinition' => null,
                                 ],
                             ],
                             'type' => 2,
                             'mappedBy' => null,
+                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Trackable',
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
                             'fetch' => 2,
+                            'cascade' => [],
                             'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
+                            'isCascadePersist' => false,
                             'isCascadeRefresh' => false,
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
@@ -16276,13 +16137,157 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
+                        'email' => [
+                            'fieldName' => 'email',
+                            'targetEntity' => 'Mautic\\EmailBundle\\Entity\\Email',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'email_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'email_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'email_id' => 'email_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'email_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'device' => [
+                            'fieldName' => 'device',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadDevice',
+                            'cascade' => [
+                                'persist',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'device_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Hit',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'device_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'device_id' => 'device_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'device_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
                     ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -16635,6 +16640,220 @@ return [[
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\PageBundle\\Entity\\Redirect',
+                ],
+                'namespace' => [
+                    'Mautic\\PageBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\PageBundle\\Entity\\Redirect',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\PageBundle\\Entity\\RedirectRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'isPublished' => [
+                            'fieldName' => 'isPublished',
+                            'type' => 'boolean',
+                            'columnName' => 'is_published',
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdBy' => [
+                            'fieldName' => 'createdBy',
+                            'type' => 'integer',
+                            'columnName' => 'created_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'createdByUser' => [
+                            'fieldName' => 'createdByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'created_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'dateModified' => [
+                            'fieldName' => 'dateModified',
+                            'type' => 'datetime',
+                            'columnName' => 'date_modified',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedBy' => [
+                            'fieldName' => 'modifiedBy',
+                            'type' => 'integer',
+                            'columnName' => 'modified_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'modifiedByUser' => [
+                            'fieldName' => 'modifiedByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'modified_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOut' => [
+                            'fieldName' => 'checkedOut',
+                            'type' => 'datetime',
+                            'columnName' => 'checked_out',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutBy' => [
+                            'fieldName' => 'checkedOutBy',
+                            'type' => 'integer',
+                            'columnName' => 'checked_out_by',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'checkedOutByUser' => [
+                            'fieldName' => 'checkedOutByUser',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'checked_out_by_user',
+                            'nullable' => true,
+                            'declared' => 'Mautic\\CoreBundle\\Entity\\FormEntity',
+                        ],
+                        'id' => [
+                            'fieldName' => 'id',
+                            'columnName' => 'id',
+                            'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                        ],
+                        'redirectId' => [
+                            'fieldName' => 'redirectId',
+                            'type' => 'string',
+                            'length' => 25,
+                            'columnName' => 'redirect_id',
+                        ],
+                        'url' => [
+                            'fieldName' => 'url',
+                            'type' => 'text',
+                            'columnName' => 'url',
+                        ],
+                        'hits' => [
+                            'fieldName' => 'hits',
+                            'type' => 'integer',
+                            'columnName' => 'hits',
+                        ],
+                        'uniqueHits' => [
+                            'fieldName' => 'uniqueHits',
+                            'type' => 'integer',
+                            'columnName' => 'unique_hits',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'is_published' => 'isPublished',
+                        'date_added' => 'dateAdded',
+                        'created_by' => 'createdBy',
+                        'created_by_user' => 'createdByUser',
+                        'date_modified' => 'dateModified',
+                        'modified_by' => 'modifiedBy',
+                        'modified_by_user' => 'modifiedByUser',
+                        'checked_out' => 'checkedOut',
+                        'checked_out_by' => 'checkedOutBy',
+                        'checked_out_by_user' => 'checkedOutByUser',
+                        'id' => 'id',
+                        'redirect_id' => 'redirectId',
+                        'url' => 'url',
+                        'hits' => 'hits',
+                        'unique_hits' => 'uniqueHits',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'isPublished' => 'is_published',
+                        'dateAdded' => 'date_added',
+                        'createdBy' => 'created_by',
+                        'createdByUser' => 'created_by_user',
+                        'dateModified' => 'date_modified',
+                        'modifiedBy' => 'modified_by',
+                        'modifiedByUser' => 'modified_by_user',
+                        'checkedOut' => 'checked_out',
+                        'checkedOutBy' => 'checked_out_by',
+                        'checkedOutByUser' => 'checked_out_by_user',
+                        'id' => 'id',
+                        'redirectId' => 'redirect_id',
+                        'url' => 'url',
+                        'hits' => 'hits',
+                        'uniqueHits' => 'unique_hits',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'page_redirects',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'trackables' => [
+                            'fieldName' => 'trackables',
+                            'targetEntity' => 'Mautic\\PageBundle\\Entity\\Trackable',
+                            'mappedBy' => 'redirect',
+                            'fetch' => 4,
+                            'type' => 4,
+                            'inversedBy' => null,
+                            'isOwningSide' => false,
+                            'sourceEntity' => 'Mautic\\PageBundle\\Entity\\Redirect',
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+66 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
             clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
         ],
         null,
@@ -16777,7 +16996,7 @@ return [[
         []
     );
 },
-66 => static function () {
+67 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -16951,7 +17170,7 @@ return [[
         []
     );
 },
-67 => static function () {
+68 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -17099,105 +17318,118 @@ return [[
         []
     );
 },
-68 => static function () {
+69 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
         ],
         null,
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                    'Mautic\\PointBundle\\Entity\\TriggerEvent',
                 ],
                 'namespace' => [
                     'Mautic\\PointBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                    'Mautic\\PointBundle\\Entity\\TriggerEvent',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\PointBundle\\Entity\\LeadPointLogRepository',
+                    'Mautic\\PointBundle\\Entity\\TriggerEventRepository',
                 ],
                 'identifier' => [
                     [
-                        'point',
-                        'lead',
+                        'id',
                     ],
+                ],
+                'generatorType' => [
+                    4,
                 ],
                 'fieldMappings' => [
                     [
-                        'dateFired' => [
-                            'fieldName' => 'dateFired',
-                            'type' => 'datetime',
-                            'columnName' => 'date_fired',
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'name' => [
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'name',
+                        ],
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'nullable' => true,
+                            'columnName' => 'description',
+                        ],
+                        'type' => [
+                            'fieldName' => 'type',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'type',
+                        ],
+                        'order' => [
+                            'fieldName' => 'order',
+                            'type' => 'integer',
+                            'columnName' => 'action_order',
+                        ],
+                        'properties' => [
+                            'fieldName' => 'properties',
+                            'type' => 'array',
+                            'columnName' => 'properties',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
-                        'date_fired' => 'dateFired',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'type' => 'type',
+                        'action_order' => 'order',
+                        'properties' => 'properties',
                     ],
                 ],
                 'columnNames' => [
                     [
-                        'dateFired' => 'date_fired',
+                        'id' => 'id',
+                        'name' => 'name',
+                        'description' => 'description',
+                        'type' => 'type',
+                        'order' => 'action_order',
+                        'properties' => 'properties',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'point_lead_action_log',
-                        'indexes' => [],
+                        'name' => 'point_trigger_events',
+                        'indexes' => [
+                            'trigger_type_search' => [
+                                'columns' => [
+                                    'type',
+                                ],
+                            ],
+                        ],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'point' => [
-                            'fieldName' => 'point',
-                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\Point',
-                            'id' => true,
-                            'inversedBy' => 'log',
+                        'trigger' => [
+                            'fieldName' => 'trigger',
+                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\Trigger',
+                            'inversedBy' => 'events',
                             'joinColumns' => [
                                 [
-                                    'name' => 'point_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'point_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'point_id' => 'point_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'point_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
+                                    'name' => 'trigger_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => false,
                                     'unique' => false,
@@ -17207,9 +17439,8 @@ return [[
                             ],
                             'type' => 2,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\TriggerEvent',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -17218,63 +17449,37 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
+                                'trigger_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
+                                'trigger_id' => 'trigger_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
+                                'id' => 'trigger_id',
                             ],
                             'orphanRemoval' => false,
                         ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                        'log' => [
+                            'fieldName' => 'log',
+                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\LeadTriggerLog',
+                            'mappedBy' => 'event',
                             'cascade' => [
                                 'persist',
-                                'merge',
-                                'detach',
+                                'remove',
                             ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
+                            'fetch' => 4,
+                            'type' => 4,
                             'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
+                            'isOwningSide' => false,
+                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\TriggerEvent',
+                            'isCascadeRemove' => true,
                             'isCascadePersist' => true,
                             'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
                             'orphanRemoval' => false,
                         ],
                     ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -17288,7 +17493,7 @@ return [[
         []
     );
 },
-69 => static function () {
+70 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -17477,7 +17682,7 @@ return [[
         []
     );
 },
-70 => static function () {
+71 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -17770,7 +17975,7 @@ return [[
         []
     );
 },
-71 => static function () {
+72 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -18057,7 +18262,196 @@ return [[
         []
     );
 },
-72 => static function () {
+73 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                ],
+                'namespace' => [
+                    'Mautic\\PointBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\PointBundle\\Entity\\LeadPointLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'point',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateFired' => [
+                            'fieldName' => 'dateFired',
+                            'type' => 'datetime',
+                            'columnName' => 'date_fired',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_fired' => 'dateFired',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateFired' => 'date_fired',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'point_lead_action_log',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'point' => [
+                            'fieldName' => 'point',
+                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\Point',
+                            'id' => true,
+                            'inversedBy' => 'log',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'point_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'point_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'point_id' => 'point_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'point_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\LeadPointLog',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+74 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -18067,16 +18461,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\PointBundle\\Entity\\TriggerEvent',
+                    'Mautic\\ReportBundle\\Entity\\Scheduler',
                 ],
                 'namespace' => [
-                    'Mautic\\PointBundle\\Entity',
+                    'Mautic\\ReportBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\PointBundle\\Entity\\TriggerEvent',
+                    'Mautic\\ReportBundle\\Entity\\Scheduler',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\PointBundle\\Entity\\TriggerEventRepository',
+                    'Mautic\\ReportBundle\\Entity\\SchedulerRepository',
                 ],
                 'identifier' => [
                     [
@@ -18097,78 +18491,41 @@ return [[
                             ],
                             'columnName' => 'id',
                         ],
-                        'name' => [
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'name',
-                        ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'nullable' => true,
-                            'columnName' => 'description',
-                        ],
-                        'type' => [
-                            'fieldName' => 'type',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'type',
-                        ],
-                        'order' => [
-                            'fieldName' => 'order',
-                            'type' => 'integer',
-                            'columnName' => 'action_order',
-                        ],
-                        'properties' => [
-                            'fieldName' => 'properties',
-                            'type' => 'array',
-                            'columnName' => 'properties',
+                        'scheduleDate' => [
+                            'fieldName' => 'scheduleDate',
+                            'type' => 'datetime',
+                            'columnName' => 'schedule_date',
+                            'nullable' => false,
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'type' => 'type',
-                        'action_order' => 'order',
-                        'properties' => 'properties',
+                        'schedule_date' => 'scheduleDate',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'name' => 'name',
-                        'description' => 'description',
-                        'type' => 'type',
-                        'order' => 'action_order',
-                        'properties' => 'properties',
+                        'scheduleDate' => 'schedule_date',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'point_trigger_events',
-                        'indexes' => [
-                            'trigger_type_search' => [
-                                'columns' => [
-                                    'type',
-                                ],
-                            ],
-                        ],
+                        'name' => 'reports_schedulers',
+                        'indexes' => [],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'trigger' => [
-                            'fieldName' => 'trigger',
-                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\Trigger',
-                            'inversedBy' => 'events',
+                        'report' => [
+                            'fieldName' => 'report',
+                            'targetEntity' => 'Mautic\\ReportBundle\\Entity\\Report',
                             'joinColumns' => [
                                 [
-                                    'name' => 'trigger_id',
+                                    'name' => 'report_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => false,
                                     'unique' => false,
@@ -18178,8 +18535,9 @@ return [[
                             ],
                             'type' => 2,
                             'mappedBy' => null,
+                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\TriggerEvent',
+                            'sourceEntity' => 'Mautic\\ReportBundle\\Entity\\Scheduler',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -18188,34 +18546,14 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'trigger_id' => 'id',
+                                'report_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'trigger_id' => 'trigger_id',
+                                'report_id' => 'report_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'trigger_id',
+                                'id' => 'report_id',
                             ],
-                            'orphanRemoval' => false,
-                        ],
-                        'log' => [
-                            'fieldName' => 'log',
-                            'targetEntity' => 'Mautic\\PointBundle\\Entity\\LeadTriggerLog',
-                            'mappedBy' => 'event',
-                            'cascade' => [
-                                'persist',
-                                'remove',
-                            ],
-                            'fetch' => 4,
-                            'type' => 4,
-                            'inversedBy' => null,
-                            'isOwningSide' => false,
-                            'sourceEntity' => 'Mautic\\PointBundle\\Entity\\TriggerEvent',
-                            'isCascadeRemove' => true,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
                             'orphanRemoval' => false,
                         ],
                     ],
@@ -18232,7 +18570,7 @@ return [[
         []
     );
 },
-73 => static function () {
+75 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -18526,26 +18864,26 @@ return [[
         []
     );
 },
-74 => static function () {
+76 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
         ],
         null,
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\ReportBundle\\Entity\\Scheduler',
+                    'Mautic\\SmsBundle\\Entity\\Stat',
                 ],
                 'namespace' => [
-                    'Mautic\\ReportBundle\\Entity',
+                    'Mautic\\SmsBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\ReportBundle\\Entity\\Scheduler',
+                    'Mautic\\SmsBundle\\Entity\\Stat',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\ReportBundle\\Entity\\SchedulerRepository',
+                    'Mautic\\SmsBundle\\Entity\\StatRepository',
                 ],
                 'identifier' => [
                     [
@@ -18559,60 +18897,132 @@ return [[
                     [
                         'id' => [
                             'fieldName' => 'id',
-                            'type' => 'integer',
+                            'columnName' => 'id',
                             'id' => true,
+                            'nullable' => false,
+                            'type' => 'bigint',
                             'options' => [
                                 'unsigned' => true,
                             ],
-                            'columnName' => 'id',
                         ],
-                        'scheduleDate' => [
-                            'fieldName' => 'scheduleDate',
+                        'dateSent' => [
+                            'fieldName' => 'dateSent',
                             'type' => 'datetime',
-                            'columnName' => 'schedule_date',
-                            'nullable' => false,
+                            'columnName' => 'date_sent',
+                        ],
+                        'isFailed' => [
+                            'fieldName' => 'isFailed',
+                            'type' => 'boolean',
+                            'columnName' => 'is_failed',
+                            'nullable' => true,
+                        ],
+                        'trackingHash' => [
+                            'fieldName' => 'trackingHash',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'tracking_hash',
+                            'nullable' => true,
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
+                            'type' => 'integer',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                        'tokens' => [
+                            'fieldName' => 'tokens',
+                            'type' => 'array',
+                            'nullable' => true,
+                            'columnName' => 'tokens',
+                        ],
+                        'details' => [
+                            'fieldName' => 'details',
+                            'type' => 'json_array',
+                            'columnName' => 'details',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'schedule_date' => 'scheduleDate',
+                        'date_sent' => 'dateSent',
+                        'is_failed' => 'isFailed',
+                        'tracking_hash' => 'trackingHash',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                        'tokens' => 'tokens',
+                        'details' => 'details',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'scheduleDate' => 'schedule_date',
+                        'dateSent' => 'date_sent',
+                        'isFailed' => 'is_failed',
+                        'trackingHash' => 'tracking_hash',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                        'tokens' => 'tokens',
+                        'details' => 'details',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'reports_schedulers',
-                        'indexes' => [],
+                        'name' => 'sms_message_stats',
+                        'indexes' => [
+                            'stat_sms_search' => [
+                                'columns' => [
+                                    'sms_id',
+                                    'lead_id',
+                                ],
+                            ],
+                            'stat_sms_hash_search' => [
+                                'columns' => [
+                                    'tracking_hash',
+                                ],
+                            ],
+                            'stat_sms_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                            'stat_sms_failed_search' => [
+                                'columns' => [
+                                    'is_failed',
+                                ],
+                            ],
+                        ],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'report' => [
-                            'fieldName' => 'report',
-                            'targetEntity' => 'Mautic\\ReportBundle\\Entity\\Report',
+                        'sms' => [
+                            'fieldName' => 'sms',
+                            'targetEntity' => 'Mautic\\SmsBundle\\Entity\\Sms',
+                            'inversedBy' => 'stats',
                             'joinColumns' => [
                                 [
-                                    'name' => 'report_id',
+                                    'name' => 'sms_id',
                                     'referencedColumnName' => 'id',
-                                    'nullable' => false,
+                                    'nullable' => true,
                                     'unique' => false,
-                                    'onDelete' => 'CASCADE',
+                                    'onDelete' => 'SET NULL',
                                     'columnDefinition' => null,
                                 ],
                             ],
                             'type' => 2,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\ReportBundle\\Entity\\Scheduler',
+                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -18621,13 +19031,125 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'report_id' => 'id',
+                                'sms_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'report_id' => 'report_id',
+                                'sms_id' => 'sms_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'report_id',
+                                'id' => 'sms_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'list' => [
+                            'fieldName' => 'list',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'list_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'list_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'list_id' => 'list_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'list_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
                             ],
                             'orphanRemoval' => false,
                         ],
@@ -18645,7 +19167,7 @@ return [[
         []
     );
 },
-75 => static function () {
+77 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -18985,498 +19507,6 @@ return [[
         []
     );
 },
-76 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\BigIntegerIdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\SmsBundle\\Entity\\Stat',
-                ],
-                'namespace' => [
-                    'Mautic\\SmsBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\SmsBundle\\Entity\\Stat',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\SmsBundle\\Entity\\StatRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'columnName' => 'id',
-                            'id' => true,
-                            'nullable' => false,
-                            'type' => 'bigint',
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                        ],
-                        'dateSent' => [
-                            'fieldName' => 'dateSent',
-                            'type' => 'datetime',
-                            'columnName' => 'date_sent',
-                        ],
-                        'isFailed' => [
-                            'fieldName' => 'isFailed',
-                            'type' => 'boolean',
-                            'columnName' => 'is_failed',
-                            'nullable' => true,
-                        ],
-                        'trackingHash' => [
-                            'fieldName' => 'trackingHash',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'tracking_hash',
-                            'nullable' => true,
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
-                            'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
-                        ],
-                        'tokens' => [
-                            'fieldName' => 'tokens',
-                            'type' => 'array',
-                            'nullable' => true,
-                            'columnName' => 'tokens',
-                        ],
-                        'details' => [
-                            'fieldName' => 'details',
-                            'type' => 'json_array',
-                            'columnName' => 'details',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'date_sent' => 'dateSent',
-                        'is_failed' => 'isFailed',
-                        'tracking_hash' => 'trackingHash',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
-                        'tokens' => 'tokens',
-                        'details' => 'details',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'dateSent' => 'date_sent',
-                        'isFailed' => 'is_failed',
-                        'trackingHash' => 'tracking_hash',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
-                        'tokens' => 'tokens',
-                        'details' => 'details',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'sms_message_stats',
-                        'indexes' => [
-                            'stat_sms_search' => [
-                                'columns' => [
-                                    'sms_id',
-                                    'lead_id',
-                                ],
-                            ],
-                            'stat_sms_hash_search' => [
-                                'columns' => [
-                                    'tracking_hash',
-                                ],
-                            ],
-                            'stat_sms_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                            'stat_sms_failed_search' => [
-                                'columns' => [
-                                    'is_failed',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'sms' => [
-                            'fieldName' => 'sms',
-                            'targetEntity' => 'Mautic\\SmsBundle\\Entity\\Sms',
-                            'inversedBy' => 'stats',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'sms_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'sms_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'sms_id' => 'sms_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'sms_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'list' => [
-                            'fieldName' => 'list',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\LeadList',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'list_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'list_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'list_id' => 'list_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'list_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\SmsBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-77 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\StageBundle\\Entity\\LeadStageLog',
-                ],
-                'namespace' => [
-                    'Mautic\\StageBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\StageBundle\\Entity\\LeadStageLog',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\StageBundle\\Entity\\LeadStageLogRepository',
-                ],
-                'identifier' => [
-                    [
-                        'stage',
-                        'lead',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateFired' => [
-                            'fieldName' => 'dateFired',
-                            'type' => 'datetime',
-                            'columnName' => 'date_fired',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_fired' => 'dateFired',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateFired' => 'date_fired',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'stage_lead_action_log',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'stage' => [
-                            'fieldName' => 'stage',
-                            'targetEntity' => 'Mautic\\StageBundle\\Entity\\Stage',
-                            'id' => true,
-                            'inversedBy' => 'log',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'stage_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'stage_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'stage_id' => 'stage_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'stage_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'ipAddress' => [
-                            'fieldName' => 'ipAddress',
-                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
-                            'cascade' => [
-                                'persist',
-                                'merge',
-                                'detach',
-                            ],
-                            'joinColumns' => [
-                                [
-                                    'name' => 'ip_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => null,
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
-                            'fetch' => 2,
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => true,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => true,
-                            'isCascadeDetach' => true,
-                            'sourceToTargetKeyColumns' => [
-                                'ip_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'ip_id' => 'ip_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'ip_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
 78 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -19752,6 +19782,195 @@ return [[
         [
             'stdClass' => [
                 'name' => [
+                    'Mautic\\StageBundle\\Entity\\LeadStageLog',
+                ],
+                'namespace' => [
+                    'Mautic\\StageBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\StageBundle\\Entity\\LeadStageLog',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\StageBundle\\Entity\\LeadStageLogRepository',
+                ],
+                'identifier' => [
+                    [
+                        'stage',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateFired' => [
+                            'fieldName' => 'dateFired',
+                            'type' => 'datetime',
+                            'columnName' => 'date_fired',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_fired' => 'dateFired',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateFired' => 'date_fired',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'stage_lead_action_log',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'stage' => [
+                            'fieldName' => 'stage',
+                            'targetEntity' => 'Mautic\\StageBundle\\Entity\\Stage',
+                            'id' => true,
+                            'inversedBy' => 'log',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'stage_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'stage_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'stage_id' => 'stage_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'stage_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'ipAddress' => [
+                            'fieldName' => 'ipAddress',
+                            'targetEntity' => 'Mautic\\CoreBundle\\Entity\\IpAddress',
+                            'cascade' => [
+                                'persist',
+                                'merge',
+                                'detach',
+                            ],
+                            'joinColumns' => [
+                                [
+                                    'name' => 'ip_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => null,
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\StageBundle\\Entity\\LeadStageLog',
+                            'fetch' => 2,
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => true,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => true,
+                            'isCascadeDetach' => true,
+                            'sourceToTargetKeyColumns' => [
+                                'ip_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'ip_id' => 'ip_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'ip_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+80 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
                     'Mautic\\UserBundle\\Entity\\IdEntry',
                 ],
                 'namespace' => [
@@ -19812,148 +20031,6 @@ return [[
                 ],
                 'isIdentifierComposite' => [
                     true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-80 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\UserBundle\\Entity\\Permission',
-                ],
-                'namespace' => [
-                    'Mautic\\UserBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\UserBundle\\Entity\\Permission',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\UserBundle\\Entity\\PermissionRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'bundle' => [
-                            'fieldName' => 'bundle',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'bundle',
-                        ],
-                        'name' => [
-                            'fieldName' => 'name',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'name',
-                        ],
-                        'bitwise' => [
-                            'fieldName' => 'bitwise',
-                            'type' => 'integer',
-                            'columnName' => 'bitwise',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'bundle' => 'bundle',
-                        'name' => 'name',
-                        'bitwise' => 'bitwise',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'bundle' => 'bundle',
-                        'name' => 'name',
-                        'bitwise' => 'bitwise',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'permissions',
-                        'uniqueConstraints' => [
-                            'unique_perm' => [
-                                'columns' => [
-                                    'bundle',
-                                    'name',
-                                    'role_id',
-                                ],
-                            ],
-                        ],
-                        'indexes' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'role' => [
-                            'fieldName' => 'role',
-                            'targetEntity' => 'Mautic\\UserBundle\\Entity\\Role',
-                            'inversedBy' => 'permissions',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'role_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\UserBundle\\Entity\\Permission',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'role_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'role_id' => 'role_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'role_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
                 ],
                 'idGenerator' => [
                     $o[1],
@@ -20660,6 +20737,310 @@ return [[
         [
             'stdClass' => [
                 'name' => [
+                    'Mautic\\UserBundle\\Entity\\Permission',
+                ],
+                'namespace' => [
+                    'Mautic\\UserBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\UserBundle\\Entity\\Permission',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\UserBundle\\Entity\\PermissionRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'bundle' => [
+                            'fieldName' => 'bundle',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'bundle',
+                        ],
+                        'name' => [
+                            'fieldName' => 'name',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'name',
+                        ],
+                        'bitwise' => [
+                            'fieldName' => 'bitwise',
+                            'type' => 'integer',
+                            'columnName' => 'bitwise',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'bundle' => 'bundle',
+                        'name' => 'name',
+                        'bitwise' => 'bitwise',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'bundle' => 'bundle',
+                        'name' => 'name',
+                        'bitwise' => 'bitwise',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'permissions',
+                        'uniqueConstraints' => [
+                            'unique_perm' => [
+                                'columns' => [
+                                    'bundle',
+                                    'name',
+                                    'role_id',
+                                ],
+                            ],
+                        ],
+                        'indexes' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'role' => [
+                            'fieldName' => 'role',
+                            'targetEntity' => 'Mautic\\UserBundle\\Entity\\Role',
+                            'inversedBy' => 'permissions',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'role_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\UserBundle\\Entity\\Permission',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'role_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'role_id' => 'role_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'role_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+85 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                ],
+                'namespace' => [
+                    'Mautic\\WebhookBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                ],
+                'customRepositoryClassName' => [
+                    'Mautic\\WebhookBundle\\Entity\\WebhookQueueRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'nullable' => true,
+                            'columnName' => 'date_added',
+                        ],
+                        'payload' => [
+                            'fieldName' => 'payload',
+                            'type' => 'text',
+                            'columnName' => 'payload',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'date_added' => 'dateAdded',
+                        'payload' => 'payload',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'dateAdded' => 'date_added',
+                        'payload' => 'payload',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'webhook_queue',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'webhook' => [
+                            'fieldName' => 'webhook',
+                            'targetEntity' => 'Mautic\\WebhookBundle\\Entity\\Webhook',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'webhook_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'webhook_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'webhook_id' => 'webhook_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'webhook_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'event' => [
+                            'fieldName' => 'event',
+                            'targetEntity' => 'Mautic\\WebhookBundle\\Entity\\Event',
+                            'inversedBy' => 'queues',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'event_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'event_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'event_id' => 'event_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'event_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+86 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
                     'Mautic\\WebhookBundle\\Entity\\Event',
                 ],
                 'namespace' => [
@@ -20792,151 +21173,7 @@ return [[
         []
     );
 },
-85 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'Mautic\\WebhookBundle\\Entity\\Log',
-                ],
-                'namespace' => [
-                    'Mautic\\WebhookBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'Mautic\\WebhookBundle\\Entity\\Log',
-                ],
-                'customRepositoryClassName' => [
-                    'Mautic\\WebhookBundle\\Entity\\LogRepository',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'statusCode' => [
-                            'fieldName' => 'statusCode',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'status_code',
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'nullable' => true,
-                            'columnName' => 'date_added',
-                        ],
-                        'note' => [
-                            'fieldName' => 'note',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'note',
-                        ],
-                        'runtime' => [
-                            'fieldName' => 'runtime',
-                            'type' => 'float',
-                            'nullable' => true,
-                            'columnName' => 'runtime',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'status_code' => 'statusCode',
-                        'date_added' => 'dateAdded',
-                        'note' => 'note',
-                        'runtime' => 'runtime',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'statusCode' => 'status_code',
-                        'dateAdded' => 'date_added',
-                        'note' => 'note',
-                        'runtime' => 'runtime',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'webhook_logs',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'webhook' => [
-                            'fieldName' => 'webhook',
-                            'targetEntity' => 'Mautic\\WebhookBundle\\Entity\\Webhook',
-                            'inversedBy' => 'logs',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'webhook_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\Log',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'webhook_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'webhook_id' => 'webhook_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'webhook_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-86 => static function () {
+87 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -21228,7 +21465,7 @@ return [[
         []
     );
 },
-87 => static function () {
+88 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -21238,16 +21475,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                    'Mautic\\WebhookBundle\\Entity\\Log',
                 ],
                 'namespace' => [
                     'Mautic\\WebhookBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                    'Mautic\\WebhookBundle\\Entity\\Log',
                 ],
                 'customRepositoryClassName' => [
-                    'Mautic\\WebhookBundle\\Entity\\WebhookQueueRepository',
+                    'Mautic\\WebhookBundle\\Entity\\LogRepository',
                 ],
                 'identifier' => [
                     [
@@ -21268,36 +21505,54 @@ return [[
                             ],
                             'columnName' => 'id',
                         ],
+                        'statusCode' => [
+                            'fieldName' => 'statusCode',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'status_code',
+                        ],
                         'dateAdded' => [
                             'fieldName' => 'dateAdded',
                             'type' => 'datetime',
                             'nullable' => true,
                             'columnName' => 'date_added',
                         ],
-                        'payload' => [
-                            'fieldName' => 'payload',
-                            'type' => 'text',
-                            'columnName' => 'payload',
+                        'note' => [
+                            'fieldName' => 'note',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'note',
+                        ],
+                        'runtime' => [
+                            'fieldName' => 'runtime',
+                            'type' => 'float',
+                            'nullable' => true,
+                            'columnName' => 'runtime',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
+                        'status_code' => 'statusCode',
                         'date_added' => 'dateAdded',
-                        'payload' => 'payload',
+                        'note' => 'note',
+                        'runtime' => 'runtime',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
+                        'statusCode' => 'status_code',
                         'dateAdded' => 'date_added',
-                        'payload' => 'payload',
+                        'note' => 'note',
+                        'runtime' => 'runtime',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'webhook_queue',
+                        'name' => 'webhook_logs',
                         'indexes' => [],
                         'uniqueConstraints' => [],
                     ],
@@ -21307,6 +21562,7 @@ return [[
                         'webhook' => [
                             'fieldName' => 'webhook',
                             'targetEntity' => 'Mautic\\WebhookBundle\\Entity\\Webhook',
+                            'inversedBy' => 'logs',
                             'joinColumns' => [
                                 [
                                     'name' => 'webhook_id',
@@ -21319,9 +21575,8 @@ return [[
                             ],
                             'type' => 2,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
+                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\Log',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -21340,42 +21595,6 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
-                        'event' => [
-                            'fieldName' => 'event',
-                            'targetEntity' => 'Mautic\\WebhookBundle\\Entity\\Event',
-                            'inversedBy' => 'queues',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'event_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'Mautic\\WebhookBundle\\Entity\\WebhookQueue',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'event_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'event_id' => 'event_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'event_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
                     ],
                 ],
                 'idGenerator' => [
@@ -21390,7 +21609,7 @@ return [[
         []
     );
 },
-88 => static function () {
+89 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -21509,7 +21728,7 @@ return [[
         []
     );
 },
-89 => static function () {
+90 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -21519,16 +21738,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
+                    'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
                 ],
                 'namespace' => [
-                    'MauticPlugin\\MauticCitrixBundle\\Entity',
+                    'MauticPlugin\\MauticFocusBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
+                    'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
                 ],
                 'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEventRepository',
+                    'MauticPlugin\\MauticFocusBundle\\Entity\\StatRepository',
                 ],
                 'identifier' => [
                     [
@@ -21549,123 +21768,59 @@ return [[
                             ],
                             'columnName' => 'id',
                         ],
-                        'product' => [
-                            'fieldName' => 'product',
-                            'type' => 'string',
+                        'type' => [
                             'length' => 191,
-                            'columnName' => 'product',
+                            'fieldName' => 'type',
+                            'type' => 'string',
+                            'columnName' => 'type',
                         ],
-                        'email' => [
-                            'fieldName' => 'email',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'email',
-                        ],
-                        'eventName' => [
-                            'fieldName' => 'eventName',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'event_name',
-                        ],
-                        'eventDesc' => [
-                            'fieldName' => 'eventDesc',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'event_desc',
+                        'typeId' => [
+                            'fieldName' => 'typeId',
+                            'type' => 'integer',
+                            'columnName' => 'type_id',
                             'nullable' => true,
                         ],
-                        'eventType' => [
-                            'fieldName' => 'eventType',
-                            'type' => 'string',
-                            'length' => 50,
-                            'columnName' => 'event_type',
-                        ],
-                        'eventDate' => [
-                            'fieldName' => 'eventDate',
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
                             'type' => 'datetime',
-                            'columnName' => 'event_date',
+                            'columnName' => 'date_added',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'product' => 'product',
-                        'email' => 'email',
-                        'event_name' => 'eventName',
-                        'event_desc' => 'eventDesc',
-                        'event_type' => 'eventType',
-                        'event_date' => 'eventDate',
+                        'type' => 'type',
+                        'type_id' => 'typeId',
+                        'date_added' => 'dateAdded',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'product' => 'product',
-                        'email' => 'email',
-                        'eventName' => 'event_name',
-                        'eventDesc' => 'event_desc',
-                        'eventType' => 'event_type',
-                        'eventDate' => 'event_date',
+                        'type' => 'type',
+                        'typeId' => 'type_id',
+                        'dateAdded' => 'date_added',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'plugin_citrix_events',
+                        'name' => 'focus_stats',
                         'indexes' => [
-                            'citrix_event_email' => [
+                            'focus_type' => [
                                 'columns' => [
-                                    'product',
-                                    'email',
+                                    'type',
                                 ],
                             ],
-                            'citrix_event_name' => [
+                            'focus_type_id' => [
                                 'columns' => [
-                                    'product',
-                                    'event_name',
-                                    'event_type',
+                                    'type',
+                                    'type_id',
                                 ],
                             ],
-                            'citrix_event_type' => [
+                            'focus_date_added' => [
                                 'columns' => [
-                                    'product',
-                                    'event_type',
-                                    'event_date',
-                                ],
-                            ],
-                            'citrix_event_product' => [
-                                'columns' => [
-                                    'product',
-                                    'email',
-                                    'event_type',
-                                ],
-                            ],
-                            'citrix_event_product_name' => [
-                                'columns' => [
-                                    'product',
-                                    'email',
-                                    'event_type',
-                                    'event_name',
-                                ],
-                            ],
-                            'citrix_event_product_name_lead' => [
-                                'columns' => [
-                                    'product',
-                                    'event_type',
-                                    'event_name',
-                                    'lead_id',
-                                ],
-                            ],
-                            'citrix_event_product_type_lead' => [
-                                'columns' => [
-                                    'product',
-                                    'event_type',
-                                    'lead_id',
-                                ],
-                            ],
-                            'citrix_event_date' => [
-                                'columns' => [
-                                    'event_date',
+                                    'date_added',
                                 ],
                             ],
                         ],
@@ -21674,12 +21829,12 @@ return [[
                 ],
                 'associationMappings' => [
                     [
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                        'focus' => [
+                            'fieldName' => 'focus',
+                            'targetEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Focus',
                             'joinColumns' => [
                                 [
-                                    'name' => 'lead_id',
+                                    'name' => 'focus_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => false,
                                     'unique' => false,
@@ -21691,7 +21846,43 @@ return [[
                             'mappedBy' => null,
                             'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
+                            'sourceEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'focus_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'focus_id' => 'focus_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'focus_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -21710,102 +21901,6 @@ return [[
                             ],
                             'orphanRemoval' => false,
                         ],
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-90 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'MauticPlugin\\MauticCrmBundle\\Entity\\PipedriveOwner',
-                ],
-                'namespace' => [
-                    'MauticPlugin\\MauticCrmBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'MauticPlugin\\MauticCrmBundle\\Entity\\PipedriveOwner',
-                ],
-                'identifier' => [
-                    [
-                        'id',
-                    ],
-                ],
-                'generatorType' => [
-                    4,
-                ],
-                'fieldMappings' => [
-                    [
-                        'id' => [
-                            'fieldName' => 'id',
-                            'type' => 'integer',
-                            'id' => true,
-                            'options' => [
-                                'unsigned' => true,
-                            ],
-                            'columnName' => 'id',
-                        ],
-                        'email' => [
-                            'fieldName' => 'email',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'email',
-                        ],
-                        'ownerId' => [
-                            'fieldName' => 'ownerId',
-                            'type' => 'integer',
-                            'columnName' => 'owner_id',
-                            'nullable' => true,
-                            'length' => 191,
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'id' => 'id',
-                        'email' => 'email',
-                        'owner_id' => 'ownerId',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'id' => 'id',
-                        'email' => 'email',
-                        'ownerId' => 'owner_id',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'plugin_crm_pipedrive_owners',
-                        'indexes' => [
-                            'email' => [
-                                'columns' => [
-                                    'email',
-                                ],
-                            ],
-                            'owner_id' => [
-                                'columns' => [
-                                    'owner_id',
-                                ],
-                            ],
-                        ],
-                        'uniqueConstraints' => [],
                     ],
                 ],
                 'idGenerator' => [
@@ -22166,16 +22261,19 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
+                    'MauticPlugin\\MauticTagManagerBundle\\Entity\\Tag',
                 ],
                 'namespace' => [
-                    'MauticPlugin\\MauticFocusBundle\\Entity',
+                    'MauticPlugin\\MauticTagManagerBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
+                    'Mautic\\LeadBundle\\Entity\\Tag',
                 ],
                 'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticFocusBundle\\Entity\\StatRepository',
+                    'MauticPlugin\\MauticTagManagerBundle\\Entity\\TagRepository',
+                ],
+                'isEmbeddedClass' => [
+                    true,
                 ],
                 'identifier' => [
                     [
@@ -22195,140 +22293,46 @@ return [[
                                 'unsigned' => true,
                             ],
                             'columnName' => 'id',
+                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
+                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
                         ],
-                        'type' => [
+                        'tag' => [
                             'length' => 191,
-                            'fieldName' => 'type',
+                            'fieldName' => 'tag',
                             'type' => 'string',
-                            'columnName' => 'type',
+                            'columnName' => 'tag',
+                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
+                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
                         ],
-                        'typeId' => [
-                            'fieldName' => 'typeId',
-                            'type' => 'integer',
-                            'columnName' => 'type_id',
+                        'description' => [
+                            'fieldName' => 'description',
+                            'type' => 'text',
+                            'columnName' => 'description',
                             'nullable' => true,
-                        ],
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
+                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
+                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'type_id' => 'typeId',
-                        'date_added' => 'dateAdded',
+                        'tag' => 'tag',
+                        'description' => 'description',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'type' => 'type',
-                        'typeId' => 'type_id',
-                        'dateAdded' => 'date_added',
+                        'tag' => 'tag',
+                        'description' => 'description',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'focus_stats',
-                        'indexes' => [
-                            'focus_type' => [
-                                'columns' => [
-                                    'type',
-                                ],
-                            ],
-                            'focus_type_id' => [
-                                'columns' => [
-                                    'type',
-                                    'type_id',
-                                ],
-                            ],
-                            'focus_date_added' => [
-                                'columns' => [
-                                    'date_added',
-                                ],
-                            ],
-                        ],
+                        'name' => 'lead_tags',
+                        'indexes' => [],
                         'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'focus' => [
-                            'fieldName' => 'focus',
-                            'targetEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Focus',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'focus_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'focus_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'focus_id' => 'focus_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'focus_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => true,
-                                    'unique' => false,
-                                    'onDelete' => 'SET NULL',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticFocusBundle\\Entity\\Stat',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
                     ],
                 ],
                 'idGenerator' => [
@@ -22344,155 +22348,6 @@ return [[
     );
 },
 93 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
-                ],
-                'namespace' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
-                ],
-                'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\LeadRepository',
-                ],
-                'identifier' => [
-                    [
-                        'monitor',
-                        'lead',
-                    ],
-                ],
-                'fieldMappings' => [
-                    [
-                        'dateAdded' => [
-                            'fieldName' => 'dateAdded',
-                            'type' => 'datetime',
-                            'columnName' => 'date_added',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'date_added' => 'dateAdded',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'dateAdded' => 'date_added',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'monitoring_leads',
-                        'indexes' => [],
-                        'uniqueConstraints' => [],
-                    ],
-                ],
-                'associationMappings' => [
-                    [
-                        'monitor' => [
-                            'fieldName' => 'monitor',
-                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Monitoring',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'monitor_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'monitor_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'monitor_id' => 'monitor_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'monitor_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
-                            'id' => true,
-                            'joinColumns' => [
-                                [
-                                    'name' => 'lead_id',
-                                    'referencedColumnName' => 'id',
-                                    'nullable' => false,
-                                    'unique' => false,
-                                    'onDelete' => 'CASCADE',
-                                    'columnDefinition' => null,
-                                ],
-                            ],
-                            'type' => 2,
-                            'mappedBy' => null,
-                            'inversedBy' => null,
-                            'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
-                            'fetch' => 2,
-                            'cascade' => [],
-                            'isCascadeRemove' => false,
-                            'isCascadePersist' => false,
-                            'isCascadeRefresh' => false,
-                            'isCascadeMerge' => false,
-                            'isCascadeDetach' => false,
-                            'sourceToTargetKeyColumns' => [
-                                'lead_id' => 'id',
-                            ],
-                            'joinColumnFieldNames' => [
-                                'lead_id' => 'lead_id',
-                            ],
-                            'targetToSourceKeyColumns' => [
-                                'id' => 'lead_id',
-                            ],
-                            'orphanRemoval' => false,
-                        ],
-                    ],
-                ],
-                'isIdentifierComposite' => [
-                    true,
-                ],
-                'containsForeignIdentifier' => [
-                    true,
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-                'changeTrackingPolicy' => [
-                    2,
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-94 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -22780,7 +22635,7 @@ return [[
         []
     );
 },
-95 => static function () {
+94 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -22790,16 +22645,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
                 ],
                 'namespace' => [
                     'MauticPlugin\\MauticSocialBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
                 ],
                 'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCountRepository',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStatRepository',
                 ],
                 'identifier' => [
                     [
@@ -22820,59 +22675,171 @@ return [[
                             ],
                             'columnName' => 'id',
                         ],
-                        'postDate' => [
-                            'fieldName' => 'postDate',
-                            'type' => 'date',
-                            'columnName' => 'post_date',
+                        'twitterTweetId' => [
+                            'fieldName' => 'twitterTweetId',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'twitter_tweet_id',
+                            'nullable' => true,
                         ],
-                        'postCount' => [
-                            'fieldName' => 'postCount',
+                        'handle' => [
+                            'fieldName' => 'handle',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'handle',
+                        ],
+                        'dateSent' => [
+                            'fieldName' => 'dateSent',
+                            'type' => 'datetime',
+                            'columnName' => 'date_sent',
+                            'nullable' => true,
+                        ],
+                        'isFailed' => [
+                            'fieldName' => 'isFailed',
+                            'type' => 'boolean',
+                            'columnName' => 'is_failed',
+                            'nullable' => true,
+                        ],
+                        'retryCount' => [
+                            'fieldName' => 'retryCount',
                             'type' => 'integer',
-                            'columnName' => 'post_count',
+                            'columnName' => 'retry_count',
+                            'nullable' => true,
+                        ],
+                        'source' => [
+                            'fieldName' => 'source',
+                            'type' => 'string',
+                            'length' => 191,
+                            'nullable' => true,
+                            'columnName' => 'source',
+                        ],
+                        'sourceId' => [
+                            'fieldName' => 'sourceId',
+                            'type' => 'integer',
+                            'columnName' => 'source_id',
+                            'nullable' => true,
+                        ],
+                        'favoriteCount' => [
+                            'fieldName' => 'favoriteCount',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'favorite_count',
+                        ],
+                        'retweetCount' => [
+                            'fieldName' => 'retweetCount',
+                            'type' => 'integer',
+                            'nullable' => true,
+                            'columnName' => 'retweet_count',
+                        ],
+                        'responseDetails' => [
+                            'fieldName' => 'responseDetails',
+                            'type' => 'json_array',
+                            'nullable' => true,
+                            'columnName' => 'response_details',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'post_date' => 'postDate',
-                        'post_count' => 'postCount',
+                        'twitter_tweet_id' => 'twitterTweetId',
+                        'handle' => 'handle',
+                        'date_sent' => 'dateSent',
+                        'is_failed' => 'isFailed',
+                        'retry_count' => 'retryCount',
+                        'source' => 'source',
+                        'source_id' => 'sourceId',
+                        'favorite_count' => 'favoriteCount',
+                        'retweet_count' => 'retweetCount',
+                        'response_details' => 'responseDetails',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'postDate' => 'post_date',
-                        'postCount' => 'post_count',
+                        'twitterTweetId' => 'twitter_tweet_id',
+                        'handle' => 'handle',
+                        'dateSent' => 'date_sent',
+                        'isFailed' => 'is_failed',
+                        'retryCount' => 'retry_count',
+                        'source' => 'source',
+                        'sourceId' => 'source_id',
+                        'favoriteCount' => 'favorite_count',
+                        'retweetCount' => 'retweet_count',
+                        'responseDetails' => 'response_details',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'monitor_post_count',
-                        'indexes' => [],
+                        'name' => 'tweet_stats',
+                        'indexes' => [
+                            'stat_tweet_search' => [
+                                'columns' => [
+                                    'tweet_id',
+                                    'lead_id',
+                                ],
+                            ],
+                            'stat_tweet_search2' => [
+                                'columns' => [
+                                    'lead_id',
+                                    'tweet_id',
+                                ],
+                            ],
+                            'stat_tweet_failed_search' => [
+                                'columns' => [
+                                    'is_failed',
+                                ],
+                            ],
+                            'stat_tweet_source_search' => [
+                                'columns' => [
+                                    'source',
+                                    'source_id',
+                                ],
+                            ],
+                            'favorite_count_index' => [
+                                'columns' => [
+                                    'favorite_count',
+                                ],
+                            ],
+                            'retweet_count_index' => [
+                                'columns' => [
+                                    'retweet_count',
+                                ],
+                            ],
+                            'tweet_date_sent' => [
+                                'columns' => [
+                                    'date_sent',
+                                ],
+                            ],
+                            'twitter_tweet_id_index' => [
+                                'columns' => [
+                                    'twitter_tweet_id',
+                                ],
+                            ],
+                        ],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'monitor' => [
-                            'fieldName' => 'monitor',
-                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Monitoring',
+                        'tweet' => [
+                            'fieldName' => 'tweet',
+                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Tweet',
+                            'inversedBy' => 'stats',
                             'joinColumns' => [
                                 [
-                                    'name' => 'monitor_id',
+                                    'name' => 'tweet_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => true,
                                     'unique' => false,
-                                    'onDelete' => 'CASCADE',
+                                    'onDelete' => 'SET NULL',
                                     'columnDefinition' => null,
                                 ],
                             ],
                             'type' => 2,
                             'mappedBy' => null,
-                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
+                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -22881,13 +22848,49 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'monitor_id' => 'id',
+                                'tweet_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'monitor_id' => 'monitor_id',
+                                'tweet_id' => 'tweet_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'monitor_id',
+                                'id' => 'tweet_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => true,
+                                    'unique' => false,
+                                    'onDelete' => 'SET NULL',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
                             ],
                             'orphanRemoval' => false,
                         ],
@@ -22905,7 +22908,7 @@ return [[
         []
     );
 },
-96 => static function () {
+95 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -23294,7 +23297,7 @@ return [[
         []
     );
 },
-97 => static function () {
+96 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -23304,16 +23307,16 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
                 ],
                 'namespace' => [
                     'MauticPlugin\\MauticSocialBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
                 ],
                 'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStatRepository',
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\PostCountRepository',
                 ],
                 'identifier' => [
                     [
@@ -23334,171 +23337,59 @@ return [[
                             ],
                             'columnName' => 'id',
                         ],
-                        'twitterTweetId' => [
-                            'fieldName' => 'twitterTweetId',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'twitter_tweet_id',
-                            'nullable' => true,
+                        'postDate' => [
+                            'fieldName' => 'postDate',
+                            'type' => 'date',
+                            'columnName' => 'post_date',
                         ],
-                        'handle' => [
-                            'fieldName' => 'handle',
-                            'type' => 'string',
-                            'length' => 191,
-                            'columnName' => 'handle',
-                        ],
-                        'dateSent' => [
-                            'fieldName' => 'dateSent',
-                            'type' => 'datetime',
-                            'columnName' => 'date_sent',
-                            'nullable' => true,
-                        ],
-                        'isFailed' => [
-                            'fieldName' => 'isFailed',
-                            'type' => 'boolean',
-                            'columnName' => 'is_failed',
-                            'nullable' => true,
-                        ],
-                        'retryCount' => [
-                            'fieldName' => 'retryCount',
+                        'postCount' => [
+                            'fieldName' => 'postCount',
                             'type' => 'integer',
-                            'columnName' => 'retry_count',
-                            'nullable' => true,
-                        ],
-                        'source' => [
-                            'fieldName' => 'source',
-                            'type' => 'string',
-                            'length' => 191,
-                            'nullable' => true,
-                            'columnName' => 'source',
-                        ],
-                        'sourceId' => [
-                            'fieldName' => 'sourceId',
-                            'type' => 'integer',
-                            'columnName' => 'source_id',
-                            'nullable' => true,
-                        ],
-                        'favoriteCount' => [
-                            'fieldName' => 'favoriteCount',
-                            'type' => 'integer',
-                            'nullable' => true,
-                            'columnName' => 'favorite_count',
-                        ],
-                        'retweetCount' => [
-                            'fieldName' => 'retweetCount',
-                            'type' => 'integer',
-                            'nullable' => true,
-                            'columnName' => 'retweet_count',
-                        ],
-                        'responseDetails' => [
-                            'fieldName' => 'responseDetails',
-                            'type' => 'json_array',
-                            'nullable' => true,
-                            'columnName' => 'response_details',
+                            'columnName' => 'post_count',
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'twitter_tweet_id' => 'twitterTweetId',
-                        'handle' => 'handle',
-                        'date_sent' => 'dateSent',
-                        'is_failed' => 'isFailed',
-                        'retry_count' => 'retryCount',
-                        'source' => 'source',
-                        'source_id' => 'sourceId',
-                        'favorite_count' => 'favoriteCount',
-                        'retweet_count' => 'retweetCount',
-                        'response_details' => 'responseDetails',
+                        'post_date' => 'postDate',
+                        'post_count' => 'postCount',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'twitterTweetId' => 'twitter_tweet_id',
-                        'handle' => 'handle',
-                        'dateSent' => 'date_sent',
-                        'isFailed' => 'is_failed',
-                        'retryCount' => 'retry_count',
-                        'source' => 'source',
-                        'sourceId' => 'source_id',
-                        'favoriteCount' => 'favorite_count',
-                        'retweetCount' => 'retweet_count',
-                        'responseDetails' => 'response_details',
+                        'postDate' => 'post_date',
+                        'postCount' => 'post_count',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'tweet_stats',
-                        'indexes' => [
-                            'stat_tweet_search' => [
-                                'columns' => [
-                                    'tweet_id',
-                                    'lead_id',
-                                ],
-                            ],
-                            'stat_tweet_search2' => [
-                                'columns' => [
-                                    'lead_id',
-                                    'tweet_id',
-                                ],
-                            ],
-                            'stat_tweet_failed_search' => [
-                                'columns' => [
-                                    'is_failed',
-                                ],
-                            ],
-                            'stat_tweet_source_search' => [
-                                'columns' => [
-                                    'source',
-                                    'source_id',
-                                ],
-                            ],
-                            'favorite_count_index' => [
-                                'columns' => [
-                                    'favorite_count',
-                                ],
-                            ],
-                            'retweet_count_index' => [
-                                'columns' => [
-                                    'retweet_count',
-                                ],
-                            ],
-                            'tweet_date_sent' => [
-                                'columns' => [
-                                    'date_sent',
-                                ],
-                            ],
-                            'twitter_tweet_id_index' => [
-                                'columns' => [
-                                    'twitter_tweet_id',
-                                ],
-                            ],
-                        ],
+                        'name' => 'monitor_post_count',
+                        'indexes' => [],
                         'uniqueConstraints' => [],
                     ],
                 ],
                 'associationMappings' => [
                     [
-                        'tweet' => [
-                            'fieldName' => 'tweet',
-                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Tweet',
-                            'inversedBy' => 'stats',
+                        'monitor' => [
+                            'fieldName' => 'monitor',
+                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Monitoring',
                             'joinColumns' => [
                                 [
-                                    'name' => 'tweet_id',
+                                    'name' => 'monitor_id',
                                     'referencedColumnName' => 'id',
                                     'nullable' => true,
                                     'unique' => false,
-                                    'onDelete' => 'SET NULL',
+                                    'onDelete' => 'CASCADE',
                                     'columnDefinition' => null,
                                 ],
                             ],
                             'type' => 2,
                             'mappedBy' => null,
+                            'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
+                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\PostCount',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -23507,26 +23398,96 @@ return [[
                             'isCascadeMerge' => false,
                             'isCascadeDetach' => false,
                             'sourceToTargetKeyColumns' => [
-                                'tweet_id' => 'id',
+                                'monitor_id' => 'id',
                             ],
                             'joinColumnFieldNames' => [
-                                'tweet_id' => 'tweet_id',
+                                'monitor_id' => 'monitor_id',
                             ],
                             'targetToSourceKeyColumns' => [
-                                'id' => 'tweet_id',
+                                'id' => 'monitor_id',
                             ],
                             'orphanRemoval' => false,
                         ],
-                        'lead' => [
-                            'fieldName' => 'lead',
-                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+97 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
+                ],
+                'namespace' => [
+                    'MauticPlugin\\MauticSocialBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
+                ],
+                'customRepositoryClassName' => [
+                    'MauticPlugin\\MauticSocialBundle\\Entity\\LeadRepository',
+                ],
+                'identifier' => [
+                    [
+                        'monitor',
+                        'lead',
+                    ],
+                ],
+                'fieldMappings' => [
+                    [
+                        'dateAdded' => [
+                            'fieldName' => 'dateAdded',
+                            'type' => 'datetime',
+                            'columnName' => 'date_added',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'date_added' => 'dateAdded',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'dateAdded' => 'date_added',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'monitoring_leads',
+                        'indexes' => [],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'monitor' => [
+                            'fieldName' => 'monitor',
+                            'targetEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Monitoring',
+                            'id' => true,
                             'joinColumns' => [
                                 [
-                                    'name' => 'lead_id',
+                                    'name' => 'monitor_id',
                                     'referencedColumnName' => 'id',
-                                    'nullable' => true,
+                                    'nullable' => false,
                                     'unique' => false,
-                                    'onDelete' => 'SET NULL',
+                                    'onDelete' => 'CASCADE',
                                     'columnDefinition' => null,
                                 ],
                             ],
@@ -23534,7 +23495,265 @@ return [[
                             'mappedBy' => null,
                             'inversedBy' => null,
                             'isOwningSide' => true,
-                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\TweetStat',
+                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'monitor_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'monitor_id' => 'monitor_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'monitor_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'id' => true,
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'MauticPlugin\\MauticSocialBundle\\Entity\\Lead',
+                            'fetch' => 2,
+                            'cascade' => [],
+                            'isCascadeRemove' => false,
+                            'isCascadePersist' => false,
+                            'isCascadeRefresh' => false,
+                            'isCascadeMerge' => false,
+                            'isCascadeDetach' => false,
+                            'sourceToTargetKeyColumns' => [
+                                'lead_id' => 'id',
+                            ],
+                            'joinColumnFieldNames' => [
+                                'lead_id' => 'lead_id',
+                            ],
+                            'targetToSourceKeyColumns' => [
+                                'id' => 'lead_id',
+                            ],
+                            'orphanRemoval' => false,
+                        ],
+                    ],
+                ],
+                'isIdentifierComposite' => [
+                    true,
+                ],
+                'containsForeignIdentifier' => [
+                    true,
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+                'changeTrackingPolicy' => [
+                    2,
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+98 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
+                ],
+                'namespace' => [
+                    'MauticPlugin\\MauticCitrixBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
+                ],
+                'customRepositoryClassName' => [
+                    'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEventRepository',
+                ],
+                'identifier' => [
+                    [
+                        'id',
+                    ],
+                ],
+                'generatorType' => [
+                    4,
+                ],
+                'fieldMappings' => [
+                    [
+                        'id' => [
+                            'fieldName' => 'id',
+                            'type' => 'integer',
+                            'id' => true,
+                            'options' => [
+                                'unsigned' => true,
+                            ],
+                            'columnName' => 'id',
+                        ],
+                        'product' => [
+                            'fieldName' => 'product',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'product',
+                        ],
+                        'email' => [
+                            'fieldName' => 'email',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'email',
+                        ],
+                        'eventName' => [
+                            'fieldName' => 'eventName',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'event_name',
+                        ],
+                        'eventDesc' => [
+                            'fieldName' => 'eventDesc',
+                            'type' => 'string',
+                            'length' => 191,
+                            'columnName' => 'event_desc',
+                            'nullable' => true,
+                        ],
+                        'eventType' => [
+                            'fieldName' => 'eventType',
+                            'type' => 'string',
+                            'length' => 50,
+                            'columnName' => 'event_type',
+                        ],
+                        'eventDate' => [
+                            'fieldName' => 'eventDate',
+                            'type' => 'datetime',
+                            'columnName' => 'event_date',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'id' => 'id',
+                        'product' => 'product',
+                        'email' => 'email',
+                        'event_name' => 'eventName',
+                        'event_desc' => 'eventDesc',
+                        'event_type' => 'eventType',
+                        'event_date' => 'eventDate',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'id' => 'id',
+                        'product' => 'product',
+                        'email' => 'email',
+                        'eventName' => 'event_name',
+                        'eventDesc' => 'event_desc',
+                        'eventType' => 'event_type',
+                        'eventDate' => 'event_date',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'plugin_citrix_events',
+                        'indexes' => [
+                            'citrix_event_email' => [
+                                'columns' => [
+                                    'product',
+                                    'email',
+                                ],
+                            ],
+                            'citrix_event_name' => [
+                                'columns' => [
+                                    'product',
+                                    'event_name',
+                                    'event_type',
+                                ],
+                            ],
+                            'citrix_event_type' => [
+                                'columns' => [
+                                    'product',
+                                    'event_type',
+                                    'event_date',
+                                ],
+                            ],
+                            'citrix_event_product' => [
+                                'columns' => [
+                                    'product',
+                                    'email',
+                                    'event_type',
+                                ],
+                            ],
+                            'citrix_event_product_name' => [
+                                'columns' => [
+                                    'product',
+                                    'email',
+                                    'event_type',
+                                    'event_name',
+                                ],
+                            ],
+                            'citrix_event_product_name_lead' => [
+                                'columns' => [
+                                    'product',
+                                    'event_type',
+                                    'event_name',
+                                    'lead_id',
+                                ],
+                            ],
+                            'citrix_event_product_type_lead' => [
+                                'columns' => [
+                                    'product',
+                                    'event_type',
+                                    'lead_id',
+                                ],
+                            ],
+                            'citrix_event_date' => [
+                                'columns' => [
+                                    'event_date',
+                                ],
+                            ],
+                        ],
+                        'uniqueConstraints' => [],
+                    ],
+                ],
+                'associationMappings' => [
+                    [
+                        'lead' => [
+                            'fieldName' => 'lead',
+                            'targetEntity' => 'Mautic\\LeadBundle\\Entity\\Lead',
+                            'joinColumns' => [
+                                [
+                                    'name' => 'lead_id',
+                                    'referencedColumnName' => 'id',
+                                    'nullable' => false,
+                                    'unique' => false,
+                                    'onDelete' => 'CASCADE',
+                                    'columnDefinition' => null,
+                                ],
+                            ],
+                            'type' => 2,
+                            'mappedBy' => null,
+                            'inversedBy' => null,
+                            'isOwningSide' => true,
+                            'sourceEntity' => 'MauticPlugin\\MauticCitrixBundle\\Entity\\CitrixEvent',
                             'fetch' => 2,
                             'cascade' => [],
                             'isCascadeRemove' => false,
@@ -23567,7 +23786,7 @@ return [[
         []
     );
 },
-98 => static function () {
+99 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -23577,19 +23796,13 @@ return [[
         [
             'stdClass' => [
                 'name' => [
-                    'MauticPlugin\\MauticTagManagerBundle\\Entity\\Tag',
+                    'MauticPlugin\\MauticCrmBundle\\Entity\\PipedriveOwner',
                 ],
                 'namespace' => [
-                    'MauticPlugin\\MauticTagManagerBundle\\Entity',
+                    'MauticPlugin\\MauticCrmBundle\\Entity',
                 ],
                 'rootEntityName' => [
-                    'Mautic\\LeadBundle\\Entity\\Tag',
-                ],
-                'customRepositoryClassName' => [
-                    'MauticPlugin\\MauticTagManagerBundle\\Entity\\TagRepository',
-                ],
-                'isEmbeddedClass' => [
-                    true,
+                    'MauticPlugin\\MauticCrmBundle\\Entity\\PipedriveOwner',
                 ],
                 'identifier' => [
                     [
@@ -23609,45 +23822,51 @@ return [[
                                 'unsigned' => true,
                             ],
                             'columnName' => 'id',
-                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
-                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
                         ],
-                        'tag' => [
-                            'length' => 191,
-                            'fieldName' => 'tag',
+                        'email' => [
+                            'fieldName' => 'email',
                             'type' => 'string',
-                            'columnName' => 'tag',
-                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
-                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
+                            'length' => 191,
+                            'columnName' => 'email',
                         ],
-                        'description' => [
-                            'fieldName' => 'description',
-                            'type' => 'text',
-                            'columnName' => 'description',
+                        'ownerId' => [
+                            'fieldName' => 'ownerId',
+                            'type' => 'integer',
+                            'columnName' => 'owner_id',
                             'nullable' => true,
-                            'inherited' => 'Mautic\\LeadBundle\\Entity\\Tag',
-                            'declared' => 'Mautic\\LeadBundle\\Entity\\Tag',
+                            'length' => 191,
                         ],
                     ],
                 ],
                 'fieldNames' => [
                     [
                         'id' => 'id',
-                        'tag' => 'tag',
-                        'description' => 'description',
+                        'email' => 'email',
+                        'owner_id' => 'ownerId',
                     ],
                 ],
                 'columnNames' => [
                     [
                         'id' => 'id',
-                        'tag' => 'tag',
-                        'description' => 'description',
+                        'email' => 'email',
+                        'ownerId' => 'owner_id',
                     ],
                 ],
                 'table' => [
                     [
-                        'name' => 'lead_tags',
-                        'indexes' => [],
+                        'name' => 'plugin_crm_pipedrive_owners',
+                        'indexes' => [
+                            'email' => [
+                                'columns' => [
+                                    'email',
+                                ],
+                            ],
+                            'owner_id' => [
+                                'columns' => [
+                                    'owner_id',
+                                ],
+                            ],
+                        ],
                         'uniqueConstraints' => [],
                     ],
                 ],
@@ -23663,7 +23882,82 @@ return [[
         []
     );
 },
-99 => static function () {
+100 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'name' => [
+                    'FOS\\OAuthServerBundle\\Entity\\Client',
+                ],
+                'namespace' => [
+                    'FOS\\OAuthServerBundle\\Entity',
+                ],
+                'rootEntityName' => [
+                    'FOS\\OAuthServerBundle\\Entity\\Client',
+                ],
+                'isMappedSuperclass' => [
+                    true,
+                ],
+                'fieldMappings' => [
+                    [
+                        'randomId' => [
+                            'fieldName' => 'randomId',
+                            'type' => 'string',
+                            'columnName' => 'random_id',
+                        ],
+                        'redirectUris' => [
+                            'fieldName' => 'redirectUris',
+                            'type' => 'array',
+                            'columnName' => 'redirect_uris',
+                        ],
+                        'secret' => [
+                            'fieldName' => 'secret',
+                            'type' => 'string',
+                            'columnName' => 'secret',
+                        ],
+                        'allowedGrantTypes' => [
+                            'fieldName' => 'allowedGrantTypes',
+                            'type' => 'array',
+                            'columnName' => 'allowed_grant_types',
+                        ],
+                    ],
+                ],
+                'fieldNames' => [
+                    [
+                        'random_id' => 'randomId',
+                        'redirect_uris' => 'redirectUris',
+                        'secret' => 'secret',
+                        'allowed_grant_types' => 'allowedGrantTypes',
+                    ],
+                ],
+                'columnNames' => [
+                    [
+                        'randomId' => 'random_id',
+                        'redirectUris' => 'redirect_uris',
+                        'secret' => 'secret',
+                        'allowedGrantTypes' => 'allowed_grant_types',
+                    ],
+                ],
+                'table' => [
+                    [
+                        'name' => 'Client',
+                    ],
+                ],
+                'idGenerator' => [
+                    $o[1],
+                ],
+            ],
+        ],
+        $o[0],
+        []
+    );
+},
+101 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -23734,7 +24028,7 @@ return [[
         []
     );
 },
-100 => static function () {
+102 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
@@ -23812,82 +24106,7 @@ return [[
         []
     );
 },
-101 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
-            clone ($p['Doctrine\\ORM\\Id\\AssignedGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\AssignedGenerator')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'name' => [
-                    'FOS\\OAuthServerBundle\\Entity\\Client',
-                ],
-                'namespace' => [
-                    'FOS\\OAuthServerBundle\\Entity',
-                ],
-                'rootEntityName' => [
-                    'FOS\\OAuthServerBundle\\Entity\\Client',
-                ],
-                'isMappedSuperclass' => [
-                    true,
-                ],
-                'fieldMappings' => [
-                    [
-                        'randomId' => [
-                            'fieldName' => 'randomId',
-                            'type' => 'string',
-                            'columnName' => 'random_id',
-                        ],
-                        'redirectUris' => [
-                            'fieldName' => 'redirectUris',
-                            'type' => 'array',
-                            'columnName' => 'redirect_uris',
-                        ],
-                        'secret' => [
-                            'fieldName' => 'secret',
-                            'type' => 'string',
-                            'columnName' => 'secret',
-                        ],
-                        'allowedGrantTypes' => [
-                            'fieldName' => 'allowedGrantTypes',
-                            'type' => 'array',
-                            'columnName' => 'allowed_grant_types',
-                        ],
-                    ],
-                ],
-                'fieldNames' => [
-                    [
-                        'random_id' => 'randomId',
-                        'redirect_uris' => 'redirectUris',
-                        'secret' => 'secret',
-                        'allowed_grant_types' => 'allowedGrantTypes',
-                    ],
-                ],
-                'columnNames' => [
-                    [
-                        'randomId' => 'random_id',
-                        'redirectUris' => 'redirect_uris',
-                        'secret' => 'secret',
-                        'allowedGrantTypes' => 'allowed_grant_types',
-                    ],
-                ],
-                'table' => [
-                    [
-                        'name' => 'Client',
-                    ],
-                ],
-                'idGenerator' => [
-                    $o[1],
-                ],
-            ],
-        ],
-        $o[0],
-        []
-    );
-},
-102 => static function () {
+103 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),

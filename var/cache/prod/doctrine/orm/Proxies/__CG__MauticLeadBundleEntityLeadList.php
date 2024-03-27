@@ -714,7 +714,7 @@ class LeadList extends \Mautic\LeadBundle\Entity\LeadList implements \Doctrine\O
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

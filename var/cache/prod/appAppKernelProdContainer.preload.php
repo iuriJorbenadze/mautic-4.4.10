@@ -9,8 +9,8 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
     return;
 }
 
-require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
-require __DIR__.'/Container2JQxXk3/appAppKernelProdContainer.php';
+require dirname(__DIR__, 3).'/vendor/autoload.php';
+require __DIR__.'/ContainerCRjG7i5/appAppKernelProdContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -59,19 +59,19 @@ $classes[] = 'Mautic\UserBundle\MauticUserBundle';
 $classes[] = 'Mautic\WebhookBundle\MauticWebhookBundle';
 $classes[] = 'Mautic\CacheBundle\MauticCacheBundle';
 $classes[] = 'Mautic\QueueBundle\MauticQueueBundle';
+$classes[] = 'MauticPlugin\MauticOutlookBundle\MauticOutlookBundle';
 $classes[] = 'MauticPlugin\GrapesJsBuilderBundle\GrapesJsBuilderBundle';
-$classes[] = 'MauticPlugin\MauticCitrixBundle\MauticCitrixBundle';
+$classes[] = 'MauticPlugin\MauticFullContactBundle\MauticFullContactBundle';
+$classes[] = 'MauticPlugin\MauticFocusBundle\MauticFocusBundle';
 $classes[] = 'MauticPlugin\MauticClearbitBundle\MauticClearbitBundle';
 $classes[] = 'MauticPlugin\MauticCloudStorageBundle\MauticCloudStorageBundle';
-$classes[] = 'MauticPlugin\MauticCrmBundle\MauticCrmBundle';
-$classes[] = 'MauticPlugin\MauticEmailMarketingBundle\MauticEmailMarketingBundle';
-$classes[] = 'MauticPlugin\MauticFocusBundle\MauticFocusBundle';
-$classes[] = 'MauticPlugin\MauticFullContactBundle\MauticFullContactBundle';
-$classes[] = 'MauticPlugin\MauticGmailBundle\MauticGmailBundle';
-$classes[] = 'MauticPlugin\MauticOutlookBundle\MauticOutlookBundle';
-$classes[] = 'MauticPlugin\MauticSocialBundle\MauticSocialBundle';
 $classes[] = 'MauticPlugin\MauticTagManagerBundle\MauticTagManagerBundle';
 $classes[] = 'MauticPlugin\MauticZapierBundle\MauticZapierBundle';
+$classes[] = 'MauticPlugin\MauticSocialBundle\MauticSocialBundle';
+$classes[] = 'MauticPlugin\MauticCitrixBundle\MauticCitrixBundle';
+$classes[] = 'MauticPlugin\MauticCrmBundle\MauticCrmBundle';
+$classes[] = 'MauticPlugin\MauticEmailMarketingBundle\MauticEmailMarketingBundle';
+$classes[] = 'MauticPlugin\MauticGmailBundle\MauticGmailBundle';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\EventListener\ResolveControllerNameSubscriber';
 $classes[] = 'Symfony\Component\HttpFoundation\RequestMatcher';
@@ -349,7 +349,6 @@ $classes[] = 'JMS\Serializer\Naming\SerializedNameAnnotationStrategy';
 $classes[] = 'JMS\Serializer\Naming\CamelCaseNamingStrategy';
 $classes[] = 'JMS\Serializer\Metadata\Driver\XmlDriver';
 $classes[] = 'JMS\Serializer\Metadata\Driver\AnnotationDriver';
-$classes[] = 'JMS\Serializer\Metadata\Driver\AttributeDriver\AttributeReader';
 $classes[] = 'JMS\SerializerBundle\Templating\SerializerHelper';
 $classes[] = 'JMS\SerializerBundle\Debug\RunsListener';
 $classes[] = 'JMS\Serializer\Twig\SerializerRuntimeHelper';

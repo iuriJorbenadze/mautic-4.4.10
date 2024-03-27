@@ -780,7 +780,7 @@ class Webhook extends \Mautic\WebhookBundle\Entity\Webhook implements \Doctrine\
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

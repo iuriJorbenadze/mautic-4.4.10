@@ -813,7 +813,7 @@ class Focus extends \MauticPlugin\MauticFocusBundle\Entity\Focus implements \Doc
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

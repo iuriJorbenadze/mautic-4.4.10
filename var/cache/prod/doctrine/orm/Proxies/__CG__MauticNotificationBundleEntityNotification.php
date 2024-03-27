@@ -879,7 +879,7 @@ class Notification extends \Mautic\NotificationBundle\Entity\Notification implem
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);

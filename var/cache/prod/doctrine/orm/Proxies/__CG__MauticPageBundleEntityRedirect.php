@@ -582,7 +582,7 @@ class Redirect extends \Mautic\PageBundle\Entity\Redirect implements \Doctrine\O
     /**
      * {@inheritDoc}
      */
-    public function __toString(): string
+    public function __toString()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);
