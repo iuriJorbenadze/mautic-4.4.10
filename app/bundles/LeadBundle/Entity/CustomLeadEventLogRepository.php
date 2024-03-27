@@ -86,7 +86,7 @@ class CustomLeadEventLogRepository extends CommonRepository
         $alias = $this->getTableAlias();
         $qb    = $this->getEntityManager()->getConnection()->createQueryBuilder()
             ->select('*')
-            ->from(MAUTIC_TABLE_PREFIX.'lead_event_log', $alias);
+            ->from(MAUTIC_TABLE_PREFIX.'custom_lead_event_log', $alias);
 
         if ($contact) {
             $qb->andWhere($alias.'.lead_id = :lead')
@@ -131,7 +131,7 @@ class CustomLeadEventLogRepository extends CommonRepository
     public function updateLead($fromLeadId, $toLeadId)
     {
         $q = $this->_em->getConnection()->createQueryBuilder();
-        $q->update(MAUTIC_TABLE_PREFIX.'lead_event_log')
+        $q->update(MAUTIC_TABLE_PREFIX.'custom_lead_event_log')
             ->set('lead_id', (int) $toLeadId)
             ->where('lead_id = '.(int) $fromLeadId)
             ->execute();

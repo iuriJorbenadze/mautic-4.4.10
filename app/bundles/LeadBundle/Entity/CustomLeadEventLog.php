@@ -8,7 +8,7 @@ use Mautic\ApiBundle\Serializer\Driver\ApiMetadataDriver;
 use Mautic\CoreBundle\Doctrine\Mapping\ClassMetadataBuilder;
 
 /**
- * Class LeadEventLog.
+ * Class CustomLeadEventLog.
  *
  * Store here contact events
  */
@@ -25,7 +25,7 @@ class CustomLeadEventLog
     protected $id;
 
     /**
-     * @var Lead
+     * @var CustomLead
      */
     protected $lead;
 
@@ -76,9 +76,11 @@ class CustomLeadEventLog
 
     public static function loadMetadata(ORM\ClassMetadata $metadata)
     {
+
+        //TODO TODO see word file: Make sure to run script manually for creating custom_lead_event_log
         $builder = new ClassMetadataBuilder($metadata);
-        $builder->setTable('lead_event_log')
-            ->setCustomRepositoryClass(LeadEventLogRepository::class)
+        $builder->setTable('custom_lead_event_log')
+            ->setCustomRepositoryClass(CustomLeadEventLogRepository::class)
             ->addIndex(['lead_id'], 'lead_id_index')
             ->addIndex(['object', 'object_id'], 'lead_object_index')
             ->addIndex(['bundle', 'object', 'action', 'object_id'], 'lead_timeline_index')
@@ -95,7 +97,7 @@ class CustomLeadEventLog
             ->addNamedField('dateAdded', Type::DATETIME, 'date_added')
             ->addNullableField('properties', Type::JSON_ARRAY);
 
-        $builder->createManyToOne('lead', Lead::class)
+        $builder->createManyToOne('lead', CustomLead::class)
             ->addJoinColumn('lead_id', 'id', true, false, 'CASCADE')
             ->inversedBy('eventLog')
             ->build();
@@ -139,9 +141,9 @@ class CustomLeadEventLog
     /**
      * Set lead.
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
-    public function setLead(Lead $lead)
+    public function setLead(CustomLead $lead)
     {
         $this->lead = $lead;
 
@@ -151,7 +153,7 @@ class CustomLeadEventLog
     /**
      * Get lead.
      *
-     * @return Lead
+     * @return CustomLead
      */
     public function getLead()
     {
@@ -163,7 +165,7 @@ class CustomLeadEventLog
      *
      * @param int $userId
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setUserId($userId)
     {
@@ -187,7 +189,7 @@ class CustomLeadEventLog
      *
      * @param string $object
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setObject($object)
     {
@@ -211,7 +213,7 @@ class CustomLeadEventLog
      *
      * @param int $objectId
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setObjectId($objectId)
     {
@@ -235,7 +237,7 @@ class CustomLeadEventLog
      *
      * @param string $action
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setAction($action)
     {
@@ -257,7 +259,7 @@ class CustomLeadEventLog
     /**
      * Set properties.
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setProperties(array $properties)
     {
@@ -272,7 +274,7 @@ class CustomLeadEventLog
      * @param string $key
      * @param string $value
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function addProperty($key, $value)
     {
@@ -296,7 +298,7 @@ class CustomLeadEventLog
      *
      * @param \DateTime $dateAdded
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setDateAdded($dateAdded)
     {
@@ -320,7 +322,7 @@ class CustomLeadEventLog
      *
      * @param string $bundle
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setBundle($bundle)
     {
@@ -344,7 +346,7 @@ class CustomLeadEventLog
      *
      * @param string $userName
      *
-     * @return LeadEventLog
+     * @return CustomLeadEventLog
      */
     public function setUserName($userName)
     {
