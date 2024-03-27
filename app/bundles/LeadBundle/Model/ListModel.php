@@ -606,6 +606,8 @@ class ListModel extends FormModel
      *
      * @throws Exception
      */
+
+    //TODO This function is responsible for adding lead into lead lists leads,  so our custom logic will be added here
     public function addLead($lead, $lists, $manuallyAdded = false, $batchProcess = false, $searchListLead = 1, $dateManipulated = null)
     {
         if (null == $dateManipulated) {
@@ -699,6 +701,8 @@ class ListModel extends FormModel
                     continue;
                 }
             } else {
+                /// TODO might need to add custom lead lists leads adding logic here
+                ///
                 $listLead = new ListLead();
                 $listLead->setList($this->leadChangeLists[$listId]);
                 $listLead->setLead($lead);
